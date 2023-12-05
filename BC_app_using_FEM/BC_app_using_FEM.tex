@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Boundary Condition Application Using Finite Element Method}
+\author{Paulo Henrique Brito de Souza}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introduction}
+This article will explore the application of the finite element method (FEM) to solve boundary value problems involving beam deflection. The article will compare the FEM solution with the analytical solution and discuss the advantages and limitations of each method. It will be presented an example of a beam subjected to a concentrated load at the free end, and show how to obtain the deflection distribution using both FEM and analytical solutions.
+
+\section{Code}
+This is a MATLAB function named `KFTransform`. It takes three inputs: `Neu`, `Dir`, and `K`. The function initializes a zero matrix `k` of the same size as `Dir` and `K`. It then enters a loop over the size of `Dir`. If the `Dir`th index of `Neu` is not zero, it throws an error. Otherwise, it modifies the `k` and `K` matrices. Finally, it calculates `Neumod` by subtracting the product of `k'` and the second column of `Dir` from `Neu`, and assigns `K` to `Kmod`. The function returns `Kmod` and `Neumod`.
+
+Here's a brief explanation of what each line does:
+
+\begin{description}
+\item[ - ]`k = zeros(size(Dir, 1), size(K, 2));`: Initializes `k` as a zero matrix with the same number of rows as `Dir` and the same number of columns as `K`.
+\item[ - ]`for i = 1:size(Dir, 1)`: Starts a loop that iterates over each row of `Dir`.
+\item[ - ]`if Neu(Dir(i, 1)) ~= 0`: Checks if the `Dir(i, 1)`th element of `Neu` is not zero.
+\item[ - ]`error('Make sure that there are not two types of BC at the same node.')`: If the above condition is true, it throws an error.
+\item[ - ]`k(i, :) = K(Dir(i, 1), :);`: Assigns the `Dir(i, 1)`th row of `K` to the `i`th row of `k`.
+\item[ - ]`K(Dir(i, 1),:) = 0;`: Sets the `Dir(i, 1)`th row of `K` to zero.
+\item[ - ]`K(:, Dir(i, 1)) = 0;`: Sets the `Dir(i, 1)`th column of `K` to zero.
+\item[ - ]`K(Dir(i, 1), Dir(i, 1)) = 1;`: Sets the `Dir(i, 1)`th diagonal element of `K` to one.
+\item[ - ]`Neumod = (Neu - k'*Dir(:, 2));`: Calculates `Neumod` by subtracting the product of the transpose of `k` and the second column of `Dir` from `Neu`.
+\item[ - ]`Kmod = K;`: Assigns `K` to `Kmod`.
+\end{description}
+
+\end{document}
