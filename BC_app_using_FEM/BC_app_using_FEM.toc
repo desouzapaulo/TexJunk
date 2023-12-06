@@ -1,2 +1,6 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{}%
-\contentsline {section}{\numberline {2}Code}{3}{}%
+\contentsline {section}{\numberline {2}Analytical Solution}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Elastic Curve}{3}{}%
+\contentsline {section}{\numberline {3}Numerical Solution}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Finite Element Method}{3}{}%
+\contentsline {subsection}{\numberline {3.2}Matlab Code}{4}{}%

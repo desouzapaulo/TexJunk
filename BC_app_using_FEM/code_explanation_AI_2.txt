@@ -1,17 +1,4 @@
-This code is a Python script that implements a function called modify_stiffness_matrix_and_Neumann_vector. The function takes four arguments: the stiffness matrix K, the Neumann vector F, the boundary conditions bc, and the value of the applied traction t. The function modifies the stiffness matrix and the Neumann vector according to the boundary conditions and returns the modified versions.
-
-The code does the following steps:
-
-- It imports numpy as np, a library for numerical computations in Python.
-- It defines the function modify_stiffness_matrix_and_Neumann_vector with the four arguments mentioned above.
-- It loops over the boundary conditions, which are given as a list of tuples (node, dof, value), where node is the node index, dof is the degree of freedom (0 for x-direction, 1 for y-direction), and value is the prescribed displacement or zero for free nodes.
-- For each boundary condition, it checks if the value is zero or not. If it is zero, it means the node is free and no modification is needed. If it is not zero, it means the node is fixed and the corresponding row and column of the stiffness matrix need to be modified. The code does the following modifications:
-    - It sets the diagonal entry of the stiffness matrix at (node, node) to a large value (1e20) to enforce the displacement constraint.
-    - It sets the off-diagonal entries of the stiffness matrix at (node, :) and (:, node) to zero to eliminate the coupling with other nodes.
-    - It sets the entry of the Neumann vector at node to the product of the large value and the prescribed displacement value to ensure the consistency of the system of equations.
-- After the loop, the code returns the modified stiffness matrix and Neumann vector.
-
-The code assumes that the stiffness matrix and the Neumann vector are already assembled from the element contributions and that the boundary conditions are given in a consistent format. The code also assumes that the applied traction t is constant and uniform on the boundary and that it is already included in the Neumann vector. The code does not check for errors or exceptions and does not provide any documentation or comments.
+on t is constant and uniform on the boundary and that it is already included in the Neumann vector. The code does not check for errors or exceptions and does not provide any documentation or comments.
 
 Origem: conversa com o Bing, 05/12/2023
 (1) 30.3: Direct Stiffness Method and the Global Stiffness Matrix. https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_I/30%3A_Finite_Element_Method/30.3%3A_Direct_Stiffness_Method_and_the_Global_Stiffness_Matrix.
