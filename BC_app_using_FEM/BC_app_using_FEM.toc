@@ -1,6 +1,7 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{}%
-\contentsline {section}{\numberline {2}The Problem}{3}{}%
-\contentsline {section}{\numberline {3}Analytical Solution}{3}{}%
-\contentsline {section}{\numberline {4}Numerical Solution}{3}{}%
-\contentsline {subsection}{\numberline {4.1}Finite Element Method}{3}{}%
-\contentsline {subsection}{\numberline {4.2}Matlab Code}{3}{}%
+\contentsline {section}{\numberline {2}Isis}{3}{}%
+\contentsline {section}{\numberline {3}The Problem}{3}{}%
+\contentsline {section}{\numberline {4}Analytical Solution}{3}{}%
+\contentsline {section}{\numberline {5}Numerical Solution}{3}{}%
+\contentsline {subsection}{\numberline {5.1}Finite Element Method}{3}{}%
+\contentsline {subsection}{\numberline {5.2}Matlab Code}{3}{}%
