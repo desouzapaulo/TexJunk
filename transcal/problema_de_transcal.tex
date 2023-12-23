@@ -1,0 +1,81 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+
+
+
+\title{Proposta de Solução de um Problema de Condução Transiente Considerando Efeitos Espaciais com Métodos Numéricos}
+\author{Paulo Henrique Brito de Souza}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\newpage
+\tableofcontents
+\listoffigures
+\newpage
+
+
+
+\section{Introdução}
+Nesse texto será apresentada uma proposta de solução para um problema de condução de calor em uma placa plana (em uma dimensão), em que será analisado os efeitos espaciais de forma transiente.
+
+
+\section{Problema Proposto}
+Um processo térmico especifica que uma placa de aço, com espessura de 10 cm e inicialmente na 
+temperatura de 250 °C, seja resfriada em ambos os lados com spray de água na temperatura de 30 °C e com coeficiente de transferência de calor de 500 [W/m²*K]. 
+O tempo de resfriamento é de 9 min. 
+Determinar: Variação de temperatura na placa nos em 6 instantes de tempo dentro do resfriamento. 
+
+\begin{figure}
+\centering
+\includegraphics[scale=1]{problema.PNG}
+\caption{Problema Proposto}
+\label{fig:problema}
+\end{figure}
+
+\section{Solução Analítica}
+A solução segue a equação 5.42a do Livro de Incropera, e foi usado as primeiras 4 raízes da equação transcendental da equação 5.42, totalizando um somatório de 4 termos.
+
+\begin{figure}
+\centering
+\includegraphics[scale=1]{eq.PNG}
+\caption{Equação para Condução Transiente}
+\label{fig:eq}
+
+\centering
+\includegraphics[scale=1]{cn.PNG}
+\caption{Coeficiente Cn}
+\label{fig:cn}
+
+\centering
+\includegraphics[scale=1]{eqtr.PNG}
+\caption{Equação Transcendental}
+\label{fig:eqtr}
+\end{figure}
+
+\section{Solução numérica}
+A proposta de solução numérica discretiza o problema em várias posições desde o centro da placa até uma das bordas, mostrando a distribuição das temperaturas em 6 instantes de tempo, desde 90 segundos até o tempo de resfriamento de 540 segundos. o código é uma iteração na linguagem Matlab, mas devido a sua simplicidade, demonstra uma visão geral que pode ser aplicada em diversas outras linguagens de programação.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.4]{codigo.PNG}
+\caption{Código da Solução Numérica}
+\label{fig:codigo}
+\end{figure}
+
+
+\section{Discussões e Resultados}
+Os resultados demostraram uma boa estabilidade da equação 5.42a que convergiu de forma rápida dentro da iteração. Os valores de temperaturas no centro e na superfície da placa no instante de 540 segundos se mostraram muito semelhantes a solução proposta pelo professor em aula, em que usou somente a primeira raiz da equação transcendental, portanto simplificou o somatório para o cálculo de um termo somente. Podemos ver no gráfico as várias distribuições de temperatura em instantes de tempo diferentes assim como visto em aula. Os cálculos usados nessas resoluções não levam em conta a variação do coeficiente de convecção e nem das propriedades do ar durante o resfriamento, efeitos vistos na segunda área do curso de Transferência de Calor, ministrado pelo professor, mas o problema é bem conduzido para que não tenha seu resultado tão afetado por esses efeitos, visto que foi proposto ainda na primeira área.
+
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.4]{grafico.PNG}
+\caption{Distribuição de Temperaturas em Diversos Instantes de Tempo}
+\label{fig:grafico}
+\end{figure}
+
+\end{document}
