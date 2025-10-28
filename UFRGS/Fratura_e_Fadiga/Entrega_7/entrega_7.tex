@@ -18,7 +18,7 @@
 \section{Dados Iniciais}
 Se considerarmos que $\sigma = 120MPa$, e sabendo os dados experimentais 
 (ver o arquivo Excel em anexo), e considerando a geometria indicada na 
-figura 1 com as dimensões apresentadas na tabela 1.
+figura \ref{fig:graph} com as suas dimensões.
 
 \begin{figure}[h!]
     \centering
@@ -30,33 +30,64 @@ figura 1 com as dimensões apresentadas na tabela 1.
 % =======================================================================
 \section{Desenvolvimento}
 
+\subsection{Determinação Início de Propagação da Trinca}
+
+O início da propagação da trinca é definido pela norma ASTME399 e é identificado traçando uma reta na parte linear dos dados experimentais, como é mostrado na figura \ref{fig:graph}. 
+Outra reta com 95\% da sua inclinação é traçada no gráfico e o valor de força em que a reta intercepta o gráfico 
+é definido como valor de $P_q = 3545 N$. O valor de $P_max = 3767 N$ é definido como a maior força alcançada no ensaio.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{imagens/Graph.jpg}
+    \caption{Dados Experimentais de Força vs Deslocamento COD}  
+    \label{fig:graph}
+\end{figure}
+
+
+Para verificar se o ensaio está adequado foi realizado o teste na equação \ref{equation:adequado} em que essa relação não pode passar de $1.10$. É possível ver que que o valor calculado passou no teste.
 \begin{equation}
-\frac{P_max}{P_Q} = 1.04 
+\frac{P_max}{P_Q} = 1.06
+\label{equation:adequado}
 \end{equation}
 
+Para prosseguir os calculo é necessário calcular a relação da equação \ref{equation:aw}
+
 \begin{equation}
-\frac{a}{W} = 
+\frac{a}{W} = 0.267
+\label{equation:aw}
 \end{equation}
+
+Com esse valor é possível calcular o fator geométrico para o tipo de ensaio descrito na \ref{equation:fator}
 
 \begin{equation}
 f(\frac{a}{W}) = 
 \frac{3\sqrt{\frac{a}{W}}[1.99-(\frac{a}{W})(\frac{a}{W})(2.15-3.93\frac{a}{W}+2.27(\frac{a}{W}^2))]}
-{2(1+2\frac{a}{W})(1-\frac{a}{W})^(\frac{3}{2})}
+{2(1+2\frac{a}{W})(1-\frac{a}{W})^(\frac{3}{2})} = 1.40
+\label{equation:fator}
 \end{equation}
+
+O fator de intensidade de tensões $K_Q$ condicional expressado na equação \ref{equation:kq} é calculado para quantificar a concentração de tensões na ponta da trinca, considerando a carga aplicada, 
+a geometria do corpo de prova e o fator geométrico permitindo avaliar a resistência à fratura do material.
 
 \begin{equation}
-K_Q = (\frac{P_QS}{BW^(\frac{3}{2})})f(\frac{a}{W})
+K_Q = (\frac{P_QS}{BW^(\frac{3}{2})})f(\frac{a}{W}) = 7.65 MPa\sqrt{m}
+\label{equation:kq}
 \end{equation}
+
+O critério geométrico de validade da ASTM E399 exige que a profundidade da trinca e a largura do corpo de prova sejam suficientemente grandes em relação à zona plástica, 
+garantindo que o ensaio esteja em regime de plano de deformações. Para isso, verifica-se na \ref{equation:teste}.
 
 \begin{equation}
-2.5(\frac{K_Q}{\sigma_Y})^2 = 666 < a,B 
+    2.5(\frac{K_Q}{\sigma_Y})^2 < a,B
+    \label{equation:teste}
 \end{equation}
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=1\textwidth]{imagens/Graph.jpg}
-    \caption{Dados Experimentais de Força vs Deslocamento COD} 
-    \label{fig:graph}
-\end{figure}
+Se essa relação for verdade, pode-se dizer que o valor de $K_Q = K_IC$. Porém, o resultado da equação \ref{equation:teste2} 
+mostra que esse valor é menor que a espessura do corpo de prova, porém é maior que o tamanho da trinca. Logo, não é possível estimar o valor de $K_IC$ com o valor de $K_Q$.
+
+\begin{equation}
+    2.5(\frac{7.65}{120})^2 = 0.0254 m
+    \label{equation:teste2}
+\end{equation}
 
 \end{document}

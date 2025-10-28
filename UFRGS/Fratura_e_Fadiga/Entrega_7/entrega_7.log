@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.28)  28 OCT 2025 10:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.28)  28 OCT 2025 13:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -636,19 +636,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ) (entrega_7.lof)
 
 [2]
-<imagens/geometria.png, id=28, 315.42844pt x 237.88875pt>
+<imagens/geometria.png, id=32, 315.42844pt x 237.88875pt>
 File: imagens/geometria.png Graphic file (type png)
 <use imagens/geometria.png>
 Package pdftex.def Info: imagens/geometria.png  used on input line 25.
 (pdftex.def)             Requested size: 377.60144pt x 284.79715pt.
-<imagens/Graph.jpg, id=30, 1927.2pt x 958.58125pt>
+<imagens/Graph.jpg, id=35, 1927.2pt x 958.58125pt>
 File: imagens/Graph.jpg Graphic file (type jpg)
 <use imagens/Graph.jpg>
-Package pdftex.def Info: imagens/Graph.jpg  used on input line 57.
+Package pdftex.def Info: imagens/Graph.jpg  used on input line 41.
 (pdftex.def)             Requested size: 472.0pt x 234.75938pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
@@ -668,17 +668,17 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14432 strings out of 468080
- 227916 string characters out of 5435838
- 678067 words of memory out of 5000000
- 42938 multiletter control sequences out of 15000+600000
- 632269 words of font info for 55 fonts, out of 8000000 for 9000
+ 14447 strings out of 468080
+ 228108 string characters out of 5435838
+ 680511 words of memory out of 5000000
+ 42951 multiletter control sequences out of 15000+600000
+ 632574 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,107p,590b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on entrega_7.pdf (4 pages, 395864 bytes).
+ 99i,11n,107p,674b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on entrega_7.pdf (4 pages, 416293 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 129 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

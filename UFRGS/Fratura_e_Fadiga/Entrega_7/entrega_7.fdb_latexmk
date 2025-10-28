@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1761659307.88763 "c:/GIT/TexJunk/UFRGS/Fratura_e_Fadiga/Entrega_7/entrega_7.tex" "entrega_7.pdf" "entrega_7" 1761659308.42035 0
+["pdflatex"] 1761667605.52582 "c:/GIT/TexJunk/UFRGS/Fratura_e_Fadiga/Entrega_7/entrega_7.tex" "entrega_7.pdf" "entrega_7" 1761667606.14637 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi10.tfm" 1136765053 1528 abec98dbc43e172678c11b3b9031252a ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi8.tfm" 1136765053 1520 eccf95517727cb11801f4f1aee3a21b4 ""
@@ -21,6 +21,7 @@
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247596667 32762 7fee39e011c23b3589931effd97b9702 ""
+  "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb" 1247596666 24457 5cbb7bdf209d5d1ce9892a9b80a307cc ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb" 1247596666 24393 3b7eb51a67a0a62aec5849271bdb9c2e ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb" 1247596667 24416 36515493f76659302880e2604105b074 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb" 1247596666 28902 2f5c04fd2884d1878057baa5aad22765 ""
@@ -88,11 +89,11 @@
   "C:/Program Files/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/paulo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761656379 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/paulo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1761656628 13311801 68ce615579566ae9f4c2bc2c2b5419c8 ""
-  "c:/GIT/TexJunk/UFRGS/Fratura_e_Fadiga/Entrega_7/entrega_7.tex" 1761659307 1560 dc3564e1b031333efe2556ef77bde4d5 ""
-  "entrega_7.aux" 1761659308 2496 91d61d9385d7abc1011f530c65e51ae9 "pdflatex"
-  "entrega_7.lof" 1761659308 250 91c79b82a86ea42d895d358ce10e94ee "pdflatex"
-  "entrega_7.tex" 1761659307 1560 dc3564e1b031333efe2556ef77bde4d5 ""
-  "entrega_7.toc" 1761659308 500 6254c218a0ba84629dd2da0dff5ad97b "pdflatex"
+  "c:/GIT/TexJunk/UFRGS/Fratura_e_Fadiga/Entrega_7/entrega_7.tex" 1761667605 3669 b3122cc7c940324aaba308c22f91df59 ""
+  "entrega_7.aux" 1761667606 3831 c01e24a3ddb2d38c787d6e156c113ca7 "pdflatex"
+  "entrega_7.lof" 1761667606 250 91c79b82a86ea42d895d358ce10e94ee "pdflatex"
+  "entrega_7.tex" 1761667605 3669 b3122cc7c940324aaba308c22f91df59 ""
+  "entrega_7.toc" 1761667606 618 89b60b6a9c8e288ba20bcff2bcfb3070 "pdflatex"
   "imagens/Graph.jpg" 1761658945 227396 818b8b03dc97887055a6c9ad46f807d0 ""
   "imagens/geometria.png" 1761658516 64633 ed592d8010da3bffab93e7cd8fc470c2 ""
   (generated)

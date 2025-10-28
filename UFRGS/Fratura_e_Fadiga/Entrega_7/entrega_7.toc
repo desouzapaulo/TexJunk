@@ -6,3 +6,4 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {section}{\numberline {0.1}Dados Iniciais}{3}{section.0.1}%
 \contentsline {section}{\numberline {0.2}Desenvolvimento}{3}{section.0.2}%
+\contentsline {subsection}{\numberline {0.2.1}Determinação Início de Propagação da Trinca}{3}{subsection.0.2.1}%

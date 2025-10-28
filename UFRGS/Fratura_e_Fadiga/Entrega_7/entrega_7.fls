@@ -168,6 +168,7 @@ INPUT .\imagens\geometria.png
 INPUT .\imagens\geometria.png
 INPUT .\imagens\geometria.png
 INPUT .\imagens\geometria.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
 INPUT .\imagens\Graph.jpg
 INPUT .\imagens\Graph.jpg
 INPUT .\imagens\Graph.jpg
@@ -190,6 +191,8 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmss10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmss10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmss12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmss12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmss17.pfb
