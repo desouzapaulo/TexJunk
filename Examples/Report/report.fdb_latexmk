@@ -1,0 +1,25 @@
+# Fdb version 4
+["pdflatex"] 1761656629.32937 "c:/GIT/TexJunk/Examples/Report/report.tex" "report.pdf" "report" 1761656629.58949 0
+  "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
+  "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
+  "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmr17.tfm" 1136765053 1292 296a67155bdbfc32aa9c636f21e91433 ""
+  "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
+  "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "C:/Program Files/MiKTeX/tex/latex/base/report.cls" 1749467999 23203 f495085ac76be4e20c5e1e88646a241e ""
+  "C:/Program Files/MiKTeX/tex/latex/base/size12.clo" 1749467999 8449 8dc66c6c313c8eb2d774af83bca435dd ""
+  "C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1761202581 30662 bfd6e864f4ffc5018b0e2b6260c3181c ""
+  "C:/Users/paulo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761656379 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+  "C:/Users/paulo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1761656628 13311801 68ce615579566ae9f4c2bc2c2b5419c8 ""
+  "c:/GIT/TexJunk/Examples/Report/report.tex" 1761656457 228 003f890a28fe0051f80858090ab15896 ""
+  "report.aux" 1761656629 387 ab464d358a7228a1de248b11c71b6b81 "pdflatex"
+  "report.tex" 1761656457 228 003f890a28fe0051f80858090ab15896 ""
+  "report.toc" 1761656629 121 e6a813a370654c39dfa4e6c0651fa190 "pdflatex"
+  (generated)
+  "report.aux"
+  "report.log"
+  "report.pdf"
+  "report.toc"
+  (rewritten before read)

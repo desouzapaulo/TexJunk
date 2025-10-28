@@ -1,0 +1,62 @@
+\documentclass{abntex2}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title{Exercício 7}
+\author{Paulo Henrique Brito de Souza - 335771}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\newpage
+\tableofcontents
+\listoffigures
+\newpage
+
+% =======================================================================
+\section{Dados Iniciais}
+Se considerarmos que $\sigma = 120MPa$, e sabendo os dados experimentais 
+(ver o arquivo Excel em anexo), e considerando a geometria indicada na 
+figura 1 com as dimensões apresentadas na tabela 1.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imagens/geometria.png}
+    \caption{Geometria do Corpo de Prova.}
+    \label{fig:geometria}
+\end{figure}
+
+% =======================================================================
+\section{Desenvolvimento}
+
+\begin{equation}
+\frac{P_max}{P_Q} = 1.04 
+\end{equation}
+
+\begin{equation}
+\frac{a}{W} = 
+\end{equation}
+
+\begin{equation}
+f(\frac{a}{W}) = 
+\frac{3\sqrt{\frac{a}{W}}[1.99-(\frac{a}{W})(\frac{a}{W})(2.15-3.93\frac{a}{W}+2.27(\frac{a}{W}^2))]}
+{2(1+2\frac{a}{W})(1-\frac{a}{W})^(\frac{3}{2})}
+\end{equation}
+
+\begin{equation}
+K_Q = (\frac{P_QS}{BW^(\frac{3}{2})})f(\frac{a}{W})
+\end{equation}
+
+\begin{equation}
+2.5(\frac{K_Q}{\sigma_Y})^2 = 666 < a,B 
+\end{equation}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth]{imagens/Graph.jpg}
+    \caption{Dados Experimentais de Força vs Deslocamento COD} 
+    \label{fig:graph}
+\end{figure}
+
+\end{document}
