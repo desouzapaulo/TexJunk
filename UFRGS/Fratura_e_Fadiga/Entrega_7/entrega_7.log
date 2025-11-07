@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.28)  28 OCT 2025 13:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.3)  3 NOV 2025 14:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -36,8 +36,8 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 \trimtop=\skip52
 \trimedge=\skip53
- (C:\Program Files\MiKTeX\tex/latex/memoir\mem10.clo
-File: mem10.clo 2022/07/29 v0.5 memoir class 10pt size option
+ (C:\Program Files\MiKTeX\tex/latex/memoir\mem11.clo
+File: mem11.clo 2022/07/29 v0.5 memoir class 11pt size option
 )
 \binding=\skip54
 \spinemargin=\skip55
@@ -477,12 +477,20 @@ Package babel Warning: Configuration files are deprecated, as
 *
 (C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Program Files\MiKTeX\tex/generic/babel/locale/pt\babel-brazil.tex
+) (C:\Program Files\MiKTeX\tex/generic/babel/locale/pt\babel-brazilian.tex) (C:\Program Files\MiKTeX\tex/generic/babel/locale/pt\babel-brazil.tex
 
 Package babel Warning: Name 'brazil' is deprecated.
 (babel)                Use 'brazilian' instead.
 (babel)                Reported on input line 19.
 
+)
+Package babel Info: Importing font and identification data for brazilian
+(babel)             from babel-pt-BR.ini. Reported on input line 4295.
+ (C:\Program Files\MiKTeX\tex/latex/babel-portuges\brazilian.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
+(babel)             (\language56). Reported on input line 111.
+Package babel Info: Making " an active character on input line 143.
 )
 Package babel Info: Importing font and identification data for brazil
 (babel)             from babel-pt-BR.ini. Reported on input line 4295.
@@ -490,7 +498,6 @@ Package babel Info: Importing font and identification data for brazil
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
 (babel)             (\language56). Reported on input line 111.
-Package babel Info: Making " an active character on input line 143.
 )) (C:\Program Files\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip192
@@ -517,19 +524,19 @@ LaTeX Info: Redefining \addtolength on input line 87.
 Stock height and width: 794.96999pt by 614.295pt
 Top and edge trims: 0pt and 0pt
 Page height and width: 794.96999pt by 614.295pt
-Text height and width: 658pt by 472pt
+Text height and width: 650.20029pt by 472pt
 Spine and edge margins: 85.35826pt and 56.9055pt
-Upper and lower margins: 85.35826pt and 51.61172pt
-Headheight and headsep: 12pt and 18.06749pt
-Footskip: 25.29494pt
+Upper and lower margins: 85.35826pt and 59.41144pt
+Headheight and headsep: 13.6pt and 19.8738pt
+Footskip: 27.46295pt
 Columnsep and columnseprule: 10pt and 0pt
 Marginparsep and marginparwidth: 7pt and 42.9055pt
-Sidecapsep and sidecapwidth: 7pt and 128pt
-Sidebarhsep and sidebarwidth: 7pt and 128pt
-Sidebarvsep and sidebartopsep: 12pt and 0pt
-Sidebarheight: 548.39996pt
-Sidefoothsep and sidefootwidth: 7pt and 128pt
-Sidefootvsep and sidefootheight: 12pt and 548.39996pt
+Sidecapsep and sidecapwidth: 7pt and 111pt
+Sidebarhsep and sidebarwidth: 7pt and 111pt
+Sidebarvsep and sidebartopsep: 13.6pt and 0pt
+Sidebarheight: 539.9202pt
+Sidefoothsep and sidefootwidth: 7pt and 111pt
+Sidefootvsep and sidefootheight: 13.6pt and 539.9202pt
 ******************************************************
 
 \c@abntex@bookmarkcounter=\count355
@@ -578,25 +585,25 @@ Package babel Info: 'brazil' activates 'portuges' shorthands.
 )
 \openout1 = `entrega_7.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-Package hyperref Info: Link coloring OFF on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+Package hyperref Info: Link coloring OFF on input line 10.
 \myptabbox=\box59
 \myptabboxwidth=\skip258
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
@@ -619,38 +626,36 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 11.
+(Font)              <12> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
+(Font)              <8> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
+(Font)              <6> on input line 12.
 
 
 [1
 
 {C:/Users/paulo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (entrega_7.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
+(Font)              <10.95> on input line 3.
 ) (entrega_7.lof)
 
 [2]
-<imagens/geometria.png, id=32, 315.42844pt x 237.88875pt>
-File: imagens/geometria.png Graphic file (type png)
-<use imagens/geometria.png>
-Package pdftex.def Info: imagens/geometria.png  used on input line 25.
+<Images/geometria.png, id=33, 315.42844pt x 237.88875pt>
+File: Images/geometria.png Graphic file (type png)
+<use Images/geometria.png>
+Package pdftex.def Info: Images/geometria.png  used on input line 26.
 (pdftex.def)             Requested size: 377.60144pt x 284.79715pt.
-<imagens/Graph.jpg, id=35, 1927.2pt x 958.58125pt>
-File: imagens/Graph.jpg Graphic file (type jpg)
-<use imagens/Graph.jpg>
-Package pdftex.def Info: imagens/Graph.jpg  used on input line 41.
+<Images/Graph.jpg, id=36, 1927.2pt x 958.58125pt>
+File: Images/Graph.jpg Graphic file (type jpg)
+<use Images/Graph.jpg>
+Package pdftex.def Info: Images/Graph.jpg  used on input line 42.
 (pdftex.def)             Requested size: 472.0pt x 234.75938pt.
 
 
-[3 <./imagens/geometria.png>]
+[3 <./Images/geometria.png>]
 
-[4 <./imagens/Graph.jpg>]
+[4 <./Images/Graph.jpg>]
 \tf@toc=\write4
 \openout4 = `entrega_7.toc'.
 
@@ -664,17 +669,17 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14447 strings out of 468080
- 228108 string characters out of 5435838
- 680511 words of memory out of 5000000
- 42951 multiletter control sequences out of 15000+600000
- 632574 words of font info for 56 fonts, out of 8000000 for 9000
+ 14500 strings out of 468080
+ 229276 string characters out of 5435839
+ 683318 words of memory out of 5000000
+ 42997 multiletter control sequences out of 15000+600000
+ 633490 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,107p,674b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on entrega_7.pdf (4 pages, 416293 bytes).
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on entrega_7.pdf (4 pages, 430003 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
+ 134 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

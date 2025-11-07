@@ -20,9 +20,10 @@ INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\memoir\mem10.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\memoir\mem10.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\memoir\mem10.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\memoir\mem11.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\memoir\mem11.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\memoir\mem11.clo
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\dcolumn.sty
@@ -49,12 +50,11 @@ INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\shortvrb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\shortvrb.sty
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\shortvrb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\shortvrb.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\textcase\textcase.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\textcase\textcase.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
@@ -103,12 +103,17 @@ INPUT C:\Program Files\MiKTeX\tex\generic\babel\txtbabel.def
 INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-brazilian.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-brazilian.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-brazilian.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-brazil.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-brazil.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-brazil.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-pt-BR.ini
 INPUT C:\Program Files\MiKTeX\tex\latex\babel-portuges\brazilian.ldf
 INPUT C:\Program Files\MiKTeX\tex\latex\babel-portuges\brazilian.ldf
+INPUT C:\Program Files\MiKTeX\tex\latex\babel-portuges\brazilian.ldf
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-pt-BR.ini
 INPUT C:\Program Files\MiKTeX\tex\latex\babel-portuges\brazilian.ldf
 INPUT C:\Program Files\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\enumitem\enumitem.sty
@@ -141,10 +146,11 @@ INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
@@ -157,25 +163,25 @@ INPUT .\entrega_7.toc
 INPUT .\entrega_7.toc
 INPUT entrega_7.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT .\entrega_7.lof
 INPUT .\entrega_7.lof
 INPUT entrega_7.lof
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss12.tfm
-INPUT .\imagens\geometria.png
-INPUT .\imagens\geometria.png
-INPUT .\imagens\geometria.png
-INPUT .\imagens\geometria.png
-INPUT .\imagens\geometria.png
-INPUT .\imagens\geometria.png
-INPUT .\imagens\geometria.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
-INPUT .\imagens\Graph.jpg
-INPUT .\imagens\Graph.jpg
-INPUT .\imagens\Graph.jpg
-INPUT .\imagens\Graph.jpg
-INPUT .\imagens\Graph.jpg
-INPUT .\imagens\Graph.jpg
-INPUT .\imagens\Graph.jpg
+INPUT .\Images\geometria.png
+INPUT .\Images\geometria.png
+INPUT .\Images\geometria.png
+INPUT .\Images\geometria.png
+INPUT .\Images\geometria.png
+INPUT .\Images\geometria.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss12.tfm
+INPUT .\Images\Graph.jpg
+INPUT .\Images\Graph.jpg
+INPUT .\Images\Graph.jpg
+INPUT .\Images\Graph.jpg
+INPUT .\Images\Graph.jpg
+INPUT .\Images\Graph.jpg
 OUTPUT entrega_7.toc
 OUTPUT entrega_7.lof
 INPUT entrega_7.aux
@@ -183,14 +189,16 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmss10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmss10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmss12.pfb
