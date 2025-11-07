@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1762536722.98093 "c:/GIT/TexJunk/UFRGS/LAMEF/LigasNi-2/03-Tenacidade ao ar Trunnion/Presentation-TF-Trunnion.tex" "Presentation-TF-Trunnion.pdf" "Presentation-TF-Trunnion" 1762536724.20762 0
+["pdflatex"] 1762536903.60849 "c:/GIT/TexJunk/UFRGS/LAMEF/LigasNi-2/03-Tenacidade ao ar Trunnion/Presentation-TF-Trunnion.tex" "Presentation-TF-Trunnion.pdf" "Presentation-TF-Trunnion" 1762536904.83703 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136783054 2172 fd0c924230362ff848a33632ed45dc23 ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/times/ptmri7t.tfm" 1136783054 2288 f478fc8fed18759effb59f3dad7f3084 ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/times/zptmcm7m.tfm" 1136783054 2232 db256afffc8202da192b4641df14d602 ""
@@ -199,12 +199,12 @@
   "Images/FEMmodel-BC.png" 1762535006 13997 70b92ff3cedd3447fcb0caf18a109b15 ""
   "Images/convergence.jpg" 1761051180 117600 717505025cb9fa2300fb862ac4f60d39 ""
   "Images/mesh-tip.png" 1762536118 270254 4026f79c41c83580d9ab26e03f23cfc6 ""
-  "Presentation-TF-Trunnion.aux" 1762536724 3566 d20ee6ac7f41162aeedb5a97d29b134f "pdflatex"
-  "Presentation-TF-Trunnion.nav" 1762536724 2046 f14b0074f430319ab8352a24a6a3ffc9 "pdflatex"
-  "Presentation-TF-Trunnion.out" 1762536723 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Presentation-TF-Trunnion.tex" 1762536721 3051 0d9aa2e3d7737b3a456bbd36a125f6e0 ""
-  "Presentation-TF-Trunnion.toc" 1762536724 458 f019562d8679d3784f6c94d8a9e31069 "pdflatex"
-  "c:/GIT/TexJunk/UFRGS/LAMEF/LigasNi-2/03-Tenacidade ao ar Trunnion/Presentation-TF-Trunnion.tex" 1762536721 3051 0d9aa2e3d7737b3a456bbd36a125f6e0 ""
+  "Presentation-TF-Trunnion.aux" 1762536904 3566 d20ee6ac7f41162aeedb5a97d29b134f "pdflatex"
+  "Presentation-TF-Trunnion.nav" 1762536904 2046 f14b0074f430319ab8352a24a6a3ffc9 "pdflatex"
+  "Presentation-TF-Trunnion.out" 1762536904 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Presentation-TF-Trunnion.tex" 1762536903 3056 2756bcb3f0f03b14adfe0869c6727589 ""
+  "Presentation-TF-Trunnion.toc" 1762536904 458 f019562d8679d3784f6c94d8a9e31069 "pdflatex"
+  "c:/GIT/TexJunk/UFRGS/LAMEF/LigasNi-2/03-Tenacidade ao ar Trunnion/Presentation-TF-Trunnion.tex" 1762536903 3056 2756bcb3f0f03b14adfe0869c6727589 ""
   (generated)
   "Presentation-TF-Trunnion.aux"
   "Presentation-TF-Trunnion.log"
