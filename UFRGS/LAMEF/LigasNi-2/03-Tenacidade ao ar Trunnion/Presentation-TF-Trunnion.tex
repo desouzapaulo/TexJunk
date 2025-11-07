@@ -1,0 +1,116 @@
+\documentclass[11pt]{beamer}
+\graphicspath{{Images/}{./}}
+
+\usepackage{booktabs}
+\usetheme{Madrid} 
+\usefonttheme{default}
+\usepackage{mathptmx}
+\useinnertheme{rounded}
+% \usepackage[portuguese]{babel}
+
+% --------------------------------------------------------------------------
+\title[Tenacidade ao Ar Trunnion]{
+	Modelo Numérico do Ensaio de Tenacidade ao Ar do Material Trunnion Ni-718
+	}
+
+\subtitle{Optional Subtitle}
+
+\author[Paulo de Souza]{P. De Souza}
+
+\institute[UFRGS]{Universidade Federal do Rio Grande do Sul \\ 
+\smallskip \textit{paulohbs2001@gmail.com}}
+
+\date[\today]{Laboratório de Metalurgia Física - LAMEF\\ \today}
+
+%--------------------------------------------------------
+\section{Ensaio real}
+	\subsection{Geometria do Corpo de Prova}
+	\subsection{Parâmetros do Ensaio}
+\section{Modelo Numérico Simplificado}
+	\subsection{Hipóteses}
+	\subsection{Condições de Contorno}
+	\subsection{Convergência de Malha}
+
+%--------------------------------------------------------
+\begin{document}
+
+%--------------------------------------------------------
+\begin{frame}
+	\titlepage
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Resumo da Apresentação}
+	\tableofcontents 
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Ensaio real}
+	\framesubtitle{Geometria do Corpo de Prova}
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Ensaio real}
+	\framesubtitle{Parâmetros do Ensaio}
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Modelo Numérico}
+	\framesubtitle{Hipóteses}
+
+	\begin{columns}[c]
+		\begin{column}{0.6\textwidth} % Left column width
+			\textbf{Simplificações}
+			\begin{enumerate}
+				\item Modelo 2D 
+				\item Estado Plano de \alert{Deformações}
+				\item Contato nos Roletes sem Atrito
+			\end{enumerate}
+		\end{column}
+		\begin{column}{0.4\textwidth} % Right column width
+			texto ou imagem
+		\end{column}
+	\end{columns}
+\end{frame}
+
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Modelo Numérico}
+	\framesubtitle{Condições de Contorno}
+	
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{FEMmodel-BC.png}
+		\caption{Modelo Numérico.}
+	\end{figure}
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Modelo Numérico}
+	\framesubtitle{Convergência de Malha}
+	
+	\begin{figure}
+		\includegraphics[width=0.6\linewidth]{convergence.jpg}
+		\caption{Convergência de Malha.}
+	\end{figure}
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Modelo Numérico}
+	\framesubtitle{Malha na ponta da trinca}
+	
+	\begin{figure}
+		\includegraphics[width=0.6\linewidth]{mesh-tip.png}
+		\caption{Malha na ponta da trinca.}
+	\end{figure}
+
+\end{frame}
+
+\end{document}
+
