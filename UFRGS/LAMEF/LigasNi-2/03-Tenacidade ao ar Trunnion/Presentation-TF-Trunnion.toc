@@ -5,4 +5,7 @@
 \beamer@subsectionintoc {2}{1}{Hipóteses}{1}{0}{2}
 \beamer@subsectionintoc {2}{2}{Condições de Contorno}{1}{0}{2}
 \beamer@subsectionintoc {2}{3}{Convergência de Malha}{1}{0}{2}
+\beamer@sectionintoc {3}{Resultados}{1}{0}{3}
+\beamer@subsectionintoc {3}{1}{Campo de Tensões no modelo Completo}{1}{0}{3}
+\beamer@subsectionintoc {3}{2}{Campo de Tensões na ponta da Trinca}{1}{0}{3}
 \babel@toc {portuguese}{}\relax 

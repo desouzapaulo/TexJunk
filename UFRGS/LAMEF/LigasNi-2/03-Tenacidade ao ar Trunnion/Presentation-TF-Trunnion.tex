@@ -10,7 +10,7 @@
 
 % --------------------------------------------------------------------------
 \title[Tenacidade ao Ar Trunnion]{
-	Modelo Numérico do Ensaio de Tenacidade ao Ar do Material Trunnion Ni-718
+	Modelo Numérico do Ensaio de Tenacidade ao Ar
 	}
 
 % \subtitle{Optional Subtitle}
@@ -30,8 +30,11 @@
 	\subsection{Hipóteses}
 	\subsection{Condições de Contorno}
 	\subsection{Convergência de Malha}
+\section{Resultados}
+	\subsection{Campo de Tensões no modelo Completo}
+	\subsection{Campo de Tensões na ponta da Trinca}
 
-%--------------------------------------------------------
+% ======================================================
 \begin{document}
 
 %--------------------------------------------------------
@@ -45,17 +48,17 @@
 	\tableofcontents 
 \end{frame}
 
-%--------------------------------------------------------
-\begin{frame}
-	\frametitle{Ensaio real}
-	\framesubtitle{Geometria do Corpo de Prova}
-\end{frame}
+% %--------------------------------------------------------
+% \begin{frame}
+% 	\frametitle{Ensaio real}
+% 	\framesubtitle{Geometria do Corpo de Prova}
+% \end{frame}
 
-%--------------------------------------------------------
-\begin{frame}
-	\frametitle{Ensaio real}
-	\framesubtitle{Parâmetros do Ensaio}
-\end{frame}
+% %--------------------------------------------------------
+% \begin{frame}
+% 	\frametitle{Ensaio real}
+% 	\framesubtitle{Parâmetros do Ensaio}
+% \end{frame}
 
 %--------------------------------------------------------
 \begin{frame}
@@ -75,6 +78,7 @@
 			texto ou imagem
 		\end{column}
 	\end{columns}
+
 \end{frame}
 
 
@@ -106,14 +110,86 @@
 	\framesubtitle{Malha na ponta da trinca}
 	
 	\begin{figure}
-		\includegraphics[width=0.6\linewidth]{mesh-tip.png}
+		\includegraphics[width=0.8\linewidth]{mesh-tip.png}
 		\caption{Malha na Ponta da Trinca.}
 	\end{figure}
 
 \end{frame}
 
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Resultados do Modelo Completo}
+	\framesubtitle{Tensões de Von-Mises}
 
+	\begin{figure}
+		\includegraphics[width=1\linewidth]{mises.png}
+		\caption{Tensões de Von-Mises no Modelo.}
+	\end{figure}
 
+\end{frame}
 
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Resultados na Ponta da Trinca}
+	\framesubtitle{Tensões de Von-Mises}
+
+	\begin{figure}
+		\includegraphics[width=1\linewidth]{mises-tip.png}
+		\caption{Tensões de Von-Mises na Ponta da Trinca.}
+	\end{figure}
+
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Resultados na Ponta da Trinca}
+	\framesubtitle{Tensão $\sigma_1$}
+
+	\begin{figure}
+		\includegraphics[width=1\linewidth]{S11-tip.png}
+		\caption{Tensão $\sigma_1$ na Ponta da Trinca.}
+	\end{figure}
+
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Resultados na Ponta da Trinca}
+	\framesubtitle{Tensão $\sigma_2$}
+
+	\begin{figure}
+		\includegraphics[width=1\linewidth]{S22-tip.png}
+		\caption{Tensão $\sigma_2$ na Ponta da Trinca.}
+	\end{figure}
+
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Resultados na Ponta da Trinca}
+	\framesubtitle{Tensão $\sigma_3$}
+
+	\begin{figure}
+		\includegraphics[width=1\linewidth]{S33-tip.png}
+		\caption{Tensão $\sigma_3$ na Ponta da Trinca.}
+	\end{figure}
+
+\end{frame}
+
+% %--------------------------------------------------------
+% \begin{frame}
+% 	\frametitle{Resultados na Ponta da Trinca}
+% 	\framesubtitle{Tensão Hidrostática}
+
+% 	\begin{figure}
+% 		\includegraphics[width=1\linewidth]{press-tip.png}
+% 		\caption{Tensão Hidrostática na Ponta da Trinca.}
+% 	\end{figure}
+
+% \end{frame}
+
+% ======================================================
 \end{document}
+
+
 

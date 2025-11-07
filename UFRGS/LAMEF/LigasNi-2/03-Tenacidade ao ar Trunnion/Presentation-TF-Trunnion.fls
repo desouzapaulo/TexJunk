@@ -361,7 +361,6 @@ INPUT C:\Users\paulo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\Presentation-TF-Trunnion.toc
 INPUT .\Presentation-TF-Trunnion.toc
 INPUT Presentation-TF-Trunnion.toc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss9.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\omlztmcm.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\omlztmcm.fd
@@ -402,6 +401,7 @@ INPUT C:\Program Files\MiKTeX\tex\latex\sansmathaccent\ot1mathkerncmss.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss9.tfm
 INPUT .\Images\FEMmodel-BC.png
 INPUT .\Images\FEMmodel-BC.png
 INPUT .\Images\FEMmodel-BC.png
@@ -421,6 +421,85 @@ INPUT .\Images\mesh-tip.png
 INPUT .\Images\mesh-tip.png
 INPUT .\Images\mesh-tip.png
 INPUT .\Images\mesh-tip.png
+INPUT .\Images\mises.png
+INPUT .\Images\mises.png
+INPUT .\Images\mises.png
+INPUT .\Images\mises.png
+INPUT .\Images\mises.png
+INPUT .\Images\mises.png
+INPUT .\Images\mises-tip.png
+INPUT .\Images\mises-tip.png
+INPUT .\Images\mises-tip.png
+INPUT .\Images\mises-tip.png
+INPUT .\Images\mises-tip.png
+INPUT .\Images\mises-tip.png
+INPUT .\Images\S11-tip.png
+INPUT .\Images\S11-tip.png
+INPUT .\Images\S11-tip.png
+INPUT .\Images\S11-tip.png
+INPUT .\Images\S11-tip.png
+INPUT .\Images\S11-tip.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\zptmcm7m.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\psyro.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\zptmcm7m.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\psyro.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT .\Images\S22-tip.png
+INPUT .\Images\S22-tip.png
+INPUT .\Images\S22-tip.png
+INPUT .\Images\S22-tip.png
+INPUT .\Images\S22-tip.png
+INPUT .\Images\S22-tip.png
+INPUT .\Images\S33-tip.png
+INPUT .\Images\S33-tip.png
+INPUT .\Images\S33-tip.png
+INPUT .\Images\S33-tip.png
+INPUT .\Images\S33-tip.png
+INPUT .\Images\S33-tip.png
 OUTPUT Presentation-TF-Trunnion.nav
 OUTPUT Presentation-TF-Trunnion.toc
 OUTPUT Presentation-TF-Trunnion.snm
@@ -439,3 +518,5 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmssi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmssi8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\urw\symbol\usyr.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\urw\symbol\usyr.pfb
