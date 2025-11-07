@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.28)  28 OCT 2025 10:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.3)  3 NOV 2025 14:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -36,8 +36,8 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 \trimtop=\skip52
 \trimedge=\skip53
- (C:\Program Files\MiKTeX\tex/latex/memoir\mem10.clo
-File: mem10.clo 2022/07/29 v0.5 memoir class 10pt size option
+ (C:\Program Files\MiKTeX\tex/latex/memoir\mem12.clo
+File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 )
 \binding=\skip54
 \spinemargin=\skip55
@@ -517,19 +517,19 @@ LaTeX Info: Redefining \addtolength on input line 87.
 Stock height and width: 794.96999pt by 614.295pt
 Top and edge trims: 0pt and 0pt
 Page height and width: 794.96999pt by 614.295pt
-Text height and width: 658pt by 472pt
+Text height and width: 664.5pt by 472pt
 Spine and edge margins: 85.35826pt and 56.9055pt
-Upper and lower margins: 85.35826pt and 51.61172pt
-Headheight and headsep: 12pt and 18.06749pt
-Footskip: 25.29494pt
+Upper and lower margins: 85.35826pt and 45.11172pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
 Columnsep and columnseprule: 10pt and 0pt
 Marginparsep and marginparwidth: 7pt and 42.9055pt
-Sidecapsep and sidecapwidth: 7pt and 128pt
-Sidebarhsep and sidebarwidth: 7pt and 128pt
-Sidebarvsep and sidebartopsep: 12pt and 0pt
-Sidebarheight: 548.39996pt
-Sidefoothsep and sidefootwidth: 7pt and 128pt
-Sidefootvsep and sidefootheight: 12pt and 548.39996pt
+Sidecapsep and sidecapwidth: 7pt and 102pt
+Sidebarhsep and sidebarwidth: 7pt and 102pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 546.64995pt
+Sidefoothsep and sidefootwidth: 7pt and 102pt
+Sidefootvsep and sidefootheight: 14.5pt and 546.64995pt
 ******************************************************
 
 \c@abntex@bookmarkcounter=\count355
@@ -619,20 +619,20 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 11.
+(Font)              <14.4> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
+(Font)              <7> on input line 11.
 
 
 [1
 
 {C:/Users/paulo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (teste.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
+(Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
 ) (teste.lof)
 
 [2]
@@ -649,15 +649,15 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14386 strings out of 468080
- 226871 string characters out of 5435838
- 674009 words of memory out of 5000000
- 42904 multiletter control sequences out of 15000+600000
- 631962 words of font info for 54 fonts, out of 8000000 for 9000
+ 14392 strings out of 468080
+ 226982 string characters out of 5435839
+ 674043 words of memory out of 5000000
+ 42909 multiletter control sequences out of 15000+600000
+ 632876 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,107p,567b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on teste.pdf (2 pages, 53843 bytes).
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on teste.pdf (2 pages, 51986 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
