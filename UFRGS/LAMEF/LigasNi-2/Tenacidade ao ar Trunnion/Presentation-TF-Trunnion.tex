@@ -13,7 +13,7 @@
 	Modelo Numérico do Ensaio de Tenacidade ao Ar
 	}
 
-% \subtitle{Optional Subtitle}
+\subtitle{Liga Trunnion Ni-718}
 
 \author[Paulo de Souza]{Paulo de Souza}
 
@@ -23,10 +23,10 @@
 \date[\today]{Laboratório de Metalurgia Física - LAMEF\\ \today}
 
 %--------------------------------------------------------
-\section{Ensaio real}
-	\subsection{Geometria do Corpo de Prova}
-	\subsection{Parâmetros do Ensaio}
-\section{Modelo Numérico Simplificado}
+% \section{Ensaio real}
+% 	\subsection{Geometria do Corpo de Prova}
+% 	\subsection{Parâmetros do Ensaio}
+\section{Modelo Numérico}
 	\subsection{Hipóteses}
 	\subsection{Condições de Contorno}
 	\subsection{Convergência de Malha}
@@ -63,22 +63,49 @@
 %--------------------------------------------------------
 \begin{frame}
 	\frametitle{Modelo Numérico}
-	\framesubtitle{Hipóteses}
+	\framesubtitle{Hipóteses e Condições de Contorno}
+
+		\textbf{Condições de Contorno}
+		\begin{enumerate}
+			\item 0,25 mm de deslocamento do rolete central.
+			\item 8658,27 kN de reação do rolete central.
+			\item Restrição de translação em X e Y dos roletes de apoio (laterais).
+			\item Restrição de translação em X do rolete central (laterais).
+		\end{enumerate}
+		
+		\textbf{Hipóteses}
+		\begin{enumerate}
+			\item Modelo 2D.
+			\item Estado Plano de \alert{Deformações}.
+			\item Contato nos Roletes sem Atrito.
+		\end{enumerate}
+
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Modelo Numérico}
+	\framesubtitle{Curva de Escoamento}
 
 	\begin{columns}[c]
-		\begin{column}{0.6\textwidth} % Left column width
-			\textbf{Simplificações}
+
+		\begin{column}{0.4\textwidth}
+			\textbf{Dados do Material}
 			\begin{enumerate}
-				\item Modelo 2D 
-				\item Estado Plano de \alert{Deformações}
-				\item Contato nos Roletes sem Atrito
+				\item Curva \alert{verdadeira} de escoamento.
+				\item Dados usados como parâmetro de plasticidade no modelo.
 			\end{enumerate}
 		\end{column}
-		\begin{column}{0.4\textwidth} % Right column width
-			texto ou imagem
-		\end{column}
-	\end{columns}
 
+		\begin{column}{0.6\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.8\linewidth]{escoamento.png}
+				\caption{Curva de Escoamento do Trunnion Ni-718.}
+			\end{figure}
+		\end{column}
+
+	\end{columns}
+		
 \end{frame}
 
 
@@ -96,12 +123,46 @@
 %--------------------------------------------------------
 \begin{frame}
 	\frametitle{Modelo Numérico}
+	\framesubtitle{Divisão da Malha}
+	
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{sets.png}
+	\end{figure}
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Modelo Numérico}
+	\framesubtitle{Local de Convergência}
+	
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{conv.png}
+		\caption{Local de Convergência de Malha.}
+	\end{figure}
+
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Modelo Numérico}
 	\framesubtitle{Convergência de Malha}
 	
 	\begin{figure}
-		\includegraphics[width=0.6\linewidth]{convergence.jpg}
+		\includegraphics[width=0.65\linewidth]{convergence.jpg}
 		\caption{Convergência de Malha.}
 	\end{figure}
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Modelo Numérico}
+	\framesubtitle{Malha do Modelo}
+	
+	\begin{figure}
+		\includegraphics[width=0.9\linewidth]{mesh.png}
+		\caption{Malha do Modelo.}
+	\end{figure}
+
 \end{frame}
 
 %--------------------------------------------------------
@@ -143,11 +204,24 @@
 %--------------------------------------------------------
 \begin{frame}
 	\frametitle{Resultados na Ponta da Trinca}
-	\framesubtitle{Tensão $\sigma_1$}
+	\framesubtitle{Tensão Hidrostática}
+
+	\begin{figure}
+		\includegraphics[width=1\linewidth]{press-tip.png}
+		\caption{Tensão Hidrostática na Ponta da Trinca.}
+	\end{figure}
+
+\end{frame}
+
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Resultados na Ponta da Trinca}
+	\framesubtitle{Tensão $\sigma_{11}$}
 
 	\begin{figure}
 		\includegraphics[width=1\linewidth]{S11-tip.png}
-		\caption{Tensão $\sigma_1$ na Ponta da Trinca.}
+		\caption{Tensão $\sigma_{11}$ na Ponta da Trinca.}
 	\end{figure}
 
 \end{frame}
@@ -155,11 +229,11 @@
 %--------------------------------------------------------
 \begin{frame}
 	\frametitle{Resultados na Ponta da Trinca}
-	\framesubtitle{Tensão $\sigma_2$}
+	\framesubtitle{Tensão $\sigma_{22}$}
 
 	\begin{figure}
 		\includegraphics[width=1\linewidth]{S22-tip.png}
-		\caption{Tensão $\sigma_2$ na Ponta da Trinca.}
+		\caption{Tensão $\sigma_{22}$ na Ponta da Trinca.}
 	\end{figure}
 
 \end{frame}
@@ -167,26 +241,37 @@
 %--------------------------------------------------------
 \begin{frame}
 	\frametitle{Resultados na Ponta da Trinca}
-	\framesubtitle{Tensão $\sigma_3$}
+	\framesubtitle{Tensão $\sigma_{33}$}
 
 	\begin{figure}
 		\includegraphics[width=1\linewidth]{S33-tip.png}
-		\caption{Tensão $\sigma_3$ na Ponta da Trinca.}
+		\caption{Tensão $\sigma_{33}$ na Ponta da Trinca.}
 	\end{figure}
 
 \end{frame}
 
-% %--------------------------------------------------------
-% \begin{frame}
-% 	\frametitle{Resultados na Ponta da Trinca}
-% 	\framesubtitle{Tensão Hidrostática}
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Resultados ao Longo da Raiz}
+	\framesubtitle{Tensão de Von Mises e Hidrostática}
 
-% 	\begin{figure}
-% 		\includegraphics[width=1\linewidth]{press-tip.png}
-% 		\caption{Tensão Hidrostática na Ponta da Trinca.}
-% 	\end{figure}
+	\begin{columns}[c]
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.9\linewidth]{Mises.jpg}
+				\caption{Tensão de Von Mises ao Longo da Raiz.}
+			\end{figure}
+		\end{column}
 
-% \end{frame}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.9\linewidth]{Hyd.jpg}
+				\caption{Tensão Hidrostática ao Longo da Raiz.}
+			\end{figure}
+		\end{column}
+	\end{columns}
+
+\end{frame}
 
 % ======================================================
 \end{document}

@@ -1,6 +1,6 @@
-PWD c:\GIT\TexJunk\UFRGS\LAMEF\LigasNi-2\03-Tenacidade ao ar Trunnion
+PWD c:\GIT\TexJunk\UFRGS\LAMEF\LigasNi-2\Tenacidade ao ar Trunnion
 INPUT C:\Users\paulo\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\GIT\TexJunk\UFRGS\LAMEF\LigasNi-2\03-Tenacidade ao ar Trunnion\Presentation-TF-Trunnion.tex
+INPUT c:\GIT\TexJunk\UFRGS\LAMEF\LigasNi-2\Tenacidade ao ar Trunnion\Presentation-TF-Trunnion.tex
 OUTPUT Presentation-TF-Trunnion.log
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamer.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamer.cls
@@ -362,6 +362,7 @@ INPUT .\Presentation-TF-Trunnion.toc
 INPUT .\Presentation-TF-Trunnion.toc
 INPUT Presentation-TF-Trunnion.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss9.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\omlztmcm.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\omlztmcm.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\omlztmcm.fd
@@ -401,20 +402,43 @@ INPUT C:\Program Files\MiKTeX\tex\latex\sansmathaccent\ot1mathkerncmss.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss9.tfm
-INPUT .\Images\FEMmodel-BC.png
-INPUT .\Images\FEMmodel-BC.png
-INPUT .\Images\FEMmodel-BC.png
-INPUT .\Images\FEMmodel-BC.png
-INPUT .\Images\FEMmodel-BC.png
-INPUT .\Images\FEMmodel-BC.png
+INPUT .\Images\escoamento.png
+INPUT .\Images\escoamento.png
+INPUT .\Images\escoamento.png
+INPUT .\Images\escoamento.png
+INPUT .\Images\escoamento.png
+INPUT .\Images\escoamento.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
+INPUT .\Images\FEMmodel-BC.png
+INPUT .\Images\FEMmodel-BC.png
+INPUT .\Images\FEMmodel-BC.png
+INPUT .\Images\FEMmodel-BC.png
+INPUT .\Images\FEMmodel-BC.png
+INPUT .\Images\FEMmodel-BC.png
+INPUT .\Images\sets.png
+INPUT .\Images\sets.png
+INPUT .\Images\sets.png
+INPUT .\Images\sets.png
+INPUT .\Images\sets.png
+INPUT .\Images\sets.png
+INPUT .\Images\conv.png
+INPUT .\Images\conv.png
+INPUT .\Images\conv.png
+INPUT .\Images\conv.png
+INPUT .\Images\conv.png
+INPUT .\Images\conv.png
 INPUT .\Images\convergence.jpg
 INPUT .\Images\convergence.jpg
 INPUT .\Images\convergence.jpg
 INPUT .\Images\convergence.jpg
 INPUT .\Images\convergence.jpg
 INPUT .\Images\convergence.jpg
+INPUT .\Images\mesh.png
+INPUT .\Images\mesh.png
+INPUT .\Images\mesh.png
+INPUT .\Images\mesh.png
+INPUT .\Images\mesh.png
+INPUT .\Images\mesh.png
 INPUT .\Images\mesh-tip.png
 INPUT .\Images\mesh-tip.png
 INPUT .\Images\mesh-tip.png
@@ -433,6 +457,12 @@ INPUT .\Images\mises-tip.png
 INPUT .\Images\mises-tip.png
 INPUT .\Images\mises-tip.png
 INPUT .\Images\mises-tip.png
+INPUT .\Images\press-tip.png
+INPUT .\Images\press-tip.png
+INPUT .\Images\press-tip.png
+INPUT .\Images\press-tip.png
+INPUT .\Images\press-tip.png
+INPUT .\Images\press-tip.png
 INPUT .\Images\S11-tip.png
 INPUT .\Images\S11-tip.png
 INPUT .\Images\S11-tip.png
@@ -500,6 +530,18 @@ INPUT .\Images\S33-tip.png
 INPUT .\Images\S33-tip.png
 INPUT .\Images\S33-tip.png
 INPUT .\Images\S33-tip.png
+INPUT .\Images\Mises.jpg
+INPUT .\Images\Mises.jpg
+INPUT .\Images\Mises.jpg
+INPUT .\Images\Mises.jpg
+INPUT .\Images\Mises.jpg
+INPUT .\Images\Mises.jpg
+INPUT .\Images\Hyd.jpg
+INPUT .\Images\Hyd.jpg
+INPUT .\Images\Hyd.jpg
+INPUT .\Images\Hyd.jpg
+INPUT .\Images\Hyd.jpg
+INPUT .\Images\Hyd.jpg
 OUTPUT Presentation-TF-Trunnion.nav
 OUTPUT Presentation-TF-Trunnion.toc
 OUTPUT Presentation-TF-Trunnion.snm

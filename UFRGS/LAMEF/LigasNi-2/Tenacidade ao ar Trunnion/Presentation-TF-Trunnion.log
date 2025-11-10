@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.3)  7 NOV 2025 15:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.3)  10 NOV 2025 13:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/GIT/TexJunk/UFRGS/LAMEF/LigasNi-2/03-Tenacidade ao ar Trunnion/Presentation-TF-Trunnion.tex"
-(c:/GIT/TexJunk/UFRGS/LAMEF/LigasNi-2/03-Tenacidade ao ar Trunnion/Presentation-TF-Trunnion.tex
+**"c:/GIT/TexJunk/UFRGS/LAMEF/LigasNi-2/Tenacidade ao ar Trunnion/Presentation-TF-Trunnion.tex"
+(c:/GIT/TexJunk/UFRGS/LAMEF/LigasNi-2/Tenacidade ao ar Trunnion/Presentation-TF-Trunnion.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-09>
 (C:\Program Files\MiKTeX\tex/latex/beamer\beamer.cls
@@ -623,7 +623,7 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count364
 ) (Presentation-TF-Trunnion.aux
 Package babel Info: 'portuguese' activates 'portuges' shorthands.
-(babel)             Reported on input line 41.
+(babel)             Reported on input line 31.
 )
 \openout1 = `Presentation-TF-Trunnion.aux'.
 
@@ -780,126 +780,191 @@ Dictionary: translator-theorem-dictionary, Language: English
 [2
 
 ]
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 82.
- (C:\Program Files\MiKTeX\tex/latex/psnfss\omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 82.
- (C:\Program Files\MiKTeX\tex/latex/psnfss\omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 82.
- (C:\Program Files\MiKTeX\tex/latex/psnfss\omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 82.
- (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 82.
- (C:\Program Files\MiKTeX\tex/latex/sansmathaccent\ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
-)
 
 [3
 
 ]
-<Images/FEMmodel-BC.png, id=140, 1577.895pt x 760.8425pt>
-File: Images/FEMmodel-BC.png Graphic file (type png)
-<use Images/FEMmodel-BC.png>
-Package pdftex.def Info: Images/FEMmodel-BC.png  used on input line 94.
-(pdftex.def)             Requested size: 273.83728pt x 132.03491pt.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 109.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 109.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 109.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 109.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 109.
+ (C:\Program Files\MiKTeX\tex/latex/sansmathaccent\ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
+)
+<Images/escoamento.png, id=134, 421.575pt x 316.18124pt>
+File: Images/escoamento.png Graphic file (type png)
+<use Images/escoamento.png>
+Package pdftex.def Info: Images/escoamento.png  used on input line 109.
+(pdftex.def)             Requested size: 164.30403pt x 123.22816pt.
 
 
 [4
 
- <./Images/FEMmodel-BC.png>]
-<Images/convergence.jpg, id=169, 878.28125pt x 658.46pt>
-File: Images/convergence.jpg Graphic file (type jpg)
-<use Images/convergence.jpg>
-Package pdftex.def Info: Images/convergence.jpg  used on input line 105.
-(pdftex.def)             Requested size: 205.37926pt x 153.97453pt.
+ <./Images/escoamento.png (PNG copy)>]
+<Images/FEMmodel-BC.png, id=162, 1577.895pt x 760.8425pt>
+File: Images/FEMmodel-BC.png Graphic file (type png)
+<use Images/FEMmodel-BC.png>
+Package pdftex.def Info: Images/FEMmodel-BC.png  used on input line 121.
+(pdftex.def)             Requested size: 273.83728pt x 132.03491pt.
 
 
 [5
 
- <./Images/convergence.jpg>]
-<Images/mesh-tip.png, id=197, 1573.88pt x 760.8425pt>
-File: Images/mesh-tip.png Graphic file (type png)
-<use Images/mesh-tip.png>
-Package pdftex.def Info: Images/mesh-tip.png  used on input line 117.
-(pdftex.def)             Requested size: 273.83728pt x 132.37158pt.
+ <./Images/FEMmodel-BC.png>]
+<Images/sets.png, id=191, 845.40843pt x 597.73312pt>
+File: Images/sets.png Graphic file (type png)
+<use Images/sets.png>
+Package pdftex.def Info: Images/sets.png  used on input line 131.
+(pdftex.def)             Requested size: 273.83728pt x 193.60426pt.
 
 
 [6
 
- <./Images/mesh-tip.png>]
-<Images/mises.png, id=226, 1732.4725pt x 760.8425pt>
-File: Images/mises.png Graphic file (type png)
-<use Images/mises.png>
-Package pdftex.def Info: Images/mises.png  used on input line 129.
-(pdftex.def)             Requested size: 342.2953pt x 150.31989pt.
+ <./Images/sets.png>]
+<Images/conv.png, id=221, 844.65562pt x 414.79968pt>
+File: Images/conv.png Graphic file (type png)
+<use Images/conv.png>
+Package pdftex.def Info: Images/conv.png  used on input line 143.
+(pdftex.def)             Requested size: 273.83728pt x 134.47917pt.
 
 
 [7
 
- <./Images/mises.png>]
-<Images/mises-tip.png, id=256, 1732.4725pt x 760.8425pt>
-File: Images/mises-tip.png Graphic file (type png)
-<use Images/mises-tip.png>
-Package pdftex.def Info: Images/mises-tip.png  used on input line 141.
-(pdftex.def)             Requested size: 342.2953pt x 150.31989pt.
+ <./Images/conv.png>]
+<Images/convergence.jpg, id=251, 878.28125pt x 658.46pt>
+File: Images/convergence.jpg Graphic file (type jpg)
+<use Images/convergence.jpg>
+Package pdftex.def Info: Images/convergence.jpg  used on input line 154.
+(pdftex.def)             Requested size: 222.48985pt x 166.8049pt.
 
 
 [8
 
- <./Images/mises-tip.png>]
-<Images/S11-tip.png, id=285, 1732.4725pt x 760.8425pt>
-File: Images/S11-tip.png Graphic file (type png)
-<use Images/S11-tip.png>
-Package pdftex.def Info: Images/S11-tip.png  used on input line 153.
-(pdftex.def)             Requested size: 342.2953pt x 150.31989pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
+ <./Images/convergence.jpg>]
+<Images/mesh.png, id=279, 1630.09pt x 760.8425pt>
+File: Images/mesh.png Graphic file (type png)
+<use Images/mesh.png>
+Package pdftex.def Info: Images/mesh.png  used on input line 166.
+(pdftex.def)             Requested size: 308.06367pt x 143.78374pt.
 
 
 [9
 
- <./Images/S11-tip.png>]
-<Images/S22-tip.png, id=315, 1732.4725pt x 760.8425pt>
-File: Images/S22-tip.png Graphic file (type png)
-<use Images/S22-tip.png>
-Package pdftex.def Info: Images/S22-tip.png  used on input line 165.
-(pdftex.def)             Requested size: 342.2953pt x 150.31989pt.
+ <./Images/mesh.png>]
+<Images/mesh-tip.png, id=308, 1573.88pt x 760.8425pt>
+File: Images/mesh-tip.png Graphic file (type png)
+<use Images/mesh-tip.png>
+Package pdftex.def Info: Images/mesh-tip.png  used on input line 178.
+(pdftex.def)             Requested size: 273.83728pt x 132.37158pt.
 
 
 [10
 
- <./Images/S22-tip.png>]
-<Images/S33-tip.png, id=343, 1732.4725pt x 760.8425pt>
-File: Images/S33-tip.png Graphic file (type png)
-<use Images/S33-tip.png>
-Package pdftex.def Info: Images/S33-tip.png  used on input line 177.
+ <./Images/mesh-tip.png>]
+<Images/mises.png, id=337, 1732.4725pt x 760.8425pt>
+File: Images/mises.png Graphic file (type png)
+<use Images/mises.png>
+Package pdftex.def Info: Images/mises.png  used on input line 190.
 (pdftex.def)             Requested size: 342.2953pt x 150.31989pt.
 
 
 [11
 
+ <./Images/mises.png>]
+<Images/mises-tip.png, id=366, 1732.4725pt x 760.8425pt>
+File: Images/mises-tip.png Graphic file (type png)
+<use Images/mises-tip.png>
+Package pdftex.def Info: Images/mises-tip.png  used on input line 202.
+(pdftex.def)             Requested size: 342.2953pt x 150.31989pt.
+
+
+[12
+
+ <./Images/mises-tip.png>]
+<Images/press-tip.png, id=395, 1634.105pt x 760.8425pt>
+File: Images/press-tip.png Graphic file (type png)
+<use Images/press-tip.png>
+Package pdftex.def Info: Images/press-tip.png  used on input line 214.
+(pdftex.def)             Requested size: 342.2953pt x 159.3637pt.
+
+
+[13
+
+ <./Images/press-tip.png>]
+<Images/S11-tip.png, id=425, 1732.4725pt x 760.8425pt>
+File: Images/S11-tip.png Graphic file (type png)
+<use Images/S11-tip.png>
+Package pdftex.def Info: Images/S11-tip.png  used on input line 227.
+(pdftex.def)             Requested size: 342.2953pt x 150.31989pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 227.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 227.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 227.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 227.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 227.
+
+
+[14
+
+ <./Images/S11-tip.png>]
+<Images/S22-tip.png, id=455, 1732.4725pt x 760.8425pt>
+File: Images/S22-tip.png Graphic file (type png)
+<use Images/S22-tip.png>
+Package pdftex.def Info: Images/S22-tip.png  used on input line 239.
+(pdftex.def)             Requested size: 342.2953pt x 150.31989pt.
+
+
+[15
+
+ <./Images/S22-tip.png>]
+<Images/S33-tip.png, id=484, 1732.4725pt x 760.8425pt>
+File: Images/S33-tip.png Graphic file (type png)
+<use Images/S33-tip.png>
+Package pdftex.def Info: Images/S33-tip.png  used on input line 251.
+(pdftex.def)             Requested size: 342.2953pt x 150.31989pt.
+
+
+[16
+
  <./Images/S33-tip.png>]
+<Images/Mises.jpg, id=512, 1129.21875pt x 1129.21875pt>
+File: Images/Mises.jpg Graphic file (type jpg)
+<use Images/Mises.jpg>
+Package pdftex.def Info: Images/Mises.jpg  used on input line 274.
+(pdftex.def)             Requested size: 154.03183pt x 154.02315pt.
+<Images/Hyd.jpg, id=513, 1129.21875pt x 1129.21875pt>
+File: Images/Hyd.jpg Graphic file (type jpg)
+<use Images/Hyd.jpg>
+Package pdftex.def Info: Images/Hyd.jpg  used on input line 274.
+(pdftex.def)             Requested size: 154.03183pt x 154.02315pt.
+
+
+[17
+
+ <./Images/Mises.jpg> <./Images/Hyd.jpg>]
 \tf@nav=\write6
 \openout6 = `Presentation-TF-Trunnion.nav'.
 
@@ -918,17 +983,17 @@ Package rerunfilecheck Info: File `Presentation-TF-Trunnion.out' has not changed
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23325 strings out of 468080
- 449688 string characters out of 5435839
- 837716 words of memory out of 5000000
- 51469 multiletter control sequences out of 15000+600000
+ 23411 strings out of 468080
+ 451316 string characters out of 5435839
+ 840323 words of memory out of 5000000
+ 51546 multiletter control sequences out of 15000+600000
  658726 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,123p,495b,857s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,123p,492b,854s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb>
-Output written on Presentation-TF-Trunnion.pdf (11 pages, 911884 bytes).
+Output written on Presentation-TF-Trunnion.pdf (17 pages, 1854651 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 580 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 
