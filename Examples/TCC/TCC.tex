@@ -71,18 +71,21 @@ uniquename=init,
 % ---
 
 \titulo{\MakeUppercase{Template TCC Engenharia Mecânica UFRGS}}
-\autor{Gabriel Rodrigo Hilgert}
+\autor{Autor do Trabalho}
 \local{Brasil}
-\data{2023}
+\data{2025}
 \orientador{Nome do Orientador}
 \tipotrabalho{TRABALHO DE CONCLUSÃO DE CURSO}
 
 
-\preambulo{Monografia apresentada ao Departamento de Engenharia Mecânica da Escola de Engenharia da Universidade Federal do Rio Grande do Sul, como parte dos requisitos para obtenção do diploma de Engenheiro Mecânico.}
+\preambulo{Monografia apresentada ao Departamento de 
+Engenharia Mecânica da Escola de Engenharia da Universidade 
+Federal do Rio Grande do Sul, como parte dos requisitos para obtenção 
+do diploma de Engenheiro Mecânico.}
 % ---
 
-\newcommand{\coordenador}{Cirilo Seppi Bresolin} % COORDENADOR DO CURSO
-\newcommand{\areaconcentracao}{Mecânica dos Sólidos} % AREA DE CONCENTRAÇÃO (Energia e Fenômenos de Transporte/Processos de Fabricação/Mecânica dos Sólidos)
+\newcommand{\coordenador}{Coordenador do Curso} % COORDENADOR DO CURSO
+\newcommand{\areaconcentracao}{Área de Concentração} % AREA DE CONCENTRAÇÃO (Energia e Fenômenos de Transporte/Processos de Fabricação/Mecânica dos Sólidos)
 
 \newcommand\imprimecomissao[1]{\hspace{3cm}Prof. #1 \\\vspace*{1\baselineskip} } % FORMATAÇÃO DA BANCA
 \newcommand{\comissao}{Fulano A,Fulano B, Fulano C} %   LISTA DE PROFESSORES DA BANCA {A,B,C,D,...}
@@ -201,9 +204,6 @@ uniquename=init,
 % ---
 % ---
 % ---
-
-
-
 \usepackage{pdfpages} %CARREGA PDF COMO PÁGINAS
 \makeatother
 
@@ -219,7 +219,7 @@ uniquename=init,
 
 
 % DEFINIÇÃO DA NOMENCLATURA
-\input{TCC/Paginas/Simbolos}
+\input{Paginas/Simbolos}
 
 \usepackage{lipsum} % PARA GERAR DUMMY TEXT NO TEMPLATE -> PODE SER REMOVIDO NO TRABALHO FINAL
 % ----
@@ -227,20 +227,23 @@ uniquename=init,
 % ----
 \begin{document}
 	
-	\include{TCC/Paginas/Preambulo/Capa}
+	\include{Paginas/Preambulo/Capa}
 	\pretextual{}
-	\includepdf[pages=-]{TCC/Paginas/Preambulo/doc.pdf} %FOLHA DE ROSTO ->https://sabi.ufrgs.br/servicos/publicoBC/ficha.php
+	\includepdf[pages=-]{Paginas/Preambulo/doc.pdf} %FOLHA DE ROSTO ->https://sabi.ufrgs.br/servicos/publicoBC/ficha.php
 	
-	\include{TCC/Paginas/Preambulo/folhaAprovacao}  % folha de aprovação
-	\include{TCC/Paginas/Preambulo/Agradecimentos} % agradecimentos, epígrafe ...
-	\include{TCC/Paginas/Preambulo/Resumo} %resumo e abstract
+	\include{Paginas/Preambulo/folhaAprovacao}  % folha de aprovação
+	\include{Paginas/Preambulo/Agradecimentos} % agradecimentos, epígrafe ...
+	\include{Paginas/Preambulo/Resumo} %resumo e abstract
 	% IMPRIME A NOMENCLATURA
 	\printnomenclature
 	\newpage
 	\pdfbookmark[0]{\contentsname}{toc}
 	
 	\renewcommand\contentsname{} % APAGA NOME DO SUMÁRIO ABNT PARA INSERIR MANUALMENTE NO ESTILO DO TEMPLATE V4
-	\chapter*{SUMÁRIO}
+	% \chapter*{SUMARIO} % escreve o sumário justificado à esquerda
+	\begin{center}
+		{\ABNTEXchapterfont\ABNTEXchapterfontsize\MakeUppercase{SUMÁRIO}} % Escreve o sumário centralizado
+	\end{center}
 	\begingroup
 	\let\clearpage\relax
 	\vspace{-3em} % the removed space. Set as appropriate
@@ -253,22 +256,22 @@ uniquename=init,
 	\textual{}
 	\parindent=1em
 	\justifying
-	\input{TCC/Paginas/Introdução}
+	\input{Paginas/Introdução}
 	{\let\clearpage\relax  %REMOVE QUEBRA DE PÁGINA ENTRE CAPÍTULOS
 		
-		\input{TCC/Paginas/FundamentacaoTeorica}
+		\input{Paginas/FundamentacaoTeorica}
 		
-		\input{TCC/Paginas/Metodologia}
+		\input{Paginas/Metodologia}
 		
-		\input{TCC/Paginas/Resultados}
+		\input{Paginas/Resultados}
 		
-		\input{TCC/Paginas/Conclusão}
+		\input{Paginas/Conclusão}
 		
 		% \renewcommand\bibname{REFERENCIAS BIBLIOGRÁFICAS}
 		% \bibliography{references} %IMPRIME REFERENCIAS
-		\printbibliography
+		% \printbibliography
 		
-		\input{TCC/Paginas/Apendice} %IMPRIME APENDICE
+		\input{Paginas/Apendice} %IMPRIME APENDICE
 		
 	}
 	% \expandafter\string \normalsize\\

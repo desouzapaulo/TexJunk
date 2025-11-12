@@ -1,0 +1,21 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'TCC.blg'
+[76] biber-MSWIN64:340> INFO - === 
+[103] Biber.pm:419> INFO - Reading 'TCC.bcf'
+[178] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[187] Biber.pm:4419> INFO - Processing section 0
+[195] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[458] bibtex.pm:1713> INFO - LaTeX decoding ...
+[464] bibtex.pm:1519> INFO - Found BibTeX data source 'C:/Program Files/MiKTeX/bibtex/bib/feupphdteses/references.bib'
+[474] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[474] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[475] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[475] Biber.pm:4245> INFO - No sort tailoring available for locale 'pt-BR'
+[475] bbl.pm:660> INFO - Writing 'TCC.bbl' with encoding 'UTF-8'
+[475] bbl.pm:763> INFO - Output to TCC.bbl
+[476] Biber.pm:131> WARN - I didn't find a database entry for 'Boatti2016AData' (section 0)
+[476] Biber.pm:131> WARN - I didn't find a database entry for 'Abrahamson2003ShapeResin' (section 0)
+[476] Biber.pm:131> WARN - I didn't find a database entry for 'Steven2014ShapeMateriability' (section 0)
+[476] Biber.pm:131> WARN - I didn't find a database entry for 'Haupt2002ContinuumMaterials' (section 0)
+[476] Biber.pm:131> WARN - I didn't find a database entry for 'Evangelista2010AStrain' (section 0)
+[476] Biber.pm:133> INFO - WARNINGS: 5
