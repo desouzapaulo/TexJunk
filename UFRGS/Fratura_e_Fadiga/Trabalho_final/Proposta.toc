@@ -1,4 +1,7 @@
-\beamer@sectionintoc {1}{Ensaio de Tenacidade à Fratura}{1}{0}{1}
-\beamer@subsectionintoc {1}{1}{Fratura Linear Elástica}{1}{0}{1}
-\beamer@subsectionintoc {1}{2}{Fratura Linear Elasto-Plastica}{1}{0}{1}
+\beamer@sectionintoc {1}{Fratura Linear Elástica}{1}{0}{1}
+\beamer@subsectionintoc {1}{1}{Hipóteses}{1}{0}{1}
+\beamer@subsectionintoc {1}{2}{Fator de Intensidade de Tensões}{1}{0}{1}
+\beamer@sectionintoc {2}{Fratura Elasto-Plástica}{1}{0}{2}
+\beamer@subsectionintoc {2}{1}{Hipóteses}{1}{0}{2}
+\beamer@subsectionintoc {2}{2}{Integral J}{1}{0}{2}
 \babel@toc {portuguese}{}\relax 
