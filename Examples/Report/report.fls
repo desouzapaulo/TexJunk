@@ -8,16 +8,49 @@ INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
 INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
 INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\txtbabel.def
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\babel-portuges\portuguese.ldf
+INPUT C:\Program Files\MiKTeX\tex\latex\babel-portuges\portuguese.ldf
+INPUT C:\Program Files\MiKTeX\tex\latex\babel-portuges\portuguese.ldf
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-portuguese.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-portuguese.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-portuguese.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-pt.ini
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\report.aux
 INPUT .\report.aux
 INPUT report.aux
 OUTPUT report.aux
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 OUTPUT report.pdf
 INPUT C:\Users\paulo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
@@ -25,12 +58,17 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\report.toc
 INPUT .\report.toc
 INPUT report.toc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 OUTPUT report.toc
+INPUT .\Pages\Intro.tex
+INPUT .\Pages\Intro.tex
+INPUT Pages\Intro.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\Pages\Desenvolvimento.tex
+INPUT .\Pages\Desenvolvimento.tex
+INPUT Pages\Desenvolvimento.tex
 INPUT report.aux
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb

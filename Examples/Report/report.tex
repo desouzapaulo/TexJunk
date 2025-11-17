@@ -1,16 +1,73 @@
 \documentclass[12pt, a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{geometry}
+\usepackage{ragged2e}
+
+\geometry{a4paper, margin=2.5cm}
+
+% ===========================================
 \begin{document}
 
-\title{Relatório Final de Projeto}
-\author{Seu Nome}
-\maketitle
+\pagestyle{empty} % Remove a numeração de página da capa
 
+% ================= CAPA ==========================
+% Centraliza todo o conteúdo da capa
+\begin{center}
+
+% Espaçamento inicial (opcional, pode ser ajustado)
+\vspace*{2cm} 
+
+% Nome da Instituição (Maiúsculo, Fonte 12, Centralizado)
+{\MakeUppercase{
+    UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL \\
+    ESCOLA DE ENGENHARIA \\
+    DEPARTAMENTO DE ENGENHARIA MECâNICA
+    }}
+\vspace{1cm}
+
+% Nome do Autor (Maiúsculo, Fonte 12, Centralizado)
+{\MakeUppercase{Nome Completo}}
+\vspace{3cm}
+
+% Título Principal (Maiúsculo, Negrito, Fonte 14 ou 16 - ajuste via \fontsize{16}{18}\selectfont)
+{\bfseries\MakeUppercase{Título Principal}}
+\vspace{0.5cm}
+
+% Subtítulo (se houver, apenas a primeira letra maiúscula)
+{Subtítulo, se aplicável}
+\vspace{3cm}
+
+% Escopo
+\begin{flushright}
+            \parbox{0.5\linewidth}{
+                \justifying
+                \parindent=0pt
+                Tarefa avaliativa da disciplina de Ciência, \linebreak
+                Tecnologia e Ambiente - CTA.}
+        \end{flushright}
+
+% Espaço vertical flexível para empurrar os elementos finais para baixo
+\vfill
+
+% Local (Cidade/Estado)
+{Porto Alegre - RS} % Use sua cidade e estado
+\vspace{0.5cm}
+
+% Ano
+{\the\year} % Ou \vspace*{1cm} e digite o ano manualmente
+
+\end{center}
+
+% ============== SUMARIO ==================
 \tableofcontents
 
-\chapter{Introdução}
-...
+\pagestyle{plain} % Volta a mostrar números de página, por exemplo
+\newpage % nova página
 
-\chapter{Desenvolvimento}
-...
+% ============== Seções =================
+\input{Pages/Intro.tex}
+\input{Pages/Desenvolvimento.tex}
+
 
 \end{document}
