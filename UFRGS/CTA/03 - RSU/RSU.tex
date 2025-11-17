@@ -1,0 +1,117 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{geometry}
+\usepackage{ragged2e}
+\geometry{a4paper, margin=2.5cm} % Exemplo de margens (ABNT sugere 3cm superior/esquerda, 2cm inferior/direita, mas para capa esta margem é comum)
+
+% ===============================================================================================
+\begin{document}
+
+% Remove a numeração de página da capa (opcional, mas comum)
+\pagestyle{empty} 
+
+% Centraliza todo o conteúdo da capa
+\begin{center}
+
+% Espaçamento inicial (opcional, pode ser ajustado)
+\vspace*{2cm} 
+
+% Nome da Instituição (Maiúsculo, Fonte 12, Centralizado)
+{\MakeUppercase{
+    UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL \\
+    ESCOLA DE ENGENHARIA \\
+    DEPARTAMENTO DE ENGENHARIA MECâNICA
+    }}
+\vspace{1cm}
+
+% Nome do Autor (Maiúsculo, Fonte 12, Centralizado)
+{\MakeUppercase{Paulo Henrique Brito de Souza}}
+\vspace{3cm}
+
+% Título Principal (Maiúsculo, Negrito, Fonte 14 ou 16 - ajuste via \fontsize{16}{18}\selectfont)
+{\bfseries\MakeUppercase{Política Ambiental da Dana Albarus}}
+\vspace{0.5cm}
+
+% Subtítulo (se houver, apenas a primeira letra maiúscula)
+{Análise à partir da NBR ISO 14.001:2015}
+\vspace{3cm}
+
+% % Natureza do Trabalho (justificação, objetivo, etc)
+% \noindent\begin{minipage}{0.8\textwidth}
+% \centering
+% Tarefa avaliativa da disciplina de Ciência, Tecnologia e Ambiente - CTA.
+% \end{minipage}
+
+\begin{flushright}
+            \parbox{0.5\linewidth}{
+                \justifying
+                \parindent=0pt
+                Tarefa avaliativa da disciplina de Ciência, \linebreak
+                Tecnologia e Ambiente - CTA.}
+        \end{flushright}
+
+% Espaço vertical flexível para empurrar os elementos finais para baixo
+\vfill
+
+% Local (Cidade/Estado)
+{Porto Alegre - RS} % Use sua cidade e estado
+\vspace{0.5cm}
+
+% Ano
+{\the\year} % Ou \vspace*{1cm} e digite o ano manualmente
+
+\end{center}
+
+% Fim da capa, começa uma nova página e reverte para o estilo de página padrão (se desejado)
+\pagestyle{plain} % Volta a mostrar números de página, por exemplo
+\newpage
+
+% ===============================================================================================
+\section*{Introdução}
+A Logística Reversa, conforme definida pela Política Nacional de Resíduos 
+Sólidos (Lei 12.305/2010), é um instrumento de desenvolvimento econômico e 
+social caracterizado por um conjunto de ações e procedimentos que visam 
+viabilizar a coleta e a restituição dos resíduos sólidos ao setor empresarial, 
+para que sejam reaproveitados em seu ciclo ou em outros ciclos produtivos, 
+ou que tenham outra destinação final ambientalmente adequada. 
+No contexto corporativo, a adoção de práticas ESG (Ambiental, Social e Governança) oferece vantagens 
+significativas, como a melhoria da reputação da marca, maior atração de investimentos e talentos, 
+acesso a linhas de crédito especiais e redução de custos operacionais, porém 
+pode apresentar altos custos iniciais de implementação.
+
+% ===============================================================================================
+\section*{Análise de acordo com a NBR ISO 14.001:2015}
+
+O item 5.2 (Política Ambiental) da norma NBR ISO 14.001:2015 exige que a Alta 
+Direção estabeleça, implemente e mantenha uma política ambiental que, dentro do 
+escopo do seu Sistema de Gestão Ambiental (SGA), atenda a cinco requisitos 
+principais. A política da Dana demonstra uma forte aderência a todos 
+esses requisitos:
+
+\begin{enumerate}
+    \item Ser apropriada ao propósito e contexto da organização: De acordo com a ISO,  política deve ser 
+    relevante para o que a empresa faz e a política da Dana menciona especificamente 
+    suas "atividades de projeto, desenvolvimento e fabricação de produtos" e o foco em "aumentar a 
+    eficiência energética" dos produtos que fabrica.
+    \item Prover uma estrutura para o estabelecimento dos objetivos ambientais. A política da Dana 
+    define diretrizes claras, como "minimizar o desperdício, evite a poluição e 
+    economize energia". Além disso, foca os projetos de melhoria nos "4Rs da gestão ambiental: remoção, 
+    redução, reutilização e reciclagem". 
+    \item Incluir um compromisso com a proteção do meio ambiente. A Dana afirma que as 
+    Normas de Conduta da empresa "exigem que a Dana minimize o desperdício, evite a 
+    poluição e economize energia". O compromisso é reforçado pela "filosofia geral de 
+    'Não prejudique' (Do No Harm)".
+    \item Incluir um compromisso em atender aos seus requisitos legais e outros requisitos
+    A política da Dana declara inequivocamente o compromisso: 
+    "Além de cumprir as leis vigentes relativas à salvaguarda do meio ambiente...". 
+    A política de sustentabilidade para fornecedores também reforça a necessidade de 
+    "Assegurar o cumprimento das leis e regulamentos".
+    \item Incluir um compromisso com a melhoria contínua do sistema de gestão ambiental 
+    Análise. A Dana exige que suas operações de manufatura "obtenham e mantenham a 
+    certificação ISO 14001", um padrão que tem a melhoria contínua como pilar central.
+
+\end{enumerate}
+
+\end{document}
+
