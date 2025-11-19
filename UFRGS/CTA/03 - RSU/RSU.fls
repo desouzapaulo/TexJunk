@@ -1,7 +1,7 @@
-PWD c:\GIT\TexJunk\Examples\Report
+PWD c:\GIT\TexJunk\UFRGS\CTA\03 - RSU
 INPUT C:\Users\paulo\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\GIT\TexJunk\Examples\Report\report.tex
-OUTPUT report.log
+INPUT c:\GIT\TexJunk\UFRGS\CTA\03 - RSU\RSU.tex
+OUTPUT RSU.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
@@ -38,10 +38,10 @@ INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\report.aux
-INPUT .\report.aux
-INPUT report.aux
-OUTPUT report.aux
+INPUT .\RSU.aux
+INPUT .\RSU.aux
+INPUT RSU.aux
+OUTPUT RSU.aux
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
@@ -51,23 +51,11 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-OUTPUT report.pdf
+OUTPUT RSU.pdf
 INPUT C:\Users\paulo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\report.toc
-INPUT .\report.toc
-INPUT report.toc
-OUTPUT report.toc
-INPUT .\Pages\Intro.tex
-INPUT .\Pages\Intro.tex
-INPUT Pages\Intro.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\Pages\Desenvolvimento.tex
-INPUT .\Pages\Desenvolvimento.tex
-INPUT Pages\Desenvolvimento.tex
-INPUT report.aux
+INPUT RSU.aux
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb

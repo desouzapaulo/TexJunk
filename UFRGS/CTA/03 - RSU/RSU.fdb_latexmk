@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1762972280.31013 "c:/GIT/TexJunk/Examples/Report/report.tex" "report.pdf" "report" 1762972280.63914 0
+["pdflatex"] 1762971482.01215 "c:/GIT/TexJunk/UFRGS/CTA/03 - RSU/RSU.tex" "RSU.pdf" "RSU" 1762971482.36243 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -31,15 +31,11 @@
   "C:/Program Files/MiKTeX/tex/latex/ragged2e/ragged2e.sty" 1687525147 10085 3dececaeed388e31285c366e124c0c4e ""
   "C:/Users/paulo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1759265463 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/paulo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1759265943 24215231 61652f863a5c3694107c070499a3de4d ""
-  "Pages/Desenvolvimento.tex" 1762972075 30 32de169e5c0c00854ed4d313ee244ac0 ""
-  "Pages/Intro.tex" 1762972075 30 b1e1b5c861c3eb9ab14bc8b63a562af1 ""
-  "c:/GIT/TexJunk/Examples/Report/report.tex" 1762972279 1916 4863fe4debfd0df2cd89939996e8e7e3 ""
-  "report.aux" 1762972280 240 cba9d46b58aa92cdc52849723fa4eeb7 "pdflatex"
-  "report.tex" 1762972279 1916 4863fe4debfd0df2cd89939996e8e7e3 ""
-  "report.toc" 1762972280 97 8ebc61dd5f9145802891b0a8b6f6ea7e "pdflatex"
+  "RSU.aux" 1762971482 135 9ac6b5db29b7b2a773af6f4254bad1a5 "pdflatex"
+  "RSU.tex" 1762971481 5370 97dfdb7a7ee2f1aecfb4a3bfdee2ada6 ""
+  "c:/GIT/TexJunk/UFRGS/CTA/03 - RSU/RSU.tex" 1762971481 5370 97dfdb7a7ee2f1aecfb4a3bfdee2ada6 ""
   (generated)
-  "report.aux"
-  "report.log"
-  "report.pdf"
-  "report.toc"
+  "RSU.aux"
+  "RSU.log"
+  "RSU.pdf"
   (rewritten before read)

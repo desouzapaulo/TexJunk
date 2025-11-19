@@ -1,0 +1,68 @@
+%% CRIA GRUPOS DA NOMENCLATURA
+% -----------------------------------------
+\renewcommand\nomgroup[1]{%
+	\item[\bfseries
+	\ifstrequal{#1}{S}{\textnormal{Símbolos}}{
+		\ifstrequal{#1}{A}{\textnormal{Abreviaturas e acrônimos}}{
+			Outros Símbolos
+	}}%
+	]}
+% -----------------------------------------
+%% POSSIBILITA UNIDADES NA NOMENCLATURA
+%----------------------------------------------
+\newcommand{\nomunit}[1]{%
+	\renewcommand{\nomentryend}{\hspace*{\fill}#1}}
+%----------------------------------------------
+
+% ABREVIAÇÕES E SIGLAS
+
+\nomenclature[A]{SMP}{Polímeros com memória de forma}
+\nomenclature[A]{KKT}{Karush Kuhn Tucker}
+\nomenclature[A]{SME}{Efeito de memória de forma}
+\nomenclature[A]{TCP}{Protocolo de Controle de Transmissão}
+\nomenclature[A]{IP}{Protocolo de Internet}
+% COMANDOS PARA INSERIR UNIDADES 
+\newcommand{\MPa}{\nomunit{\SI{}{\mega \pascal}}}
+\newcommand{\K}{\nomunit{\SI{}{\kelvin}}}
+
+% SÍMBOLOS
+
+\nomenclature[S]{$E_g$}{Módulo de elasticidade na fase vítrea \nomunit{\SI{}{\mega \pascal}}}
+\nomenclature[S]{$E_r$}{Módulo de elasticidade na fase emborrachada \nomunit{\SI{}{\mega \pascal}}}
+\nomenclature[S]{$\nu_g$}{Coeficiente de Poisson na fase vítrea}
+\nomenclature[S]{$\nu_r$}{Coeficiente de Poisson na fase emborrachada}
+\nomenclature[S]{$c$}{Coeficiente de afixamento imperfeito}
+\nomenclature[S]{$c^p$}{Coeficiente de retorno imperfeito}
+\nomenclature[S]{$Z_g$}{Fração volumétrica entre fases}
+\nomenclature[S]{$\mathbb{1}$}{Tensor Unitário}
+\nomenclature[S]{$R_{pg}$}{Limite de Escoamento \MPa}
+
+
+
+\nomenclature[S]{$\lambda$}{Primeiro parâmetro de Lamé}
+\nomenclature[S]{$\mu$}{Segundo parâmetro de Lamé}
+\nomenclature[S]{$\theta_{glassy}$}{Temperatura vítrea \K}
+\nomenclature[S]{$\theta_{rubbery}$}{Temperatura emborrachada \K}
+
+\nomenclature[S]{$\theta_{cool}$}{Temperatura de Transição no arrefecimento \K}
+\nomenclature[S]{$\theta_{heat}$}{Temperatura de Transição no aquecimento \K}
+\nomenclature[S]{$\omega_{heat}$}{Suavidade da curva no aquecimento \nomunit{\SI{}{\kelvin^{-1}}}}
+\nomenclature[S]{$\omega_{cool}$}{Suavidade da curva no arrefecimento \nomunit{\SI{}{\kelvin^{-1}}}}
+\nomenclature[S]{$\omega_{trans}$}{Suavidade da da solidificação \nomunit{\SI{}{\kelvin^{-1}}}}
+
+\nomenclature[S]{$\sigma_r$}{Tensor tensão de Cauchy da fase emborrachada \nomunit{\SI{}{\mega \pascal}}}
+\nomenclature[S]{$\sigma_g$}{Tensor tensão de Cauchy da fase vítrea \nomunit{\SI{}{\mega \pascal}}}
+\nomenclature[S]{$\sigma$}{Tensor tensão de Cauchy total \nomunit{\SI{}{\mega \pascal}}}
+
+\nomenclature[S]{$\mathbf{S}_r$}{Segundo tensor de Piola-Kirchhoff da fase emborrachada \MPa}
+\nomenclature[S]{$\mathbf{S}_g$}{Segundo tensor de Piola-Kirchhoff da fase vítrea \MPa}
+\nomenclature[S]{$\mathbf{X}_g$}{Tensão termodinâmica plástica \MPa}
+
+\nomenclature[S]{$\mathbf{C}$}{Tensor direito de deformação de Cauchy-Green}
+\nomenclature[S]{$\mathbf{E}$}{Tensor de Green-Lagrange}
+
+\nomenclature[S]{$\psi$}{Energia livre de Helmholtz \nomunit{\SI{}{\joule}}}
+\nomenclature[S]{$\eta$}{Entropia \nomunit{\SI{}{\joule \cdot\kelvin^{-1}}}}
+\nomenclature[S]{$U$}{Energia interna \nomunit{\SI{}{\joule}}}
+\nomenclature[S]{$\dot{\gamma}$}{Incrementador de deformação plástica}
+\nomenclature[S]{$\kappa$}{Condutividade térmica \nomunit{\SI{}{\watt \cdot\meter^{-1} \cdot \kelvin^{-1}}}}
