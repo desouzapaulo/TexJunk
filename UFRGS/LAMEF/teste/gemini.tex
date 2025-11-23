@@ -1,0 +1,54 @@
+\documentclass[12pt, a4paper]{report}
+\begin{document}
+
+\title{Relatório Final de Projeto}
+\author{Seu Nome}
+\maketitle
+
+\tableofcontents
+
+\chapter{Ingeral J}
+...
+
+$$J = \int_{\Gamma} \left( W \, dy - \mathbf{T} \cdot \frac{\partial \mathbf{u}}{\partial x} \, ds \right) 
+$$Onde cada termo significa:  $\Gamma$ (Gamma): É o caminho (contorno) de integração, percorrido no sentido anti-horário, 
+que começa na face inferior da trinca, envolve a ponta da trinca e termina na face superior.  $W$ (Strain Energy Density): 
+A densidade da energia de deformação.  $W = \int_{0}^{\epsilon} \sigma_{ij} \, d\epsilon_{ij}$  
+Esta é a área sob a curva tensão-deformação do material.  $dy$: Um incremento infinitesimal do caminho 
+$\Gamma$ na direção $y$ (perpendicular à trinca).  $\mathbf{T}$ (Vetor Tração): O vetor tração atuando sobre o 
+caminho $\Gamma$.  $\mathbf{T} = \mathbf{\sigma} \cdot \mathbf{n}$  Onde $\mathbf{\sigma}$ é o tensor de tensões e $\mathbf{n}$ 
+é o vetor normal unitário e externo ao caminho $\Gamma$.  $\mathbf{u}$ (Vetor Deslocamento): O vetor deslocamento. 
+ $\frac{\partial \mathbf{u}}{\partial x}$: O gradiente do vetor deslocamento em relação à direção de propagação da trinca (eixo $x$).
+ $ds$: Um incremento infinitesimal do comprimento do arco ao longo do caminho $\Gamma$. A propriedade mais importante da integral J é sua 
+independência do caminho: desde que o caminho $\Gamma$ comece e termine nas faces da trinca (que estão livres de tensão) 
+e envolva a ponta da trinca, o valor de $J$ será o mesmo, não importa o quão perto ou longe da ponta o caminho é desenhado. -----  2\. 
+Métodos Práticos de Cálculo Embora a definição matemática seja uma integral de linha, resolvê-la analiticamente é quase impossível para geometrias reais. 
+Na prática, usamos dois métodos principais: A. Método dos Elementos Finitos (MEF) Este é o método mais comum e robusto, 
+usado em softwares como Abaqus, ANSYS, e outros (e provavelmente o que você usaria no seu próprio software FEM).
+Os softwares de MEF não costumam calcular a integral de linha diretamente no contorno 
+(pois isso é muito sensível à qualidade da malha perto da ponta da trinca). Em vez disso, eles usam uma técnica muito mais poderosa chamada 
+Integral de Domínio (Domain Integral Method).  O que é: Usando o teorema da divergência de Gauss, a integral de linha (1D) que define 
+$J$ é convertida em uma integral de área (2D) ou de volume (3D) sobre um "domínio" de elementos ao redor da ponta da trinca.
+ Por que é melhor: 1. Menos Sensível à Malha: A integral é calculada sobre um volume de elementos, suavizando erros de um único elemento. 
+O resultado é muito mais estável e preciso. 2. Independência do Caminho: O software calcula $J$ para vários anéis (domínios)
+concêntricos de elementos e verifica se o valor é constante, confirmando a validade do cálculo. 3. Base Teórica: 
+A integral de domínio é baseada no conceito de Extensão Virtual da Trinca (VCE), que calcula a mudança na energia 
+potencial do sistema ($U$) para um pequeno avanço virtual da trinca ($da$). A relação é $J = -\frac{1}{B} \frac{dU}{da}$ 
+(onde $B$ é a espessura). > Em resumo (no MEF): Você modela sua peça, define a trinca, e solicita ao solver para calcular a integral J. 
+O solver usa o método da integral de domínio para obter um valor numérico preciso com base nos campos de tensão, deformação e deslocamento 
+calculados em sua simulação.  B. Métodos de "Handbook" (Para Geometrias Padrão) Para ensaios de laboratório com corpos de prova padronizados 
+(como Compact Tension - CT, ou Single Edge Notch Bending - SENB), existem fórmulas empíricas (baseadas em extensas análises de MEF e experimentos) 
+que calculam $J$ a partir da curva Carga vs. Deslocamento (P-u). Nesses casos, $J$ é tipicamente separado em suas componentes elástica e plástica: 
+$$J = J\_{el} + J\_{pl} $$1. Componente Elástica ($J_{el}$):
+É calculada usando o Fator de Intensidade de Tensão, $K_I$ (da Mecânica da Fratura Linear Elástica).
+ $J_{el} = \frac{K_I^2}{E'}$  Onde $E' = E$ (para estado plano de tensão) ou $E' = \frac{E}{1 - \nu^2}$ (para estado plano de deformação).
+$K_I$ é encontrado em manuais para a geometria específica. ``` 2. Componente Plástica ($J_{pl}$):  É calculada a partir da área plástica 
+($A_{pl}$) sob a curva Carga-Deslocamento.  $J_{pl} = \frac{\eta_{p} \cdot A_{pl}}{B \cdot b_0}$  $A_{pl}$: A área sob a curva P-u que corresponde 
+à deformação plástica.  $\eta_{p}$ (Eta-factor): Um fator geométrico que depende do tipo de corpo de prova (ex: para um corpo CT, $\eta_p \approx 2$).
+ $B$: Espessura do corpo de prova.  $b_0$: O "ligamento" (comprimento restante não trincado). Este método é como a tenacidade à fratura ($J_{IC}$) 
+é determinada experimentalmente (por exemplo, na norma ASTM E1820). -----  3\. Quando a Integral J é Usada? A principal aplicação da integral J é como um 
+critério de falha para materiais dúcteis.  A fratura é prevista para ocorrer quando o valor da integral J aplicada ($J$) atinge um valor crítico, que
+é a tenacidade à fratura do material ($J_{IC}$).  Critério de Fratura: $J \ge J_{IC}$ A integral J também descreve a intensidade dos campos de tensão 
+e deformação na ponta da trinca na região plástica (o "campo HRR"), da mesma forma que $K$ descreve o campo elástico.
+
+\end{document}
