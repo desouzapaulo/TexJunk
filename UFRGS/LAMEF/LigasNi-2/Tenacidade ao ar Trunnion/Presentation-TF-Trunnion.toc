@@ -5,4 +5,3 @@
 \beamer@sectionintoc {2}{Resultados}{1}{0}{2}
 \beamer@subsectionintoc {2}{1}{Campo de Tensões no modelo Completo}{1}{0}{2}
 \beamer@subsectionintoc {2}{2}{Campo de Tensões na ponta da Trinca}{1}{0}{2}
-\babel@toc {portuguese}{}\relax 

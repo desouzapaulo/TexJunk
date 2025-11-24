@@ -1,13 +1,14 @@
 \documentclass[11pt]{beamer}
-\graphicspath{{Images/}{./}}
-
+%% Packages
 \usepackage{booktabs}
+\usepackage{mathptmx}
+\usepackage[portuguese]{nomencl}
+%% themes
 \usetheme{Madrid} 
 \usefonttheme{default}
-\usepackage{mathptmx}
 \useinnertheme{rounded}
-\usepackage[portuguese]{babel}
-
+%% Graphics
+\graphicspath{{Images/}{./}}
 % --------------------------------------------------------------------------
 \title[Tenacidade ao Ar Trunnion]{
 	Modelo Numérico do Ensaio de Tenacidade ao Ar
@@ -254,6 +255,18 @@
 %--------------------------------------------------------
 \begin{frame}
 	\frametitle{Resultados ao Longo da Raiz}
+	\framesubtitle{Local para Observação dos Resultados}
+
+	\begin{figure}
+		\includegraphics[width=1\linewidth]{raiz.png}
+		\caption{Localização da Raiz do Entalhe.}
+	\end{figure}
+
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Resultados ao Longo da Raiz}
 	\framesubtitle{Tensão de Von Mises e Hidrostática}
 
 	\begin{columns}[c]
@@ -271,6 +284,18 @@
 			\end{figure}
 		\end{column}
 	\end{columns}
+
+\end{frame}
+
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Resultados ao Longo da Raiz}
+	\framesubtitle{Concentração de Hidrogênio e Tensão Hidrostática Normalizada}
+
+	\begin{figure}
+		\includegraphics[width=0.6\linewidth]{Hydrogen_concentration.jpg}
+		\caption{Concentração de Hidrogênio e Tensão Hidrostática.}
+	\end{figure}
 
 \end{frame}
 
