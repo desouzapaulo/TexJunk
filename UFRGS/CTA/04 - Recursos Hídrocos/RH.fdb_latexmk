@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1764002000.0329 "c:/GIT/TexJunk/UFRGS/CTA/04 - Recursos Hídrocos/RH.tex" "RH.pdf" "RH" 1764002000.37538 0
+["pdflatex"] 1764003405.74127 "c:/GIT/TexJunk/UFRGS/CTA/04 - Recursos Hídrocos/RH.tex" "RH.pdf" "RH" 1764003406.19353 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -19,9 +19,9 @@
   "C:/Program Files/MiKTeX/tex/generic/xkeyval/keyval.tex" 1656236919 2725 1a42bd9e7e57e25fc7763c445f4b785b ""
   "C:/Program Files/MiKTeX/tex/generic/xkeyval/xkeyval.tex" 1656236919 19231 27205ee17aaa2902aea3e0c07a3cfc65 ""
   "C:/Program Files/MiKTeX/tex/generic/xkeyval/xkvutils.tex" 1656236919 7677 9cb1a74d945bc9331f2181c0a59ff34a ""
+  "C:/Program Files/MiKTeX/tex/latex/base/article.cls" 1749467999 20144 b966087dda3b194755eb460d32e2ef75 ""
   "C:/Program Files/MiKTeX/tex/latex/base/ifthen.sty" 1749467999 5525 1593ca62a2554dd7423fc8a4e5a82125 ""
   "C:/Program Files/MiKTeX/tex/latex/base/inputenc.sty" 1749467999 5048 0270515b828149155424600fd2d58ac5 ""
-  "C:/Program Files/MiKTeX/tex/latex/base/report.cls" 1749467999 23203 f495085ac76be4e20c5e1e88646a241e ""
   "C:/Program Files/MiKTeX/tex/latex/base/size12.clo" 1749467999 8449 8dc66c6c313c8eb2d774af83bca435dd ""
   "C:/Program Files/MiKTeX/tex/latex/caption/caption.sty" 1696169587 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
   "C:/Program Files/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
@@ -39,9 +39,9 @@
   "C:/Users/paulo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762174403 143894 c9879d896f3723b277776564312b7eb1 ""
   "C:/Users/paulo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1764001139 14064 afaf2d47d924a3cf7673ed9603666ab7 ""
   "C:/Users/paulo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762174410 13311800 885898bbfa3b19e5884379fd93e4f32b ""
-  "RH.aux" 1764002000 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
-  "RH.tex" 1764001999 5902 492aa9f75e3aca52ce194e6503141b34 ""
-  "c:/GIT/TexJunk/UFRGS/CTA/04 - Recursos Hídrocos/RH.tex" 1764001999 5902 492aa9f75e3aca52ce194e6503141b34 ""
+  "RH.aux" 1764003406 274 55c40433249146f2dd519e88f6985863 "pdflatex"
+  "RH.tex" 1764003404 5901 27998858f0acb63d484306fb552a8c42 ""
+  "c:/GIT/TexJunk/UFRGS/CTA/04 - Recursos Hídrocos/RH.tex" 1764003404 5901 27998858f0acb63d484306fb552a8c42 ""
   (generated)
   "RH.aux"
   "RH.log"

@@ -2,8 +2,8 @@ PWD c:\GIT\TexJunk\UFRGS\CTA\04 - Recursos Hídrocos
 INPUT C:\Users\paulo\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT c:\GIT\TexJunk\UFRGS\CTA\04 - Recursos Hídrocos\RH.tex
 OUTPUT RH.log
-INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
 INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
 INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
