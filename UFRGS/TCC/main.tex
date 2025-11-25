@@ -1,0 +1,27 @@
+% ===================== Preâmbulo =========================
+\documentclass[12pt]{article} % Tipo de Documento
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % inserção de imagens
+\usepackage[portuguese]{nomencl} % dicionário português
+\usepackage{times} % Fonte da escrita
+\usepackage[a4paper,top=3cm,left=3cm,bottom=2cm,right=2cm]{geometry} % formatação de margens
+\usepackage{ragged2e}
+
+% Caminhos de arquivos
+\graphicspath{{Imagnes/}{./}} % caminho das figuras
+
+% Comandos modificados
+\renewcommand{\today}{Porto Alegre, \ifcase\month\or Janeiro\or Fevereiro\or Março\or Abril\or Maio\or Junho\or Julho\or Agosto\or Setembro\or Outubro\or Novembro\or Dezembro\fi\ de \number\year} % Escreve a data em português
+
+% ===================== Documento =========================
+\begin{document}
+% Remover numeração de páginas (não mostra nem conta números)
+    \pagenumbering{gobble} % Para de exibir os números a partir daqui
+    \include{Paginas/Capa}
+    \newpage
+    \pagenumbering{roman} % Reinicia a numeração com números romanos
+    resumo e os caraio 
+    \newpage
+    \pagenumbering{arabic} % Reinicia a numeração com números arábicos (1, 2, 3...)
+    normal
+\end{document}
