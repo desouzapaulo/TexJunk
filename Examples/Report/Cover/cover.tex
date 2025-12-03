@@ -1,0 +1,58 @@
+% Remove a numeração de página da capa (opcional, mas comum)
+\pagestyle{empty} 
+
+% Centraliza todo o conteúdo da capa
+\begin{center}
+
+% Espaçamento inicial (opcional, pode ser ajustado)
+\vspace*{2cm} 
+
+% Nome da Instituição (Maiúsculo, Fonte 12, Centralizado)
+{\MakeUppercase{
+    UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL \\
+    ESCOLA DE ENGENHARIA \\
+    DEPARTAMENTO DE ENGENHARIA MECâNICA
+    }}
+\vspace{1cm}
+
+% Nome do Autor (Maiúsculo, Fonte 12, Centralizado)
+{\MakeUppercase{Paulo Henrique Brito de Souza}}
+\vspace{3cm}
+
+% Título Principal (Maiúsculo, Negrito, Fonte 14 ou 16 - ajuste via \fontsize{16}{18}\selectfont)
+{\bfseries\MakeUppercase{Política Ambiental da Dana Albarus}}
+\vspace{0.5cm}
+
+% Subtítulo (se houver, apenas a primeira letra maiúscula)
+{Análise à partir da NBR ISO 14.001:2015}
+\vspace{3cm}
+
+% % Natureza do Trabalho (justificação, objetivo, etc)
+% \noindent\begin{minipage}{0.8\textwidth}
+% \centering
+% Tarefa avaliativa da disciplina de Ciência, Tecnologia e Ambiente - CTA.
+% \end{minipage}
+
+\begin{flushright}
+            \parbox{0.5\linewidth}{
+                \justifying
+                \parindent=0pt
+                Tarefa avaliativa da disciplina de Ciência, \linebreak
+                Tecnologia e Ambiente - CTA.}
+        \end{flushright}
+
+% Espaço vertical flexível para empurrar os elementos finais para baixo
+\vfill
+
+% Local (Cidade/Estado)
+{Porto Alegre - RS} % Use sua cidade e estado
+\vspace{0.5cm}
+
+% Ano
+{\the\year} % Ou \vspace*{1cm} e digite o ano manualmente
+
+\end{center}
+
+% Fim da capa, começa uma nova página e reverte para o estilo de página padrão (se desejado)
+\pagestyle{plain} % Volta a mostrar números de página, por exemplo
+\newpage
