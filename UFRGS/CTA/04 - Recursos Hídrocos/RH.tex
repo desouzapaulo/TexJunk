@@ -1,0 +1,143 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{nomencl}
+\usepackage{geometry}
+\usepackage{ragged2e}
+\geometry{a4paper, margin=2.5cm} % Exemplo de margens (ABNT sugere 3cm superior/esquerda, 2cm inferior/direita, mas para capa esta margem é comum)
+
+% ==========================================================
+\begin{document}
+
+% Remove a numeração de página da capa (opcional, mas comum)
+\pagestyle{empty} 
+
+% Centraliza todo o conteúdo da capa
+\begin{center}
+
+% Espaçamento inicial (opcional, pode ser ajustado)
+\vspace*{2cm} 
+
+% Nome da Instituição (Maiúsculo, Fonte 12, Centralizado)
+{\MakeUppercase{
+    UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL \\
+    ESCOLA DE ENGENHARIA \\
+    DEPARTAMENTO DE ENGENHARIA MECâNICA
+    }}
+\vspace{1cm}
+
+% Nome do Autor (Maiúsculo, Fonte 12, Centralizado)
+{\MakeUppercase{Paulo Henrique Brito de Souza}}
+\vspace{3cm}
+
+% Título Principal (Maiúsculo, Negrito, Fonte 14 ou 16 - ajuste via \fontsize{16}{18}\selectfont)
+{\bfseries\MakeUppercase{
+    Recursos hídricos e tratamento de efluentes
+    }}
+\vspace{0.5cm}
+
+% Subtítulo (se houver, apenas a primeira letra maiúscula)
+{Conceitos e comentários}
+\vspace{3cm}
+
+% % Natureza do Trabalho (justificação, objetivo, etc)
+% \noindent\begin{minipage}{0.8\textwidth}
+% \centering
+% Tarefa avaliativa da disciplina de Ciência, Tecnologia e Ambiente - CTA.
+% \end{minipage}
+
+\begin{flushright}
+            \parbox{0.5\linewidth}{
+                \justifying
+                \parindent=0pt
+                Tarefa avaliativa da disciplina de Ciência, \linebreak
+                Tecnologia e Ambiente - CTA.}
+        \end{flushright}
+
+% Espaço vertical flexível para empurrar os elementos finais para baixo
+\vfill
+
+% Local (Cidade/Estado)
+{Porto Alegre - RS} % Use sua cidade e estado
+\vspace{0.5cm}
+
+% Ano
+{\the\year} % Ou \vspace*{1cm} e digite o ano manualmente
+
+\end{center}
+
+% Fim da capa, começa uma nova página e reverte para o estilo de página padrão (se desejado)
+\pagestyle{plain} % Volta a mostrar números de página, por exemplo
+\newpage
+
+% ============================================================
+\section{Novo Marco Legal do Saneamento}
+ De acordo com o artigo 3º da Lei nº 11.445/2007 
+(com redação atualizada pela Lei nº 14.026/2020), 
+ os conceitos fundamentais do saneamento básico são 
+definidos como:
+
+
+\begin{itemize}
+    \item Abastecimento de água potável: 
+    Conjunto de atividades, infraestruturas e 
+    instalações operacionais necessárias ao abastecimento 
+    público de água potável, abrangendo desde a captação 
+    até as ligações prediais e seus respectivos instrumentos 
+    de medição.
+    \item Esgotamento sanitário: Conjunto de atividades, 
+    infraestruturas e instalações operacionais de coleta, 
+    transporte, tratamento e disposição final adequados dos 
+    esgotos sanitários, desde as ligações prediais até a sua 
+    destinação final para a produção de água de reúso ou 
+    lançamento no meio ambiente.
+    \item Limpeza urbana e manejo de resíduos sólidos: 
+    Conjunto de atividades, infraestruturas e instalações 
+    operacionais de coleta, varrição (manual e mecanizada), 
+    asseio e conservação urbana, bem como o transporte, 
+    transbordo, tratamento e destinação final ambientalmente 
+    adequada dos resíduos sólidos.
+    \item Drenagem e manejo das águas pluviais urbanas: 
+    Conjunto de atividades, infraestruturas e instalações 
+    operacionais de drenagem de águas pluviais, transporte, 
+    detenção ou retenção para o amortecimento de vazões de 
+    cheias, tratamento e disposição final das águas pluviais 
+    drenadas.
+\end{itemize}
+
+% ============================================================
+\section{Diretrizes para Gestão de Efluentes}
+Considerando a alta demanda de recursos hídricos pelos 
+setores industriais (como alimentos, papel e celulose e 
+metalurgia), a Resolução CONAMA nº 430/2011 desempenha um 
+papel crucial ao estabelecer as condições e padrões de 
+lançamento de efluentes, complementando e alterando a 
+Resolução CONAMA nº 357/2005.
+
+Enquanto a Resolução nº 357/2005 foca na classificação dos 
+corpos d'água (o objetivo de qualidade do rio ou lago 
+receptor), a Resolução nº 430/2011 foca na fonte da 
+poluição (o efluente que sai da indústria). A norma nº 430 
+estabelece que os efluentes só podem ser lançados se não 
+alterarem a classe do corpo hídrico receptor definida pela 
+norma nº 357.
+
+As principais diretrizes de gestão da Resolução nº 430/2011 
+que impactam a indústria incluem:
+
+\begin{itemize}
+
+    \item Padrões de Lançamento (Art. 16): Define critérios objetivos 
+    para o efluente antes de atingir o rio, como pH entre 5 e 9, temperatura inferior a 40°C e limites específicos para materiais sedimentáveis e substâncias tóxicas.
+
+    \item Proibição da Diluição: A resolução veda expressamente a mistura de efluentes com águas de melhor qualidade (como água de abastecimento ou do mar) apenas para fins de atingir os limites de concentração. Isso obriga a indústria a tratar efetivamente seus resíduos, removendo a carga poluidora, em vez de apenas dispersá-la.
+
+    \item Gestão de Toxicidade: Para setores críticos como o químico e metalúrgico, a norma exige ensaios de ecotoxicidade para garantir que o efluente não cause efeitos deletérios agudos ou crônicos aos organismos aquáticos.
+
+\end{itemize}
+
+Portanto, a Resolução nº 430 atua como o instrumento operacional de controle "na ponta do tubo", garantindo que a retirada e devolução de água pela indústria não comprometam a qualidade ambiental exigida pela Resolução nº 357.
+
+
+
+\end{document}
+

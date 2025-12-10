@@ -283,6 +283,21 @@ INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemedefault.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemedefault.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\mathptmx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\mathptmx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\nomencl\nomencl.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\nomencl\nomencl.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\tocbasic.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\tocbasic.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrbase.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrbase.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerthemeMadrid.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerthemeMadrid.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamercolorthemewhale.sty
@@ -293,21 +308,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerinnerthemerounded.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerinnerthemerounded.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemeinfolines.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\beamer\beamerouterthemeinfolines.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\mathptmx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\mathptmx.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\babel\txtbabel.def
-INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
-INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-portuguese.tex
-INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-portuguese.tex
-INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-portuguese.tex
-INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\pt\babel-pt.ini
-INPUT C:\Program Files\MiKTeX\tex\latex\babel-portuges\portuguese.ldf
-INPUT C:\Program Files\MiKTeX\tex\latex\babel-portuges\portuguese.ldf
-INPUT C:\Program Files\MiKTeX\tex\latex\babel-portuges\portuguese.ldf
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\Presentation-TF-Trunnion.aux
@@ -319,8 +319,6 @@ INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\grfext\grfext.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
@@ -530,6 +528,12 @@ INPUT .\Images\S33-tip.png
 INPUT .\Images\S33-tip.png
 INPUT .\Images\S33-tip.png
 INPUT .\Images\S33-tip.png
+INPUT .\Images\raiz.png
+INPUT .\Images\raiz.png
+INPUT .\Images\raiz.png
+INPUT .\Images\raiz.png
+INPUT .\Images\raiz.png
+INPUT .\Images\raiz.png
 INPUT .\Images\Mises.jpg
 INPUT .\Images\Mises.jpg
 INPUT .\Images\Mises.jpg
@@ -542,6 +546,12 @@ INPUT .\Images\Hyd.jpg
 INPUT .\Images\Hyd.jpg
 INPUT .\Images\Hyd.jpg
 INPUT .\Images\Hyd.jpg
+INPUT .\Images\Hydrogen_concentration.jpg
+INPUT .\Images\Hydrogen_concentration.jpg
+INPUT .\Images\Hydrogen_concentration.jpg
+INPUT .\Images\Hydrogen_concentration.jpg
+INPUT .\Images\Hydrogen_concentration.jpg
+INPUT .\Images\Hydrogen_concentration.jpg
 OUTPUT Presentation-TF-Trunnion.nav
 OUTPUT Presentation-TF-Trunnion.toc
 OUTPUT Presentation-TF-Trunnion.snm
