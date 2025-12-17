@@ -1,6 +1,11 @@
-\changetocdepth {4}
-\babel@toc {brazil}{}\relax 
-\contentsline {chapter}{Sum\'ario}{2}{chapter*.1}%
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {section}{\numberline {0.1}Introdução}{3}{section.0.1}%
-\contentsline {section}{\numberline {0.2}Metodologia}{3}{section.0.2}%
+\contentsline {section}{\numberline {1}Introdução}{1}{}%
+\contentsline {section}{\numberline {2}Fundamentação Teórica}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Mecânica Linear da Fratura}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Mecânica da Fratura Elasto-Plástica}{2}{}%
+\contentsline {section}{\numberline {3}Metodologia}{3}{}%
+\contentsline {subsection}{\numberline {3.1}ASTM E1820}{3}{}%
+\contentsline {subsection}{\numberline {3.2}Procedimento de Ensaio}{3}{}%
+\contentsline {section}{\numberline {4}Resultados}{4}{}%
+\contentsline {subsection}{\numberline {4.1}Ensaio ao Ar (Linha Azul Escuro)}{4}{}%
+\contentsline {subsection}{\numberline {4.2}Ensaio com o Meio Agressivo (Linhas Azul Claro e Verde)}{4}{}%
+\contentsline {section}{\numberline {5}Conclusão}{6}{}%

@@ -1,41 +1,58 @@
-\renewcommand{\imprimircapa}{%
-	\begin{capa}%
-		% \center
-		% {\ABNTEXchapterfont\large\imprimirautor}
-		% \vspace*{\fill}
-		% {\ABNTEXchapterfont\bfseries\LARGE\imprimirtitulo}
-		% \vspace*{\fill}
-		% {\large\imprimirlocal}
-		% \par
-		% {\large\imprimirdata}
-		% \vspace*{1cm}
-		\center
-		UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL
-		\par
-		ESCOLA DE ENGENHARIA - CURSO DE ENGENHARIA MECÂNICA
-		\par
-		TRABALHO DE CONCLUSÃO DE CURSO 
-		\\~\\~\\~\\~\\
-		\imprimirtitulo
-		\\~\\
-		por\\~\\~\\
-		\imprimirautor
-		\\~\\~\\~\\~\\~\\
-		\begin{FlushRight}
-			\parbox{0.5\linewidth}{
+% ======================= Capa ============================
+\begin{center}
+
+%% Nome da Instituição (Maiúsculo, Fonte 12, Centralizado)
+{\MakeUppercase{
+    UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL \\
+    ESCOLA DE ENGENHARIA - CURSO DE ENGENHARIA MECÂNICA \\
+    INTRODUÇÃO À MECÂNICA DA FRATURA E FADIGA \\
+    ENGENHARIA MECÂNICA 
+    }}
+
+%% Título do trabalho 
+\vspace{5\baselineskip}
+{\MakeUppercase{
+    TÍTULO DO PROJETO DE TRABALHO DO PROJETO DE CONCLUSÃO DE CURSO DE ENGENHARIA MECÂNICA
+}}
+
+%% Autores
+\vspace{1\baselineskip}
+{por}
+\vspace{2\baselineskip}
+{\MakeUppercase{Lucas Pazza \\ Paulo de Souza \\ Rafael Pecantet}}
+\end{center}
+
+%%
+\vspace{5\baselineskip}
+\begin{flushright}
+    \parbox{0.5\linewidth}{
 				\justifying
 				\parindent=0pt
-				Monografia apresentada ao Departamento de \linebreak
-				Engenharia Mecânica da Escola de \linebreak
-				Engenharia da Universidade Federal do Rio
-				Grande do Sul, como parte dos requisitos
-				para obtenção do diploma de Engenheiro
-				Mecânico.}
-		\end{FlushRight}
-		\vspace*{\fill}
-		Porto Alegre, Março de 2023
-		
-\end{capa}}
+				Trabalho avaliativo da disciplina de Introdução à Mecânica da Fratura e Fadiga
+                }
+\end{flushright}
 
+%% Área de concentração
+\vspace{1\baselineskip}
+\begin{flushright}
+    \parbox{0.5\linewidth}{
+				\justifying
+				\parindent=0pt
+				Área de Concentração: Mecânica dos Sólidos
+                }
+\end{flushright}
 
-\imprimircapa
+%% Professor(a) 
+\vspace{1\baselineskip}
+\begin{flushright}
+    \parbox{0.5\linewidth}{
+				\justifying
+				\parindent=0pt
+				Prof. Ignacio 
+                }
+\end{flushright}
+
+%% Data
+\begin{center}
+    \vfill{\today}
+\end{center}

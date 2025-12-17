@@ -1,31 +1,45 @@
-\documentclass[12pt, a4paper]{abntex2}
+% ===================== Preâmbulo =========================
+\documentclass[12pt]{article} % Tipo de Documento
 \usepackage[utf8]{inputenc}
-\usepackage[portuguese]{nomencl}
-\usepackage{geometry}
+\usepackage{graphicx} % inserção de imagens
+\usepackage[portuguese]{nomencl} % dicionário português
+\usepackage{times} % Fonte da escrita
+\usepackage[a4paper,top=3cm,left=3cm,bottom=2cm,right=2cm]{geometry} % formatação de margens
 \usepackage{ragged2e}
 
-\geometry{a4paper, margin=2.5cm}
+% Bibliografia
+\usepackage[style=abnt, backend=biber]{biblatex} % Estilo ABNT é comum no Brasil
+\addbibresource{Referencias/Bibliografia.bib}
 
+% Caminhos de arquivos
+\graphicspath{{Imagens/}{./}} % caminho das figuras
+
+
+
+% Comandos modificados
+\renewcommand{\today}{Porto Alegre, \ifcase\month\or Janeiro\or Fevereiro\or Março\or Abril\or Maio\or Junho\or Julho\or Agosto\or Setembro\or Outubro\or Novembro\or Dezembro\fi\ de \number\year} % Escreve a data em português
+
+% ===================== Documento =========================
 \begin{document}
+% Remover numeração de páginas (não mostra nem conta números)
+    \pagenumbering{roman} % Reinicia a numeração com números romanos
+    \pagestyle{empty}
+    \include{Preambulo/Capa}
+    \newpage
+    \pagestyle{plain} % Retorna à numeração padrão
+    \include{Preambulo/Resumo}
+    \newpage
+    \tableofcontents
+    \newpage
+    \pagenumbering{arabic} % Reinicia a numeração com números arábicos (1, 2, 3...)
 
-\title{\MakeUppercase{Ensaio de Tenacidade à Fratura em Meios Agressivos}}
-\author{
-    Lucas Pazza \\
-    Paulo Henrique Brito de Souza \\
-    Rafael Pecantet
-    }
-\date{\today}
+    \include{Paginas/Introducao}
+    \include{Paginas/Fundameta}
+    \include{Paginas/Metodologia}
+    \include{Paginas/Resultados}
+    \include{Paginas/Conclusao}
 
-\maketitle
-
-% ============== SUMARIO ==================
-\newpage
-\tableofcontents
-\pagestyle{plain}
-
-% ============== Seções =================
-\newpage
-\input{Pages/Introducao.tex}
-\input{Pages/Metodologia.tex}
+    \printbibliography 
+    [title=Referências] % muda o título de inglês para português
 
 \end{document}
