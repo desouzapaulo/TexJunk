@@ -1,26 +1,33 @@
-\documentclass[12pt]{abntex2}
+\documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage[portuguese]{nomencl}
 \graphicspath{{Images/}{./}}
-% ================================= Capa ===================================
+
+
+
+% =========================================================
 \title{
-    Comparação Entre os Resultados de Deflexão do Ensaio de Flexão em 
-    Três Pontos do Modelo Numérico e Analítico
+    Comparação Entre os Resultados do Ensaio e do Modelo Numérico de Tenacidade à Fratura
     }
 \author{Paulo Henrique Brito de Souza}
+
+% Escreve a data em português
+\renewcommand{\today}{\number\day\ de \ifcase\month\or Janeiro\or Fevereiro\or Março\or Abril\or Maio\or Junho\or Julho\or Agosto\or Setembro\or Outubro\or Novembro\or Dezembro\fi\ de \number\year}
 \date{\today}
-% ======================================= ==================================
-% =========================================================================
+
+% ========================================================= 
+% =========================================================
 \begin{document}
 \maketitle
-% =========================================================================
+% =========================================================
 \newpage
 \tableofcontents
 \listoffigures
 \newpage
-% =========================================================================
-\chapter{Introdução}
-\chapter{Memorial de Cálculo}
+% =========================================================
+\section{Introdução}
+\section{Memorial de Cálculo}
 \section{Condições de contorno}
 \subsection{Material}
 \subsection{Propriedades de Seção}
@@ -33,6 +40,8 @@
 \subsection{Condições de Contorno}
 \subsection{Convergência de malha}
 \subsection{Resultados}
-\chapter{Conclusão}
-% =========================================================================
+\section{Conclusão}
+
+% ========================================================= 
+% =========================================================
 \end{document}

@@ -1,0 +1,170 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.3)  25 NOV 2025 13:51
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/GIT/TexJunk/UFRGS/LAMEF/LigasNi-2/Tenacidade ao ar Trunnion/TF-Trunnion.tex"
+(c:/GIT/TexJunk/UFRGS/LAMEF/LigasNi-2/Tenacidade ao ar Trunnion/TF-Trunnion.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-10-09>
+(C:\Program Files\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+) (C:\Program Files\MiKTeX\tex/latex/nomencl\nomencl.sty
+Package: nomencl 2021/11/10 v5.6 Nomenclature package
+ (C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+)
+\XKV@depth=\count283
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (C:\Program Files\MiKTeX\tex/latex/koma-script\tocbasic.sty
+Package: tocbasic 2025/09/09 v3.48 KOMA-Script package (handling toc-files)
+ (C:\Program Files\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2025/09/09 v3.48 KOMA-Script package (file load hooks)
+ (C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
+Package: scrlfile-hook 2025/09/09 v3.48 KOMA-Script package (using LaTeX hooks)
+ (C:\Program Files\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2025/09/09 v3.48 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
+)
+\scr@dte@tocline@numberwidth=\skip51
+\scr@dte@tocline@numbox=\box53
+)
+Package tocbasic Info: omitting babel extension for `nlo'
+(tocbasic)             because of missing \bbl@set@language on input line 187.
+Package tocbasic Info: omitting babel extension for `nls'
+(tocbasic)             because of missing \bbl@set@language on input line 188.
+\nomlabelwidth=\dimen151
+\nom@tempdim=\dimen152
+\nomitemsep=\skip52
+) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count284
+) (TF-Trunnion.aux)
+\openout1 = `TF-Trunnion.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+ (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count285
+\scratchdimen=\dimen153
+\scratchbox=\box54
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen154
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks23
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 22.
+
+
+[1
+
+{C:/Users/paulo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (TF-Trunnion.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+)
+\tf@toc=\write3
+\openout3 = `TF-Trunnion.toc'.
+
+ (TF-Trunnion.lof)
+\tf@lof=\write4
+\openout4 = `TF-Trunnion.lof'.
+
+
+
+[2]
+
+[3] (TF-Trunnion.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-10-09>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 2668 strings out of 468080
+ 49266 string characters out of 5435839
+ 546930 words of memory out of 5000000
+ 31331 multiletter control sequences out of 15000+600000
+ 632889 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 110i,6n,107p,350b,201s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on TF-Trunnion.pdf (3 pages, 49372 bytes).
+PDF statistics:
+ 27 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
