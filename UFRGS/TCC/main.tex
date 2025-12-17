@@ -16,10 +16,11 @@
 % ===================== Documento =========================
 \begin{document}
 % Remover numeração de páginas (não mostra nem conta números)
-    \pagenumbering{gobble} % Para de exibir os números a partir daqui
+    \pagenumbering{roman} % Reinicia a numeração com números romanos
+    \pagestyle{empty}
     \include{Paginas/Capa}
     \newpage
-    \pagenumbering{roman} % Reinicia a numeração com números romanos
+    \pagestyle{plain} % Retorna à numeração padrão
     resumo e os caraio 
     \newpage
     \pagenumbering{arabic} % Reinicia a numeração com números arábicos (1, 2, 3...)

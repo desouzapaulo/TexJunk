@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1764093893.06885 "c:/GIT/TexJunk/UFRGS/TCC/main.tex" "main.pdf" "main" 1764093893.44095 0
+["pdflatex"] 1764094376.82875 "c:/GIT/TexJunk/UFRGS/TCC/main.tex" "main.pdf" "main" 1764094377.22078 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/times/ptmr7t.tfm" 1136783054 2124 2601a75482e9426d33db523edf23570a ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/times/ptmr8c.tfm" 1136783054 1352 fa28a7e6d323c65ce7d13d5342ff6be2 ""
@@ -50,11 +50,11 @@
   "C:/Program Files/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/paulo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762174403 143894 c9879d896f3723b277776564312b7eb1 ""
   "C:/Users/paulo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762174410 13311800 885898bbfa3b19e5884379fd93e4f32b ""
-  "Paginas/Capa.aux" 1764093893 427 e12f4e90e2c1be7f5637d5980c4dee2b "pdflatex"
+  "Paginas/Capa.aux" 1764094377 427 e12f4e90e2c1be7f5637d5980c4dee2b "pdflatex"
   "Paginas/Capa.tex" 1764093532 1486 91729fc84a6d18b6b6540bdb8b9559f5 ""
-  "c:/GIT/TexJunk/UFRGS/TCC/main.tex" 1764093892 1232 4fa81c3d9de9e8c52030ebccfb01deea ""
-  "main.aux" 1764093893 58 d8585bd70f284ceb3e258279c19ca2e5 "pdflatex"
-  "main.tex" 1764093892 1232 4fa81c3d9de9e8c52030ebccfb01deea ""
+  "c:/GIT/TexJunk/UFRGS/TCC/main.tex" 1764094376 1239 ce0ddfbbed9c5e2252da32a51f89de21 ""
+  "main.aux" 1764094377 58 d8585bd70f284ceb3e258279c19ca2e5 "pdflatex"
+  "main.tex" 1764094376 1239 ce0ddfbbed9c5e2252da32a51f89de21 ""
   (generated)
   "Paginas/Capa.aux"
   "main.aux"
