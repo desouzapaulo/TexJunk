@@ -1,15 +1,22 @@
 \documentclass[11pt]{beamer}
+
 %% Packages
 \usepackage{booktabs}
 \usepackage{mathptmx}
 \usepackage[portuguese]{nomencl}
+
 %% themes
 \usetheme{Madrid} 
 \usefonttheme{default}
 \useinnertheme{rounded}
+
 %% Graphics
 \graphicspath{{Images/}{./}}
-% --------------------------------------------------------------------------
+
+% Escreve a data em português
+\renewcommand{\today}{\number\day\ de \ifcase\month\or Janeiro\or Fevereiro\or Março\or Abril\or Maio\or Junho\or Julho\or Agosto\or Setembro\or Outubro\or Novembro\or Dezembro\fi\ de \number\year}
+
+% ---------------------------------------------------------------
 \title[Tenacidade ao Ar Trunnion]{
 	Modelo Numérico do Ensaio de Tenacidade ao Ar
 	}
@@ -27,14 +34,6 @@
 % \section{Ensaio real}
 % 	\subsection{Geometria do Corpo de Prova}
 % 	\subsection{Parâmetros do Ensaio}
-\section{Modelo Numérico}
-	\subsection{Hipóteses}
-	\subsection{Condições de Contorno}
-	\subsection{Convergência de Malha}
-\section{Resultados}
-	\subsection{Campo de Tensões no modelo Completo}
-	\subsection{Campo de Tensões na ponta da Trinca}
-
 % ======================================================
 % ======================================================
 \begin{document}
@@ -62,10 +61,21 @@
 % 	\framesubtitle{Parâmetros do Ensaio}
 % \end{frame}
 
+%=============================================================
+\section{Modelo Numérico}	
+
 %--------------------------------------------------------
+\subsection{Hipóteses e Condições de Contorno}
 \begin{frame}
 	\frametitle{Modelo Numérico}
 	\framesubtitle{Hipóteses e Condições de Contorno}
+
+		\textbf{Hipóteses}
+		\begin{enumerate}
+			\item Modelo 2D.
+			\item Estado Plano de \alert{Deformações}.
+			\item Contato nos Roletes sem Atrito.
+		\end{enumerate}
 
 		\textbf{Condições de Contorno}
 		\begin{enumerate}
@@ -75,16 +85,12 @@
 			\item Restrição de translação em X do rolete central (laterais).
 		\end{enumerate}
 		
-		\textbf{Hipóteses}
-		\begin{enumerate}
-			\item Modelo 2D.
-			\item Estado Plano de \alert{Deformações}.
-			\item Contato nos Roletes sem Atrito.
-		\end{enumerate}
+		
 
 \end{frame}
 
 %--------------------------------------------------------
+\subsection{Material}
 \begin{frame}
 	\frametitle{Modelo Numérico}
 	\framesubtitle{Curva de Escoamento}
@@ -110,147 +116,152 @@
 		
 \end{frame}
 
-
-%--------------------------------------------------------
-\begin{frame}
-	\frametitle{Modelo Numérico}
-	\framesubtitle{Condições de Contorno}
+% %--------------------------------------------------------
+% \begin{frame}
+% 	\frametitle{Modelo Numérico}
+% 	\framesubtitle{Condições de Contorno}
 	
-	\begin{figure}
-		\includegraphics[width=0.8\linewidth]{FEMmodel-BC.png}
-		\caption{Modelo Numérico.}
-	\end{figure}
-\end{frame}
+% 	\begin{figure}
+% 		\includegraphics[width=0.8\linewidth]{FEMmodel-BC.png}
+% 		\caption{Modelo Numérico.}
+% 	\end{figure}
+% \end{frame}
 
-%--------------------------------------------------------
-\begin{frame}
-	\frametitle{Modelo Numérico}
-	\framesubtitle{Divisão da Malha}
+% %--------------------------------------------------------
+\subsection{Convergência de Malha}
+% \begin{frame}
+% 	\frametitle{Modelo Numérico}
+% 	\framesubtitle{Divisão da Malha}
 	
-	\begin{figure}
-		\includegraphics[width=0.8\linewidth]{sets.png}
-	\end{figure}
-\end{frame}
+% 	\begin{figure}
+% 		\includegraphics[width=0.8\linewidth]{sets.png}
+% 	\end{figure}
+% \end{frame}
 
-%--------------------------------------------------------
-\begin{frame}
-	\frametitle{Modelo Numérico}
-	\framesubtitle{Local de Convergência}
+% %--------------------------------------------------------
+% \begin{frame}
+% 	\frametitle{Modelo Numérico}
+% 	\framesubtitle{Local de Convergência}
 	
-	\begin{figure}
-		\includegraphics[width=0.8\linewidth]{conv.png}
-		\caption{Local de Convergência de Malha.}
-	\end{figure}
+% 	\begin{figure}
+% 		\includegraphics[width=0.8\linewidth]{conv.png}
+% 		\caption{Local de Convergência de Malha.}
+% 	\end{figure}
 
-\end{frame}
+% \end{frame}
 
-%--------------------------------------------------------
-\begin{frame}
-	\frametitle{Modelo Numérico}
-	\framesubtitle{Convergência de Malha}
+% %--------------------------------------------------------
+% \begin{frame}
+% 	\frametitle{Modelo Numérico}
+% 	\framesubtitle{Convergência de Malha}
 	
-	\begin{figure}
-		\includegraphics[width=0.65\linewidth]{convergence.jpg}
-		\caption{Convergência de Malha.}
-	\end{figure}
-\end{frame}
+% 	\begin{figure}
+% 		\includegraphics[width=0.65\linewidth]{convergence.jpg}
+% 		\caption{Convergência de Malha.}
+% 	\end{figure}
+% \end{frame}
 
-%--------------------------------------------------------
-\begin{frame}
-	\frametitle{Modelo Numérico}
-	\framesubtitle{Malha do Modelo}
+% %--------------------------------------------------------
+% \begin{frame}
+% 	\frametitle{Modelo Numérico}
+% 	\framesubtitle{Malha do Modelo}
 	
-	\begin{figure}
-		\includegraphics[width=0.9\linewidth]{mesh.png}
-		\caption{Malha do Modelo.}
-	\end{figure}
+% 	\begin{figure}
+% 		\includegraphics[width=0.9\linewidth]{mesh.png}
+% 		\caption{Malha do Modelo.}
+% 	\end{figure}
 
-\end{frame}
+% \end{frame}
 
-%--------------------------------------------------------
-\begin{frame}
-	\frametitle{Modelo Numérico}
-	\framesubtitle{Malha na ponta da trinca}
+% %--------------------------------------------------------
+% \begin{frame}
+% 	\frametitle{Modelo Numérico}
+% 	\framesubtitle{Malha na ponta da trinca}
 	
-	\begin{figure}
-		\includegraphics[width=0.8\linewidth]{mesh-tip.png}
-		\caption{Malha na Ponta da Trinca.}
-	\end{figure}
+% 	\begin{figure}
+% 		\includegraphics[width=0.8\linewidth]{mesh-tip.png}
+% 		\caption{Malha na Ponta da Trinca.}
+% 	\end{figure}
 
-\end{frame}
-
-%--------------------------------------------------------
-\begin{frame}
-	\frametitle{Resultados do Modelo Completo}
-	\framesubtitle{Tensões de Von-Mises}
-
-	\begin{figure}
-		\includegraphics[width=1\linewidth]{mises.png}
-		\caption{Tensões de Von-Mises no Modelo.}
-	\end{figure}
-
-\end{frame}
+% \end{frame}
 
 %--------------------------------------------------------
-\begin{frame}
-	\frametitle{Resultados na Ponta da Trinca}
-	\framesubtitle{Tensões de Von-Mises}
+\section{Resultados}
 
-	\begin{figure}
-		\includegraphics[width=1\linewidth]{mises-tip.png}
-		\caption{Tensões de Von-Mises na Ponta da Trinca.}
-	\end{figure}
+% %--------------------------------------------------------
+\subsection{Campo de Tensões no modelo Completo}
+% \begin{frame}
+% 	\frametitle{Resultados do Modelo Completo}
+% 	\framesubtitle{Tensões de Von-Mises}
 
-\end{frame}
+% 	\begin{figure}
+% 		\includegraphics[width=1\linewidth]{mises.png}
+% 		\caption{Tensões de Von-Mises no Modelo.}
+% 	\end{figure}
 
-%--------------------------------------------------------
-\begin{frame}
-	\frametitle{Resultados na Ponta da Trinca}
-	\framesubtitle{Tensão Hidrostática}
+% \end{frame}
 
-	\begin{figure}
-		\includegraphics[width=1\linewidth]{press-tip.png}
-		\caption{Tensão Hidrostática na Ponta da Trinca.}
-	\end{figure}
+% %--------------------------------------------------------
+\subsection{Campo de Tensões na ponta da Trinca}
+% \begin{frame}
+% 	\frametitle{Resultados na Ponta da Trinca}
+% 	\framesubtitle{Tensões de Von-Mises}
 
-\end{frame}
+% 	\begin{figure}
+% 		\includegraphics[width=1\linewidth]{mises-tip.png}
+% 		\caption{Tensões de Von-Mises na Ponta da Trinca.}
+% 	\end{figure}
+
+% \end{frame}
+
+% %--------------------------------------------------------
+% \begin{frame}
+% 	\frametitle{Resultados na Ponta da Trinca}
+% 	\framesubtitle{Tensão Hidrostática}
+
+% 	\begin{figure}
+% 		\includegraphics[width=1\linewidth]{press-tip.png}
+% 		\caption{Tensão Hidrostática na Ponta da Trinca.}
+% 	\end{figure}
+
+% \end{frame}
 
 
-%--------------------------------------------------------
-\begin{frame}
-	\frametitle{Resultados na Ponta da Trinca}
-	\framesubtitle{Tensão $\sigma_{11}$}
+% %--------------------------------------------------------
+% \begin{frame}
+% 	\frametitle{Resultados na Ponta da Trinca}
+% 	\framesubtitle{Tensão $\sigma_{11}$}
 
-	\begin{figure}
-		\includegraphics[width=1\linewidth]{S11-tip.png}
-		\caption{Tensão $\sigma_{11}$ na Ponta da Trinca.}
-	\end{figure}
+% 	\begin{figure}
+% 		\includegraphics[width=1\linewidth]{S11-tip.png}
+% 		\caption{Tensão $\sigma_{11}$ na Ponta da Trinca.}
+% 	\end{figure}
 
-\end{frame}
+% \end{frame}
 
-%--------------------------------------------------------
-\begin{frame}
-	\frametitle{Resultados na Ponta da Trinca}
-	\framesubtitle{Tensão $\sigma_{22}$}
+% %--------------------------------------------------------
+% \begin{frame}
+% 	\frametitle{Resultados na Ponta da Trinca}
+% 	\framesubtitle{Tensão $\sigma_{22}$}
 
-	\begin{figure}
-		\includegraphics[width=1\linewidth]{S22-tip.png}
-		\caption{Tensão $\sigma_{22}$ na Ponta da Trinca.}
-	\end{figure}
+% 	\begin{figure}
+% 		\includegraphics[width=1\linewidth]{S22-tip.png}
+% 		\caption{Tensão $\sigma_{22}$ na Ponta da Trinca.}
+% 	\end{figure}
 
-\end{frame}
+% \end{frame}
 
-%--------------------------------------------------------
-\begin{frame}
-	\frametitle{Resultados na Ponta da Trinca}
-	\framesubtitle{Tensão $\sigma_{33}$}
+% %--------------------------------------------------------
+% \begin{frame}
+% 	\frametitle{Resultados na Ponta da Trinca}
+% 	\framesubtitle{Tensão $\sigma_{33}$}
 
-	\begin{figure}
-		\includegraphics[width=1\linewidth]{S33-tip.png}
-		\caption{Tensão $\sigma_{33}$ na Ponta da Trinca.}
-	\end{figure}
+% 	\begin{figure}
+% 		\includegraphics[width=1\linewidth]{S33-tip.png}
+% 		\caption{Tensão $\sigma_{33}$ na Ponta da Trinca.}
+% 	\end{figure}
 
-\end{frame}
+% \end{frame}
 
 %--------------------------------------------------------
 \begin{frame}
@@ -292,9 +303,32 @@
 	\frametitle{Resultados ao Longo da Raiz}
 	\framesubtitle{Concentração de Hidrogênio e Tensão Hidrostática Normalizada}
 
+	\begin{columns}[c]
+
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=1\linewidth]{Hydrogen_concentration.jpg}
+				\caption{Resultados ao Longo da Raiz da Trinca.}
+			\end{figure}
+		\end{column}
+
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=1\linewidth]{colormap.jpg}
+				\caption{Concentração de Hidrogênio.}
+			\end{figure}
+		\end{column}
+
+	\end{columns}
+\end{frame}
+	
+%--------------------------------------------------------
+\begin{frame}
+	\frametitle{Modelo Numérico}
+	\framesubtitle{Integral J - Cálulo     de K1}
 	\begin{figure}
-		\includegraphics[width=0.6\linewidth]{Hydrogen_concentration.jpg}
-		\caption{Concentração de Hidrogênio e Tensão Hidrostática.}
+		\includegraphics[width=0.6\linewidth]{Jcomparison.jpg}	
+		\caption{Curva K.}
 	\end{figure}
 
 \end{frame}
