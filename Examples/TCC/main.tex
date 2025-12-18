@@ -1,0 +1,51 @@
+% ===================== Preâmbulo =========================
+\documentclass[12pt]{article} % Tipo de Documento
+\usepackage[utf8]{inputenc} % Configures UTF-8 character encoding for input files and enables hyperlinks throughout the document with visual styling disabled (no colored boxes around links)
+\usepackage[hidelinks]{hyperref} % hyperlinks without colored boxes
+\usepackage{graphicx} % inserção de imagens
+\usepackage[portuguese]{nomencl} % dicionário português
+\usepackage{times} % Fonte da escrita
+\usepackage[a4paper,top=3cm,left=3cm,bottom=2cm,right=2cm]{geometry} % formatação de margens
+\usepackage{ragged2e}
+\usepackage[brazilian]{babel} % Muda o idioma do documento para português
+\usepackage{csquotes} % Recommended for biblatex with babel
+
+% Bibliografia
+\usepackage[style=abnt, backend=biber]{biblatex} % Estilo ABNT é comum no Brasil
+\addbibresource{Paginas/Referencias/Bibliografia.bib}
+
+% Caminhos de arquivos
+\graphicspath{{Imagens/}{./}} % caminho das figuras
+
+% ===================== Documento =========================
+\begin{document}
+
+    % \setmainfont{Times New Roman}
+
+    %% ==================== Preambulo ============================
+    % Remover numeração de páginas (não mostra nem conta números)
+    \pagenumbering{roman} % Reinicia a numeração com números romanos
+    \pagestyle{empty}
+    \include{Paginas/Preambulo/Capa}
+    \newpage
+    \pagestyle{plain} % Retorna à numeração padrão
+    \include{Paginas/Preambulo/Resumo}
+    \newpage
+    \include{Paginas/Preambulo/Nomenclatura}
+    \newpage
+    \tableofcontents
+    \newpage
+    \pagenumbering{arabic} % Reinicia a numeração com números arábicos (1, 2, 3...)
+
+    %% ==================== Páginas ============================
+    \include{Paginas/Introducao}
+    \include{Paginas/Fundameta}
+    \include{Paginas/Metodologia}
+    \include{Paginas/Cronograma}
+    \include{Paginas/Conclusao}
+
+    %% ==================== Referências ============================
+    \printbibliography 
+    \addcontentsline{toc}{section}{\MakeUppercase{Referências}} % Adiciona ao Sumário
+
+\end{document}
