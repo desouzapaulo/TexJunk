@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Ensaio de Tenacidade à Fratura}{1}{0}{1}
+\beamer@subsectionintoc {1}{1}{Fratura Linear Elástica}{1}{0}{1}
+\beamer@subsectionintoc {1}{2}{Fratura Linear Elasto-Plastica}{1}{0}{1}
+\babel@toc {portuguese}{}\relax 
