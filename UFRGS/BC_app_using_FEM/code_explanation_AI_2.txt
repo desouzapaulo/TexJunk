@@ -1,7 +1,0 @@
-on t is constant and uniform on the boundary and that it is already included in the Neumann vector. The code does not check for errors or exceptions and does not provide any documentation or comments.
-
-Origem: conversa com o Bing, 05/12/2023
-(1) 30.3: Direct Stiffness Method and the Global Stiffness Matrix. https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_I/30%3A_Finite_Element_Method/30.3%3A_Direct_Stiffness_Method_and_the_Global_Stiffness_Matrix.
-(2) Module 3 Constitutive Equations - MIT - Massachusetts Institute of .... http://web.mit.edu/16.20/homepage/3_Constitutive/Constitutive_files/module_3_with_solutions.pdf.
-(3) Stiffness matrix - Wikipedia. https://en.wikipedia.org/wiki/Stiffness_matrix.
-(4) Chapter 2 – Introduction to the Stiffness (Displacement) Method. http://www.ce.memphis.edu/7117/notes/presentations/chapter_02.pdf.
