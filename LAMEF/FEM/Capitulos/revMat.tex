@@ -1,0 +1,148 @@
+\chapter{Revisão de matemática e física}\label{ch:rev}
+
+\section{Notação}
+
+\section{Vetores e tensores}
+
+\section{Gradiente, divergente e rotacional}
+{%\color{red}
+	Muitas equações governantes da mecânica estrutural incluem a derivada de uma variável de campo em relação às coordenadas espaciais. Aqui, um "campo" refere-se a uma função no espaço, como a temperatura ou o deslocamento de uma estrutura. A variável de campo pode ser um escalar, vetor ou tensor. Portanto, é útil definir claramente o operador gradiente usando a notação tensorial.
+	
+	O operador gradiente é definido como um vetor (ou tensor de ordem 1) da seguinte forma:
+	\begin{equation}
+		\vec{\nabla} = e_i \frac{\partial}{\partial x_i}, \tag{1.23}
+	\end{equation}
+	\begin{equation}
+		\vec{\nabla} \phi = \text{grad} \, \phi = e_i \frac{\partial \phi}{\partial x_i}, \tag{1.24}
+	\end{equation}
+	onde $e_i$ são os vetores base.
+	
+	Por exemplo, o gradiente de um campo escalar, $\phi(x)$, pode ser escrito como:
+	\begin{equation}
+		\frac{\partial \phi}{\partial x_i},
+	\end{equation}
+	que é um vetor. O gradiente de um campo vetorial, $u(x)$, pode ser definido como:
+	\begin{equation}
+		\vec{\nabla} u = e_i \frac{\partial u_j}{\partial x_i} e_j = \frac{\partial u_j}{\partial x_i},
+	\end{equation}
+	onde o gradiente de um vetor é um tensor de ordem 2.
+	
+	Para conveniência notacional, a vírgula subscrita será frequentemente usada para representar o gradiente, ou seja, $v_{i,j} = \frac{\partial v_i}{\partial x_j}$.
+	
+	---
+	
+	A seguinte divergência é definida para que o gradiente de um vetor produza uma quantidade escalar:
+	\begin{equation}
+		\vec{\nabla} \cdot u = e_i \frac{\partial u_i}{\partial x_i} = \frac{\partial u_1}{\partial x_1} + \frac{\partial u_2}{\partial x_2} + \frac{\partial u_3}{\partial x_3}. \tag{1.25}
+	\end{equation}
+	
+	O operador de Laplace pode ser definido usando o produto interno de dois operadores gradientes como:
+	\begin{equation}
+		\vec{\nabla}^2 = \vec{\nabla} \cdot \vec{\nabla} = e_i \frac{\partial}{\partial x_i} \left( \frac{\partial}{\partial x_j} e_j \right),
+	\end{equation}
+	\begin{equation}
+		\vec{\nabla}^2 = \frac{\partial^2}{\partial x_1^2} + \frac{\partial^2}{\partial x_2^2} + \frac{\partial^2}{\partial x_3^2}. \tag{1.26}
+	\end{equation}
+	
+	---
+	
+	\emph{Exemplo 1.4 (Divergência de um Tensor de Tensões)}
+	
+	Seja $\sigma$ o tensor de tensões dado na Eq. (1.5). O equilíbrio de forças de um componente infinitesimal pode ser escrito como:
+	\begin{equation}
+		\vec{\nabla} \cdot \sigma = 0.
+	\end{equation}
+	
+	Escreva a equação de equilíbrio de forças na forma de componentes.
+	
+	\textbf{Solução:} Substituindo o vetor $u$ na Eq. (1.26) pelo tensor de tensões, a divergência do tensor de tensões torna-se:
+	\begin{equation}
+		(\vec{\nabla} \cdot \sigma)_j = \frac{\partial \sigma_{ij}}{\partial x_i}.
+	\end{equation}
+	
+	Expandindo a equação acima para todos os componentes e definindo a divergência como igual a zero, obtemos as seguintes equações diferenciais para o equilíbrio:
+	\begin{equation}
+		\frac{\partial \sigma_{11}}{\partial x_1} + \frac{\partial \sigma_{21}}{\partial x_2} + \frac{\partial \sigma_{31}}{\partial x_3} = 0,
+	\end{equation}
+	\begin{equation}
+		\frac{\partial \sigma_{12}}{\partial x_1} + \frac{\partial \sigma_{22}}{\partial x_2} + \frac{\partial \sigma_{32}}{\partial x_3} = 0,
+	\end{equation}
+	\begin{equation}
+		\frac{\partial \sigma_{13}}{\partial x_1} + \frac{\partial \sigma_{23}}{\partial x_2} + \frac{\partial \sigma_{33}}{\partial x_3} = 0.
+	\end{equation}
+	
+	Será mostrado posteriormente que o tensor de tensões é simétrico, i.e., $\sigma_{12} = \sigma_{21}$, $\sigma_{23} = \sigma_{32}$ e $\sigma_{13} = \sigma_{31}$.
+}
+\section{Só uma pincelada sobre tensão e deformação}
+
+\section{Teoremas integrais}
+{%\color{red}
+	Muitas equações na mecânica dos sólidos são expressas em termos de equações diferenciais. Por exemplo, o equilíbrio de forças de um componente infinitesimal pode ser expresso em termos de equações diferenciais parciais. Como essas equações diferenciais são satisfeitas em todos os pontos do domínio de uma estrutura, elas são integradas sobre todo o domínio; o resultado é uma equação integral. Nesta seção, são introduzidos diversos teoremas úteis na derivação das equações integrais da mecânica dos sólidos. A demonstração de cada teorema está fora do escopo deste texto. Leitores interessados podem consultar o texto de Hildebrand CITAR[3].
+	
+	\subsection*{Teorema da Divergência}
+	
+	O teorema da divergência é um caso especial do teorema de Green para um campo tensorial. O teorema da divergência relaciona uma integral de domínio a uma integral de contorno em torno do domínio. Seja $\Omega$ um domínio delimitado por $\Gamma$. Se um tensor $A$ tem derivadas parciais contínuas no domínio, a integral da divergência de $A$ no domínio pode ser convertida em uma integral sobre o contorno, como:
+	\begin{equation}
+		\iint_\Omega (\nabla \cdot A) \, d\Omega = \int_\Gamma (n \cdot A) \, d\Gamma, \tag{1.28}
+	\end{equation}
+	onde $n$ é o vetor unitário normal para fora da superfície $\Gamma$. 
+	
+	Uma variante do teorema da divergência é o teorema do gradiente, no qual o produto interno é substituído pelo produto diádico:
+	\begin{equation}
+		\iint_\Omega (\nabla A) \, d\Omega = \int_\Gamma (n \otimes A) \, d\Gamma.
+	\end{equation}
+	
+	\subsection*{Teorema de Transporte de Reynolds}
+	
+	O teorema de transporte de Reynolds está relacionado à derivada temporal de uma equação integral sobre um domínio no qual tanto o integrando quanto o domínio variam com o tempo. Considere integrar $f = f(x, t)$ sobre o domínio dependente do tempo, $\Omega(t)$, que é delimitado por $\Gamma(t)$. Então, a derivada temporal da integral de $f(x, t)$ sobre o domínio $\Omega(t)$ pode ser expressa como:
+	\begin{equation}
+		\frac{d}{dt} \iint_{\Omega(t)} f \, d\Omega = \iint_{\Omega(t)} \frac{\partial f}{\partial t} \, d\Omega + \int_{\Gamma(t)} (n \cdot v) f \, d\Gamma, \tag{1.29}
+	\end{equation}
+	onde $n(x, t)$ é o vetor normal unitário para fora do contorno, e $v(x, t)$ é a velocidade do contorno. O primeiro termo do lado direito (RHS) é chamado de derivada parcial, e o segundo termo é chamado de termo convectivo. Note que a integral no lado esquerdo (LHS) depende apenas do tempo, portanto, a derivada total é usada.
+	
+	\subsection*{Integração por Partes}
+	
+	A integração por partes é um teorema que relaciona a integral do produto de funções à integral de suas derivadas e antiderivadas. No caso unidimensional, se $u(x)$ e $v(x)$ são duas funções continuamente diferenciáveis no domínio $(a, b)$, a integração por partes pode ser escrita como:
+	\begin{equation}
+		\int_a^b u'(x) v(x) \, dx = \big[ u(x) v(x) \big]_a^b - \int_a^b u(x) v'(x) \, dx.
+	\end{equation}
+	
+	Esta relação pode ser estendida para o caso bidimensional ou tridimensional. Seja $\Omega$ o domínio da integral com contorno $\Gamma$. Então, a integração por partes pode ser escrita como:
+	\begin{equation}
+		\iint_\Omega \frac{\partial u}{\partial x_i} v \, d\Omega = \int_\Gamma u v n_i \, d\Gamma - \iint_\Omega u \frac{\partial v}{\partial x_i} \, d\Omega,
+	\end{equation}
+	onde $n_i$ são os componentes do vetor normal unitário para fora do contorno $\Gamma$. Substituindo a função escalar $v$ na fórmula acima por um vetor $v_i$ e somando sobre $i$, obtemos a seguinte fórmula vetorial:
+	\begin{equation}
+		\iint_\Omega (\nabla u \cdot v) \, d\Omega = \int_\Gamma (u v \cdot n) \, d\Gamma - \iint_\Omega u (\nabla \cdot v) \, d\Omega. \tag{1.30}
+	\end{equation}
+	
+	Substituindo $u = 1$ na fórmula acima, o teorema da divergência (Eq. 1.28) pode ser obtido. Para o propósito da mecânica dos contínuos, a seguinte identidade de Green pode ser derivada substituindo $v$ por $\nabla v$ na fórmula anterior:
+	\begin{equation}
+		\iint_\Omega (\nabla u \cdot \nabla v) \, d\Omega = \int_\Gamma (u \nabla v \cdot n) \, d\Gamma - \iint_\Omega u (\nabla^2 v) \, d\Omega. \tag{1.31}
+	\end{equation}
+	
+	Uma das razões importantes para usar a integração por partes é relaxar o requisito de diferenciabilidade. Na fórmula acima, por exemplo, o lado direito (RHS) exige que $v(x)$ seja uma função duas vezes diferenciável, enquanto o lado esquerdo (LHS) está bem definido com a derivada parcial de primeira ordem de $v(x)$. O requisito adicional de diferenciabilidade foi transferido para $u(x)$.
+	
+	\emph{Exemplo 1.5 (Teorema da Divergência)}
+	
+	Integre $ \int_S F \cdot n \, dS $, onde $F$ é um campo vetorial dado por $F = 2x e_1 + y^2 e_2 + z^2 e_3$, e $S$ é a área da superfície da esfera unitária $(x^2 + y^2 + z^2 = 1)$, cujo vetor normal unitário é $n$.
+	
+	\textbf{Solução:} Usando o teorema da divergência:
+	\begin{equation}
+		\int_S F \cdot n \, dS = \iint_\Omega (\nabla \cdot F) \, d\Omega,
+	\end{equation}
+	\begin{equation}
+		\iint_\Omega (\nabla \cdot F) \, d\Omega = \iint_\Omega \left( 2 + 0 + 0 \right) \, d\Omega = 2 \iint_\Omega 1 \, d\Omega = 2 \cdot \frac{4\pi}{3} = 8\pi / 3.
+	\end{equation}
+}
+
+\section{Problema de valor sobre o contorno}
+
+\section{Principio da miníma energia potencial}
+
+\section{Principio dos trabalhos virtuais}
+
+%% referencias
+\nocite{malvern1969introduction}
+\nocite{boresi2002advanced}
+\printbibliography[heading=subbibliography,segment=\therefsegment]

@@ -1,0 +1,20 @@
+\chapter{Condições de Contorno}\label{ch:CC}
+
+Para obter um problema matemático bem definido, é necessário adicionar condições de contorno à equação de equilíbrio, que prescrevem o campo de deslocamento $ \mathbf{u} $ em $ \Gamma_g $ e as trações superficiais $ \mathbf{f}_S $ em $ \Gamma_S $ nas seguintes formas:
+\begin{equation}
+	\mathbf{u} = \mathbf{g} \, \text{ em } \, \Gamma_h
+\end{equation}
+\begin{equation}
+	\mathbf{t} = \mathbf{P}^T \mathbf{N} \, \text{ em } \, \Gamma_s.
+\end{equation}
+Matematicamente, a primeira é chamada de condição de contorno essencial e a segunda de condição de contorno natural. Note que, mesmo que a segunda tensão de Piola-Kirchhoff seja usada como medida de tensão, a primeira tensão de Piola-Kirchhoff é usada na condição de contorno de tração, uma vez que esta última se baseia em forças físicas.
+
+Usando as condições de contorno de deslocamento, o espaço de soluções $\mathbbm{V}$ e o espaço $\mathbbm{Z}$ de deslocamentos cinematicamente admissíveis são definidos como:
+\begin{equation}
+	\mathbbm{V} = \left\{ \mathbf{u} \, \Big| \, \mathbf{u} \in \left[H^1(\Omega)\right]^N, \, \mathbf{u}|_{\Gamma_h} = \mathbf{g} \right\}, 
+\end{equation}
+e
+\begin{equation}
+	\mathbbm{Z} = \left\{ \mathbf{u} \, \Big| \, \mathbf{u} \in \left[H^1(\Omega)\right]^N, \, \mathbf{u}|_{\Gamma_h} = 0 \right\},
+\end{equation}
+onde  $H^1(\Omega)$ é o espaço de funções cujas derivadas de primeira ordem são limitadas na norma de energia. O espaço $\mathbbm{Z}$ é o mesmo que o espaço de soluções $\mathbbm{V}$, exceto que satisfaz as condições de contorno essenciais homogêneas.

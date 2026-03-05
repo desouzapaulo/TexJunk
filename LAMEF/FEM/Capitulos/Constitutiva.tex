@@ -1,0 +1,37 @@
+\chapter{Relações constitutivas}\label{ch:Constitutiva}
+\section{Material elástico}
+Considere o modelo de material elástico não linear de St. Venant–Kirchhoff, onde a densidade de energia de deformação $W(E)$assume a seguinte forma:
+
+\begin{equation}\label{eq:DensidadeEnergia}
+	W(\mathbf{E}) = \frac{1}{2} \mathbf{E} : \mathbf{D} : \mathbf{E}.
+\end{equation}
+
+A notação $:$ representa o operador de contração para tensores, onde$\mathbf{a}:\mathbf{b} = a_{ij} b_{ij}$ (com soma sobre índices repetidos), e $\mathbf{D}$ é o tensor constitutivo de quarta ordem. Para materiais isotrópicos, definido como:
+\begin{equation}
+	\mathbf{D} =\lambda \mathbf{1} \otimes \mathbf{1} + 2 \mu \mathbf{I}
+\end{equation}
+
+\begin{equation}\label{eq:RelConst}
+	D_{ijkl} = \lambda \delta_{ij} \delta_{kl} + \mu (\delta_{ik} \delta_{jl} + \delta_{il} \delta_{jk})
+\end{equation}
+
+Formulação utilizada para materiais elásticos lineares. Na Eq.~\eqref{eq:RelConst},$\lambda$ e $\mu$ são as constantes de Lamé para materiais isotrópicos, onde $\delta$ é o delta de Kronecker.$\mathbf{1}$ representa o tensor unitário de segunda ordem, e $I$ é o tensor unitário simétrico de quarta ordem, definido como:
+
+\begin{equation}
+	I_{ijkl} = \frac{1}{2} (\delta_{ik} \delta_{jl} + \delta_{il} \delta_{jk}),
+\end{equation}
+as constantes de Lamé $\lambda$ e $\mu$ para materiais isotrópicos também podem ser expressas em termos do módulo de elasticidade $E$ e do coeficiente de Poisson $\nu$ como:
+
+\begin{equation}
+	\lambda = \frac{\nu E}{(1 + \nu)(1 - 2\nu)}, \quad \mu = \frac{E}{2(1 + \nu)}
+\end{equation}
+
+A relação constitutiva pode ser obtida diferenciando a Eq.~\eqref{eq:DensidadeEnergia} em relação à deformação Lagrangiana $\mathbf{E}$, resultando em:
+
+\begin{equation}\label{eq:tensaodeformacaolinear}
+	\mathbf{S} = \frac{\partial W(\mathbf{E})}{\partial \mathbf{E}} = \mathbf{D} : \mathbf{E} = \lambda \text{tr}(\mathbf{E})\mathbf{1} + 2\mu \mathbf{E}
+\end{equation}
+onde $S$ representa a tensão de Piola-Kirchhoff de segunda ordem. Note que a relação entre tensão $S$ e deformação $E$ é linear. 
+
+No entanto, muitos materiais desviam-se deste comportamento tensão-deformação linear, especialmente em grandes deformações. Consequentemente, a Eq.~\eqref{eq:tensaodeformacaolinear} é mais adequada para pequenas deformações.
+\section{Material Plástico}
