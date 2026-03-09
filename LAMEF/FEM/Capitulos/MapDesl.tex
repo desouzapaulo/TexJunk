@@ -1,36 +1,133 @@
 \chapter{Cinemática do Contínuo}
 \section{Mapeamento do Deslocamento}
-Para descrever mudanças geométricas em um meio contínuo é necessário fazer o mapeamento do deslocamento dos pontos dentro do domínio. O corpo em estudo é interpretado como um conjunto de partículas que inicialmente ocupam uma posiçõao inicial $\textbf{X}$, no momento $t_0$, que formam uma configuração de referência $C_0$ onde o corpo ainda não sofreu nenhum tipo de alteração. Após o corpo sofrer as alterações externas que mudaram sua geometria, as partículas ocupam novas posições em $\textbf{x}$ no momento $t$ que formam uma configuração deformada $C$. O mapeamento do deslocamento é a equação que descreve a mudança de posição dessas partículas de um estado para o outro. Se a equação descreve a mudança do estado \textbf{indeformado} para o \textbf{deformado} é dado o nome de descrição \textit{Lagrangiana}, se ela descreve a mudança do estado \textbf{deformado} para o \textbf{indeformado} é dado o nome de descrição \textit{Euleriana}. 
+Para descrever mudanças geométricas em um meio contínuo é necessário fazer o mapeamento do deslocamento dos pontos dentro do domínio. O corpo em estudo é interpretado como um conjunto de partículas que inicialmente ocupam uma posição inicial $\mathbf{X}$, no momento $t_0$, que formam uma configuração de referência $C_0$ onde o corpo ainda não sofreu nenhum tipo de alteração. Após o corpo sofrer as alterações externas que mudaram sua geometria, as partículas ocupam novas posições em $\mathbf{x}$ no momento $t$ que formam uma configuração deformada $C$. O mapeamento do deslocamento é a equação que descreve a mudança de posição dessas partículas de um estado para o outro. Se a equação descreve a mudança do estado \textbf{indeformado} para o \textbf{deformado} é dado o nome de descrição \textit{Lagrangiana}, se ela descreve a mudança do estado \textbf{deformado} para o \textbf{indeformado} é dado o nome de descrição \textit{Euleriana}. 
 
-O conjunto de pontos das partículas denominado por $\textbf{X}$ na descrição \textit{Lagrangiana} é chamado de \textit{coordenadas materiais} e são usadas para descrever como o geometria de um corpo sólido muda após a aplicação de cargas externas, por esse motivo é usado na mecânica dos sólidos. O conjunto de pontos das partículas denominado por $\textbf{x}$ na descrição \textit{Euleriana} é chamado de \textit{coordenadas espaciais} e são usadas para descrever como as propriedades dentro de um volume de controle mudam após a aplicação de condições de contorno, por esse motivo é usado na mecânica dos fluidos.
+O conjunto de pontos das partículas denominado por $\mathbf{X}$ na descrição \textit{Lagrangiana} é chamado de \textit{coordenadas materiais} e são usadas para descrever como o geometria de um corpo sólido muda após a aplicação de cargas externas, por esse motivo é usado na mecânica dos sólidos. O conjunto de pontos das partículas denominado por $\mathbf{x}$ na descrição \textit{Euleriana} é chamado de \textit{coordenadas espaciais} e são usadas para descrever como as propriedades dentro de um volume de controle mudam após a aplicação de condições de contorno, por esse motivo é usado na mecânica dos fluidos.
 
-As equações que descrevem a mudança do grupo de coordenadas $\textbf{X}$ para $\textbf{x}$ pode ser representado por
+As equações que descrevem a mudança do grupo de coordenadas $\mathbf{X}$ para $\mathbf{x}$ pode ser representado por
 
 \begin{equation}
-	\textbf{x} = \chi(\textbf{X}, t)
+	\mathbf{x} = \chi(\mathbf{X}, t)
 \end{equation}
 
 \begin{equation}
-	\chi(\textbf{X}, t_0) = \textbf{X}
+	\chi(\mathbf{X}, t_0) = \mathbf{X}
 \end{equation}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.6\linewidth]{fig_3-3-1_Reddy.png}
-	\caption{Mapeamento do Deslocamento}
-	\label{fig:my_label}
-\end{figure}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.6\linewidth]{fig_3-3-1_Reddy.png}
+%	\caption{Mapeamento do Deslocamento}
+%	\label{fig:my_label}
+%\end{figure}
 
 \section{Campo de Deslocamento}
-O deslocamento dos pontos são a diferença entre as coordenadas das duas configurações do meio contínuo.
+O deslocamento dos pontos são a diferença entre as coordenadas das duas configurações do meio contínuo, como estamos falando de mecânica dos sólidos, daqui pra frente usaremos a descrição \textit{Lagrangiana} para montar as equações. Assim o deslocamento pode ser escrito como uma função das coordenadas \textit{materiais}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.6\linewidth]{fig_3-3-3_Reddy.png}
-	\caption{Campo de Deslocamento}
-	\label{fig:my_label}
-\end{figure}
+\begin{equation}
+	\mathbf{u}(\mathbf{X}, t) = \mathbf{x}(\mathbf{X}, t) - \mathbf{X}
+	\label{dispX}
+\end{equation}
 
-\begin{thebibliography}{}
-	\bibitem{reddy2009principles} Reddy, JN, (2009) Principles of continuum mechanics
-\end{thebibliography}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.6\linewidth]{fig_3-3-3_Reddy.png}
+%	\caption{Campo de Deslocamento}
+%	\label{fig:my_label}
+%\end{figu
+
+\section{Tensor Gradiente de Deformação}
+O tensor gradiente de deformação $\mathbf{F}$ é a relação entre a linha que liga as partículas $\mathcal{Q}$  e $\mathcal{P}$ separadas pela distância $d\mathbf{X}$ na configuração \textbf{indeformada}, e esta mesma linha agora com um tamanho $d\mathbf{x}$ na configuração \textbf{deformada}.  
+
+\begin{equation}
+	d\mathbf{x} = \mathbf{F} \cdot d\mathbf{X}
+\end{equation}
+
+\begin{equation}
+	\mathbf{F} = (\frac{\partial\mathbf{x}}{\partial\mathbf{X}})^\mathbf{T} = (\nabla_{0}\mathbf{x})^T
+	\label{Fdef}
+\end{equation}
+
+O operador gradiente $\nabla_{0}$ é escrito com o sub-índice 0 por se referir as derivadas de $d\mathbf{x}$ em relação a configuração indeformada $\mathbf{X}$, para escrever o gradiente em relação a configuração indeformada ele seria escrito como $\nabla_{\mathbf{x}}$. Desse modo o gradiente de deformação pode ser definido como o tensor transposto do gradiente das coordenas de uma partícula na configuração deformada $\mathbf{x}$ em relação as coordenadas na configuração indeformada $\mathbf{X}$.
+
+\begin{equation}
+	\mathbf{x} = \left[\begin{array}{ccc}
+		x_1 \\ x_2 \\ x_3
+	\end{array}\right],
+	\qquad
+	\mathbf{X} = \left[\begin{array}{ccc}
+		X_1 \\ X_2 \\ X_3
+	\end{array}\right]
+\end{equation}
+
+\begin{equation}
+	\mathbf{F} = 
+	\left[\begin{array}{ccc}
+		\frac{\partial x_1}{\partial X_1} 
+		& \frac{\partial x_1}{\partial X_2}
+		& \frac{\partial x_1}{\partial X_3}
+		\\
+		\frac{\partial x_2}{\partial X_1} 
+		& \frac{\partial x_2}{\partial X_2}
+		& \frac{\partial x_2}{\partial X_3}
+		\\
+		\frac{\partial x_3}{\partial X_1} 
+		& \frac{\partial x_3}{\partial X_2}
+		& \frac{\partial x_3}{\partial X_3}
+	\end{array}\right]
+\end{equation}
+
+Se estamos analisando duas partículas separadas por uma distância \textbf{finita} mudamos a notação $\partial$ por $d$.
+
+Se reescrevermos a equação \ref{dispX} em termos de $\mathbf{x}$
+
+\begin{equation}
+	\mathbf{x} =  \mathbf{u} + \mathbf{X}
+\end{equation}
+
+aplicando o operador $\nabla_0$ em todos os termos temos
+
+\begin{equation}
+	\nabla_0 \mathbf{x} =  \nabla_0 \mathbf{u} + \nabla_0 \mathbf{X} 
+	\label{Fdefnabla}
+\end{equation}
+
+lembrando a definição de $\mathbf{F}$ na equação \ref{Fdef} e aplicarmos a definição da equação \ref{Fdefnabla} podemos escrever um tensor em função dos deslocamentos e das coordenadas iniciais
+
+\begin{equation}
+	\mathbf{F} = (\nabla_0 \mathbf{u} + \nabla_0 \mathbf{X})^T
+\end{equation}
+  
+
+Como $\nabla_0$ é uma derivada em relação as coordenadas iniciais, a operação $\nabla_0 \mathbf{X}$ resulta em uma matriz identidade
+
+\begin{equation}
+	\nabla_0 \mathbf{X} = \mathbf{I}
+\end{equation}
+
+\begin{equation}
+	\nabla_0 \mathbf{X} = 
+	\left[\begin{array}{ccc}
+		\frac{\partial X_1}{\partial X_1}  = 1
+		& \frac{\partial X_1}{\partial X_2} = 0
+		& \frac{\partial X_1}{\partial X_3} = 0
+		\\
+		\frac{\partial X_2}{\partial X_1}  = 0
+		& \frac{\partial X_2}{\partial X_2} = 1
+		& \frac{\partial X_2}{\partial X_3} = 0
+		\\
+		\frac{\partial X_3}{\partial X_1} = 0
+		& \frac{\partial X_3}{\partial X_2} = 0
+		& \frac{\partial X_3}{\partial X_3} = 1
+	\end{array}\right]
+\end{equation}
+
+assim podemos definir o tensor gradiente de deformação apenas em função dos deslocamentos
+
+\begin{equation}
+	\mathbf{F} = (\nabla_0 \mathbf{u} + \mathbf{I})^T
+\end{equation}
+
+%\begin{thebibliography}{}
+%	\bibitem{reddy2009principles} Reddy, JN, (2009) Principles of continuum mechanics
+%\end{thebibliography}

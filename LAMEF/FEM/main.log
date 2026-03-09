@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.3)  5 MAR 2026 17:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.3)  9 MAR 2026 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -633,11 +633,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count450
 \@quotereset=\count451
-(main.aux
-
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-)
+(main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -762,16 +758,13 @@ Package biblatex Info: Reference segment=0 on input line 35.
 
 
 {C:/Users/paulo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+(Capitulos/Preambulo/Agradece.tex
 
 [2
 
 ]
-Package biblatex Info: Reference segment=1 on input line 39.
-Package biblatex Info: Setting label 'refsegment:01' on input line 39.
- (main.toc)
-\tf@toc=\write6
-\openout6 = `main.toc'.
-
+Package biblatex Info: Reference segment=1 on input line 1.
+Package biblatex Info: Setting label 'refsegment:01' on input line 1.
 
 
 [3]
@@ -779,34 +772,34 @@ Package biblatex Info: Setting label 'refsegment:01' on input line 39.
 [4
 
 ]
-Package biblatex Info: Reference segment=2 on input line 40.
-Package biblatex Info: Setting label 'refsegment:02' on input line 40.
- (main.lof)
-\tf@lof=\write7
-\openout7 = `main.lof'.
+Package biblatex Info: Reference segment=2 on input line 4.
+Package biblatex Info: Setting label 'refsegment:02' on input line 4.
 
 
-
-[5]
+[5])
 
 [6
 
 ]
-Package biblatex Info: Reference segment=3 on input line 41.
-Package biblatex Info: Setting label 'refsegment:03' on input line 41.
- (main.lot)
-\tf@lot=\write8
-\openout8 = `main.lot'.
+Package biblatex Info: Reference segment=3 on input line 40.
+Package biblatex Info: Setting label 'refsegment:03' on input line 40.
+ (main.toc)
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
- (Capitulos/Preambulo/Agradece.tex
+
 
 [7]
 
 [8
 
 ]
-Package biblatex Info: Reference segment=4 on input line 1.
-Package biblatex Info: Setting label 'refsegment:04' on input line 1.
+Package biblatex Info: Reference segment=4 on input line 41.
+Package biblatex Info: Setting label 'refsegment:04' on input line 41.
+ (main.lof)
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
 
 
 [9]
@@ -814,15 +807,20 @@ Package biblatex Info: Setting label 'refsegment:04' on input line 1.
 [10
 
 ]
-Package biblatex Info: Reference segment=5 on input line 4.
-Package biblatex Info: Setting label 'refsegment:05' on input line 4.
+Package biblatex Info: Reference segment=5 on input line 42.
+Package biblatex Info: Setting label 'refsegment:05' on input line 42.
+ (main.lot)
+\tf@lot=\write8
+\openout8 = `main.lot'.
 
+ (Capitulos/Intro.tex
 
-[11]) (Capitulos/Intro.tex
+[11]
 
 [12
 
 ]
+Chapter 1.
 Package biblatex Info: Reference segment=6 on input line 1.
 Package biblatex Info: Setting label 'refsegment:06' on input line 1.
 ) (Capitulos/revMat.tex
@@ -832,25 +830,25 @@ Package biblatex Info: Setting label 'refsegment:06' on input line 1.
 [14
 
 ]
-Chapter 1.
+Chapter 2.
 Package biblatex Info: Reference segment=7 on input line 1.
 Package biblatex Info: Setting label 'refsegment:07' on input line 1.
 
 
 [15
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.54 	\end{equation}
                     
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.54 	\end{equation}
                     
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.3}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -858,13 +856,13 @@ l.54 	\end{equation}
                     ]
 
 [16
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.4}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.4}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.100 	\end{equation}
                      
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.9}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.9}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -882,19 +880,19 @@ LaTeX Warning: Empty bibliography on input line 148.
 ) (Capitulos/MapDesl.tex
 
 [17
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.10
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.10
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.1 \chapter
             {Cinemática do Contínuo}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.12
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.12
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.1 \chapter
             {Cinemática do Contínuo}
-pdfTeX warning (ext4): destination with the same identifier (name{equation.1.12
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.12
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -904,28 +902,18 @@ l.1 \chapter
 [18
 
 ]
-Chapter 2.
+Chapter 3.
 Package biblatex Info: Reference segment=8 on input line 1.
 Package biblatex Info: Setting label 'refsegment:08' on input line 1.
-<Imagens/fig_3-3-1_Reddy.png, id=218, 439.6425pt x 260.47313pt>
-File: Imagens/fig_3-3-1_Reddy.png Graphic file (type png)
-<use Imagens/fig_3-3-1_Reddy.png>
-Package pdftex.def Info: Imagens/fig_3-3-1_Reddy.png  used on input line 19.
-(pdftex.def)             Requested size: 266.14978pt x 157.68806pt.
-<Imagens/fig_3-3-3_Reddy.png, id=220, 328.97906pt x 237.13594pt>
-File: Imagens/fig_3-3-3_Reddy.png Graphic file (type png)
-<use Imagens/fig_3-3-3_Reddy.png>
-Package pdftex.def Info: Imagens/fig_3-3-3_Reddy.png  used on input line 29.
-(pdftex.def)             Requested size: 266.14978pt x 191.85109pt.
 
 
-[19]
+[19]) (Capitulos/Deforma.tex
 
-[20 <./Imagens/fig_3-3-1_Reddy.png> <./Imagens/fig_3-3-3_Reddy.png>]
-Package biblatex Info: Reference segment=9 on input line 34.
-Package biblatex Info: Setting label 'refsegment:09' on input line 34.
-)
-(Capitulos/Constitutiva.tex
+[20]
+Chapter 4.
+Package biblatex Info: Reference segment=9 on input line 1.
+Package biblatex Info: Setting label 'refsegment:09' on input line 1.
+) (Capitulos/Constitutiva.tex
 
 [21
 
@@ -934,7 +922,7 @@ Package biblatex Info: Setting label 'refsegment:09' on input line 34.
 [22
 
 ]
-Chapter 3.
+Chapter 5.
 Package biblatex Info: Reference segment=10 on input line 1.
 Package biblatex Info: Setting label 'refsegment:010' on input line 1.
 ) (Capitulos/CC.tex
@@ -944,7 +932,7 @@ Package biblatex Info: Setting label 'refsegment:010' on input line 1.
 [24
 
 ]
-Chapter 4.
+Chapter 6.
 Package biblatex Info: Reference segment=11 on input line 1.
 Package biblatex Info: Setting label 'refsegment:011' on input line 1.
 LaTeX Font Info:    Trying to load font information for U+bbm on input line 12.
@@ -958,13 +946,13 @@ File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 [26
 
 ]
-Chapter 5.
+Chapter 7.
 Package biblatex Info: Reference segment=12 on input line 1.
 Package biblatex Info: Setting label 'refsegment:012' on input line 1.
 
 
 [27]
-<Imagens/NR.png, id=296, 666.49pt x 398.48875pt>
+<Imagens/NR.png, id=320, 666.49pt x 398.48875pt>
 File: Imagens/NR.png Graphic file (type png)
 <use Imagens/NR.png>
 Package pdftex.def Info: Imagens/NR.png  used on input line 86.
@@ -985,11 +973,8 @@ L3 programming layer <2025-10-09>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4F3A5EAB903C8A14045C35DA56750644;3466.
+(rerunfilecheck)             Checksum: C150182BD89EE2EF3AF25784085AC6A4;4134.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1000,31 +985,32 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19408 strings out of 468080
- 338851 string characters out of 5435839
- 1317527 words of memory out of 5000000
- 47716 multiletter control sequences out of 15000+600000
+ 19414 strings out of 468080
+ 338655 string characters out of 5435839
+ 1317581 words of memory out of 5000000
+ 47708 multiletter control sequences out of 15000+600000
  636590 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,19n,79p,1055b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,19n,79p,1054b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\paulo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbold/dpi600\bbo
 ld10.pk> <C:\Users\paulo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbm/dpi600
 \bbm10.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
 :/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pf
-b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
- Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmsl10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (29 pages, 386893 bytes).
+les/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pf
+b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pf
+b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (29 pages, 359221 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 115 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 126 named destinations out of 1000 (max. 500000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
