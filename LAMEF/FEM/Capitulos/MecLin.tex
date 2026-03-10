@@ -1,4 +1,7 @@
 \chapter{Cinemática do Contínuo}
+\section{Introdução}
+Descrição da mudança geométrica de um meio, e eras isso.
+
 \section{Mapeamento do Deslocamento}
 Para descrever mudanças geométricas em um meio contínuo é necessário fazer o mapeamento do deslocamento dos pontos dentro do domínio. O corpo em estudo é interpretado como um conjunto de partículas que inicialmente ocupam uma posição inicial $\mathbf{X}$, no momento $t_0$, que formam uma configuração de referência $C_0$ onde o corpo ainda não sofreu nenhum tipo de alteração. Após o corpo sofrer as alterações externas que mudaram sua geometria, as partículas ocupam novas posições em $\mathbf{x}$ no momento $t$ que formam uma configuração deformada $C$. O mapeamento do deslocamento é a equação que descreve a mudança de posição dessas partículas de um estado para o outro. Se a equação descreve a mudança do estado \textbf{indeformado} para o \textbf{deformado} é dado o nome de descrição \textit{Lagrangiana}, se ela descreve a mudança do estado \textbf{deformado} para o \textbf{indeformado} é dado o nome de descrição \textit{Euleriana}. 
 
@@ -7,11 +10,11 @@ O conjunto de pontos das partículas denominado por $\mathbf{X}$ na descrição 
 As equações que descrevem a mudança do grupo de coordenadas $\mathbf{X}$ para $\mathbf{x}$ pode ser representado por
 
 \begin{equation}
-	\mathbf{x} = \chi(\mathbf{X}, t)
+	\mathbf{x} = \chi(\mathbf{X}, t),
 \end{equation}
 
 \begin{equation}
-	\chi(\mathbf{X}, t_0) = \mathbf{X}
+	\chi(\mathbf{X}, t_0) = \mathbf{X}.
 \end{equation}
 
 %\begin{figure}
@@ -21,11 +24,11 @@ As equações que descrevem a mudança do grupo de coordenadas $\mathbf{X}$ para
 %	\label{fig:my_label}
 %\end{figure}
 
-\section{Campo de Deslocamento}
+\subsection{Campo de Deslocamento}
 O deslocamento dos pontos são a diferença entre as coordenadas das duas configurações do meio contínuo, como estamos falando de mecânica dos sólidos, daqui pra frente usaremos a descrição \textit{Lagrangiana} para montar as equações. Assim o deslocamento pode ser escrito como uma função das coordenadas \textit{materiais}
 
 \begin{equation}
-	\mathbf{u}(\mathbf{X}, t) = \mathbf{x}(\mathbf{X}, t) - \mathbf{X}
+	\mathbf{u}(\mathbf{X}, t) = \mathbf{x}(\mathbf{X}, t) - \mathbf{X}.
 	\label{dispX}
 \end{equation}
 
@@ -36,19 +39,20 @@ O deslocamento dos pontos são a diferença entre as coordenadas das duas config
 %	\label{fig:my_label}
 %\end{figu
 
-\section{Tensor Gradiente de Deformação}
+\subsection{Tensor Gradiente de Deformação}
 O tensor gradiente de deformação $\mathbf{F}$ é a relação entre a linha que liga as partículas $\mathcal{Q}$  e $\mathcal{P}$ separadas pela distância $d\mathbf{X}$ na configuração \textbf{indeformada}, e esta mesma linha agora com um tamanho $d\mathbf{x}$ na configuração \textbf{deformada}.  
 
 \begin{equation}
-	d\mathbf{x} = \mathbf{F} \cdot d\mathbf{X}
+	d\mathbf{x} = \mathbf{F} \cdot d\mathbf{X},
+	\label{eq:dx_FdX}
 \end{equation}
 
 \begin{equation}
-	\mathbf{F} = (\frac{\partial\mathbf{x}}{\partial\mathbf{X}})^\mathbf{T} = (\nabla_{0}\mathbf{x})^T
+	\mathbf{F} = (\frac{\partial\mathbf{x}}{\partial\mathbf{X}})^\mathbf{T} = (\nabla_{0}\mathbf{x})^T.
 	\label{Fdef}
 \end{equation}
 
-O operador gradiente $\nabla_{0}$ é escrito com o sub-índice 0 por se referir as derivadas de $d\mathbf{x}$ em relação a configuração indeformada $\mathbf{X}$, para escrever o gradiente em relação a configuração indeformada ele seria escrito como $\nabla_{\mathbf{x}}$. Desse modo o gradiente de deformação pode ser definido como o tensor transposto do gradiente das coordenas de uma partícula na configuração deformada $\mathbf{x}$ em relação as coordenadas na configuração indeformada $\mathbf{X}$.
+O operador gradiente $\nabla_{0}$ é escrito com o sub-índice 0 por se referir as derivadas de $d\mathbf{x}$ em relação a configuração indeformada $\mathbf{X}$, para escrever o gradiente em relação a configuração indeformada ele seria escrito como $\nabla_{\mathbf{x}}$. Desse modo o gradiente de deformação pode ser definido como o tensor transposto do gradiente das coordenas de uma partícula na configuração deformada $\mathbf{x}$ em relação as coordenadas na configuração indeformada $\mathbf{X}$
 
 \begin{equation}
 	\mathbf{x} = \left[\begin{array}{ccc}
@@ -57,7 +61,7 @@ O operador gradiente $\nabla_{0}$ é escrito com o sub-índice 0 por se referir 
 	\qquad
 	\mathbf{X} = \left[\begin{array}{ccc}
 		X_1 \\ X_2 \\ X_3
-	\end{array}\right]
+	\end{array}\right].
 \end{equation}
 
 \begin{equation}
@@ -70,7 +74,7 @@ O operador gradiente $\nabla_{0}$ é escrito com o sub-índice 0 por se referir 
 		\frac{\partial x_2}{\partial X_1} 
 		& \frac{\partial x_2}{\partial X_2}
 		& \frac{\partial x_2}{\partial X_3}
-		\\
+		\\ 
 		\frac{\partial x_3}{\partial X_1} 
 		& \frac{\partial x_3}{\partial X_2}
 		& \frac{\partial x_3}{\partial X_3}
@@ -79,7 +83,7 @@ O operador gradiente $\nabla_{0}$ é escrito com o sub-índice 0 por se referir 
 
 Se estamos analisando duas partículas separadas por uma distância \textbf{finita} mudamos a notação $\partial$ por $d$.
 
-Se reescrevermos a equação \ref{dispX} em termos de $\mathbf{x}$
+Se reescrevermos a Eq.\eqref{dispX} em termos de $\mathbf{x}$
 
 \begin{equation}
 	\mathbf{x} =  \mathbf{u} + \mathbf{X}
@@ -92,12 +96,11 @@ aplicando o operador $\nabla_0$ em todos os termos temos
 	\label{Fdefnabla}
 \end{equation}
 
-lembrando a definição de $\mathbf{F}$ na equação \ref{Fdef} e aplicarmos a definição da equação \ref{Fdefnabla} podemos escrever um tensor em função dos deslocamentos e das coordenadas iniciais
+lembrando a definição de $\mathbf{F}$ na Eq.\eqref{Fdef} e aplicarmos a definição da Eq.\eqref{Fdefnabla} podemos escrever um tensor em função dos deslocamentos e das coordenadas iniciais
 
 \begin{equation}
 	\mathbf{F} = (\nabla_0 \mathbf{u} + \nabla_0 \mathbf{X})^T
 \end{equation}
-  
 
 Como $\nabla_0$ é uma derivada em relação as coordenadas iniciais, a operação $\nabla_0 \mathbf{X}$ resulta em uma matriz identidade
 
@@ -128,6 +131,96 @@ assim podemos definir o tensor gradiente de deformação apenas em função dos 
 	\mathbf{F} = (\nabla_0 \mathbf{u} + \mathbf{I})^T
 \end{equation}
 
+\section{Deformação}
+\subsection{Tensor de deformação de Cauchy-Green}
+As mudanças geométricas de um sólido contínuo podem ser medidas de diversar maneiras. Aqui vamos discutir a medida geral de deformação. A distância entre as partículas materiais $\mathcal{P}$ e $\mathcal{Q}$ são descritas na forma vetorial por
+
+\begin{equation}
+	d \mathbf{X} = 
+	\left[\begin{array}{ccc}
+		dX_1 \\ dX_2 \\ dX_3
+	\end{array}\right],
+	\qquad
+	d \mathbf{x} = 
+	\left[\begin{array}{ccc}
+		dx_1 \\ dx_2 \\ dx_3
+	\end{array}\right],
+\end{equation}
+
+em que o quadrado da distância formada por esses vetores é descrito por
+
+\begin{equation}
+	(dS)^2 = d\mathbf{X} \cdot d\mathbf{X}
+	= dX_idX_i
+	= dX_1^2 + dX_2^2 + dX_3^2,
+\end{equation}
+
+\begin{equation}
+	(ds)^2 = d\mathbf{x} \cdot d\mathbf{x}
+	= dx_idx_i
+	= dx_1^2 + dx_2^2 + dx_3^2.
+	\label{eq:ds_2}.
+\end{equation}
+
+Substituindo a Eq.\eqref{eq:dx_FdX} na Eq.\eqref{eq:ds_2} chegamos em 
+
+\begin{equation}
+	(ds^2) = (\mathbf{F} \cdot d\mathbf{X}) \cdot (\mathbf{F} \cdot d\mathbf{X})
+	= d\mathbf{X} \cdot (\mathbf{F}^T \mathbf{F}) \cdot d\mathbf{X},
+	\label{eq:ds_FTF},
+\end{equation}
+
+desse modo podemos definir o tensor de Cauchy-Green à direita:
+
+\begin{eqnarray}
+	C = \mathbf{F}^T \mathbf{F}.
+	\label{eq:Cauchy_G_tensor}
+\end{eqnarray}
+
+Para observar a variação da distância entre as duas partículas materiais, vamos escrever a diferença dos quadrados das distâncias usando as relações da Eq.\eqref{eq:ds_FTF}:
+
+\begin{equation}
+	(ds)^2 - (dS)^2 = 
+	d\mathbf{x} \cdot d\mathbf{x} -
+	d\mathbf{X} \cdot d\mathbf{X}
+	= d\mathbf{X} \cdot \mathbf{F}^T \mathbf{F} \cdot d\mathbf{X} -
+	d\mathbf{X} \cdot d\mathbf{X},
+\end{equation}
+
+usando a definição do tensor de \textit{Cauchy-Green} da Eq.\eqref{eq:Cauchy_G_tensor}, podemos escrever que
+
+\begin{equation}
+	(ds)^2 - (dS)^2 = d\mathbf{X} \cdot C \cdot d\mathbf{X}.
+	\label{eq:ds_C}
+\end{equation}
+
+O tensor de \textit{Cauchy-Green} é uma descrição da mudança geométrica mais completa, que contém informação da variação absoluta da distância entre partículas, incluindo o movimento de corpo rígido. Nessa forma de medida de deformação, estamos interessados nas mudanças relativas de distância entre as partículas, para isso escrevemos o tensor de \textit{Green-St. Venant} como 
+
+\begin{equation}
+	2\mathbf{E} = \mathbf{C} - \mathbf{I},
+	\label{eq:2Green_St_Venant}
+\end{equation}
+
+podendo reescrever a Eq.\eqref{eq:ds_C} como
+
+\begin{equation}
+	(ds)^2 - (dS)^2 = 2 d\mathbf{X} \cdot \mathbf{E} \cdot d\mathbf{X}.
+\end{equation}
+
+Para que escrevamos a as equações de equilíbrio, precisamos que o tensor $\mathbf{E}$ se relacione diretamente com a variável primária, que nesse caso é o campo de deslocamentos $\mathbf{u}$. Para isso usamos a Eq.\eqref{eq:Cauchy_G_tensor} para reescrever a Eq.\eqref{eq:2Green_St_Venant}:
+
+\begin{equation}
+	\mathbf{E} = \frac{1}{2} (\mathbf{C} - \mathbf{I}) =
+	\frac{1}{2} (\mathbf{F}^T \mathbf{F} - \mathbf{I}), 	
+\end{equation}
+
+desse modo podemos usar a Eq.\eqref{Fdef} para escrever o tensor de deformação em função do campo de deslocamento como
+
+\begin{equation}
+	\mathbf{E} = \frac{1}{2} \left( \nabla_0 \mathbf{u} + \nabla_0 \mathbf{u}^T + \nabla_0 \mathbf{u} \nabla_0 \mathbf{u}^T \right),
+\end{equation}
+
 %\begin{thebibliography}{}
 %	\bibitem{reddy2009principles} Reddy, JN, (2009) Principles of continuum mechanics
 %\end{thebibliography}
+

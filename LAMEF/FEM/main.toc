@@ -10,14 +10,17 @@
 \contentsline {section}{\numberline {2.7}Principio da miníma energia potencial}{17}{section.2.7}%
 \contentsline {section}{\numberline {2.8}Principio dos trabalhos virtuais}{17}{section.2.8}%
 \contentsline {chapter}{\numberline {3}Cinemática do Contínuo}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Mapeamento do Deslocamento}{19}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Campo de Deslocamento}{19}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Tensor Gradiente de Deformação}{19}{section.3.3}%
-\contentsline {chapter}{\numberline {4}deformação}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Tensor de deformação de Caucy-Green}{21}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Relações constitutivas}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Material elástico}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Material Plástico}{23}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Condições de Contorno}{25}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Princípio da Mínima Energia Potencial }{27}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Linearização (Matriz tangente)}{28}{section.7.1}%
+\contentsline {section}{\numberline {3.1}Introdução}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Mapeamento do Deslocamento}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Campo de Deslocamento}{19}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Tensor Gradiente de Deformação}{20}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Deformação}{21}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Tensor de deformação de Cauchy-Green}{21}{subsection.3.3.1}%
+\contentsline {chapter}{\numberline {4}Relações constitutivas}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Material elástico}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Material Plástico}{23}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Condições de Contorno}{25}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Mecânica Não-Linear}{27}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introdução}{27}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Princípio da Mínima Energia Potencial}{27}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Linearização (Matriz tangente)}{28}{section.6.3}%
