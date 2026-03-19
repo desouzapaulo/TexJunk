@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.3)  26 JAN 2026 13:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.3)  20 FEB 2026 16:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/GIT/TexJunk/LAMEF/TCC/main.tex
-(c:/GIT/TexJunk/LAMEF/TCC/main.tex
+**c:/GIT/TexJunk/TCC/main.tex
+(c:/GIT/TexJunk/TCC/main.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-09>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -772,14 +772,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  20149 strings out of 468080
- 365666 string characters out of 5435839
- 1332975 words of memory out of 5000000
+ 365444 string characters out of 5435839
+ 1333975 words of memory out of 5000000
  48495 multiletter control sequences out of 15000+600000
  638000 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,9n,112p,1366b,4094s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,9n,112p,1360b,4094s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 105455 bytes).
+Output written on main.pdf (11 pages, 105454 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  28 named destinations out of 1000 (max. 500000)
