@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.3)  10 MAR 2026 15:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.3)  10 MAR 2026 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -61,18 +61,15 @@ Package babel Info: Configuration files are deprecated, as
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Program Files\MiKTeX\tex/generic/babel/locale/en\babel-english.tex)
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 4295.
+(C:\Program Files\MiKTeX\tex/generic/babel/locale/pt\babel-brazilian.tex)
+Package babel Info: Importing font and identification data for brazilian
+(babel)             from babel-pt-BR.ini. Reported on input line 4295.
 
-(C:\Program Files\MiKTeX\tex/latex/babel-english\english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 108.
+(C:\Program Files\MiKTeX\tex/latex/babel-portuges\brazilian.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
+(babel)             (\language56). Reported on input line 111.
+Package babel Info: Making " an active character on input line 143.
 ))
 (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -633,7 +630,10 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count450
 \@quotereset=\count451
-(main.aux)
+(main.aux
+Package babel Info: 'brazilian' activates 'portuges' shorthands.
+(babel)             Reported on input line 9.
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -716,32 +716,23 @@ Package hyperref Info: Link coloring ON on input line 37.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
-Package biblatex Info: ... file 'english-apa.lbx' found.
- (C:\Program Files\MiKTeX\tex/latex/biblatex-apa\english-apa.lbx
-File: english-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
+Package biblatex Info: Trying to load language 'brazilian' -> 'brazilian-apa'..
+.
+Package biblatex Info: ... file 'brazilian-apa.lbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex-apa\brazilian-apa.lbx
+File: brazilian-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
 
-(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
-File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazilian.lbx
+File: brazilian.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
-Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
-Package biblatex Info: ... file 'american-apa.lbx' found.
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
 
-(C:\Program Files\MiKTeX\tex/latex/biblatex-apa\american-apa.lbx
-File: american-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
-Package biblatex Info: Trying to load language 'american'...
-Package biblatex Info: ... file 'american.lbx' found.
-
-(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\american.lbx
-File: american.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
-File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-))))
+(C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazilian.lbx
+File: brazilian.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -791,6 +782,8 @@ Package biblatex Info: Setting label 'refsegment:03' on input line 42.
 
 [7]
 
+Package babel Info: 'brazilian' activates 'portuges' shorthands.
+(babel)             Reported on input line 43.
 [8
 
 ]
@@ -820,7 +813,7 @@ Package biblatex Info: Setting label 'refsegment:05' on input line 44.
 [12
 
 ]
-Chapter 1.
+Cap\'{\i }tulo 1.
 Package biblatex Info: Reference segment=6 on input line 1.
 Package biblatex Info: Setting label 'refsegment:06' on input line 1.
 ) (Capitulos/revMat.tex
@@ -830,7 +823,7 @@ Package biblatex Info: Setting label 'refsegment:06' on input line 1.
 [14
 
 ]
-Chapter 2.
+Cap\'{\i }tulo 2.
 Package biblatex Info: Reference segment=7 on input line 1.
 Package biblatex Info: Setting label 'refsegment:07' on input line 1.
 
@@ -902,7 +895,7 @@ l.1 \chapter
 [18
 
 ]
-Chapter 3.
+Cap\'{\i }tulo 3.
 Package biblatex Info: Reference segment=8 on input line 1.
 Package biblatex Info: Setting label 'refsegment:08' on input line 1.
 
@@ -916,7 +909,7 @@ Package biblatex Info: Setting label 'refsegment:08' on input line 1.
 [22
 
 ]
-Chapter 4.
+Cap\'{\i }tulo 4.
 Package biblatex Info: Reference segment=9 on input line 1.
 Package biblatex Info: Setting label 'refsegment:09' on input line 1.
 ) (Capitulos/CC.tex
@@ -926,7 +919,7 @@ Package biblatex Info: Setting label 'refsegment:09' on input line 1.
 [24
 
 ]
-Chapter 5.
+Cap\'{\i }tulo 5.
 Package biblatex Info: Reference segment=10 on input line 1.
 Package biblatex Info: Setting label 'refsegment:010' on input line 1.
 LaTeX Font Info:    Trying to load font information for U+bbm on input line 12.
@@ -940,7 +933,7 @@ File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 [26
 
 ]
-Chapter 6.
+Cap\'{\i }tulo 6.
 Package biblatex Info: Reference segment=11 on input line 1.
 Package biblatex Info: Setting label 'refsegment:011' on input line 1.
 
@@ -948,7 +941,7 @@ Package biblatex Info: Setting label 'refsegment:011' on input line 1.
 [27]
 
 [28]
-<Imagens/NR.png, id=363, 666.49pt x 398.48875pt>
+<Imagens/NR.png, id=368, 666.49pt x 398.48875pt>
 File: Imagens/NR.png Graphic file (type png)
 <use Imagens/NR.png>
 Package pdftex.def Info: Imagens/NR.png  used on input line 95.
@@ -970,7 +963,7 @@ L3 programming layer <2025-10-09>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4E537F8FF9A0C1E1C71B3E3539B9C57D;4544.
+(rerunfilecheck)             Checksum: C2BC3E7DB2FC29B984983222FF9C2489;4632.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -981,13 +974,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19432 strings out of 468080
- 338829 string characters out of 5435839
- 1318920 words of memory out of 5000000
- 47714 multiletter control sequences out of 15000+600000
+ 19260 strings out of 468080
+ 335461 string characters out of 5435839
+ 1289397 words of memory out of 5000000
+ 47547 multiletter control sequences out of 15000+600000
  636590 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,19n,79p,1053b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,19n,79p,1053b,2809s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\paulo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbold/dpi600\bbo
 ld10.pk> <C:\Users\paulo\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbm/dpi600
 \bbm10.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
@@ -1004,9 +997,9 @@ s/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pf
 b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (30 pages, 370305 bytes).
+Output written on main.pdf (30 pages, 370695 bytes).
 PDF statistics:
- 501 PDF objects out of 1000 (max. 8388607)
- 141 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 506 PDF objects out of 1000 (max. 8388607)
+ 142 named destinations out of 1000 (max. 500000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
 
