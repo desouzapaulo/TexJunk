@@ -1,0 +1,18 @@
+\babel@toc {brazilian}{}\relax 
+\contentsline {chapter}{\numberline {1}Março}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Chegada - 27}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Anmeldung - 30}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Welcome Office - 31}{2}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Abril}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Fiktionsbescheinigung - 01}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Segurança do Trabalho - 07}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Divisão de Grupos - 08}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Projeto de Spot Welding - 09}{4}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Treinamento de Metalografia - 10}{4}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Treinamento de Corte - 13}{4}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Corte e Embutimento das Amostras - 14}{4}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Treinamento da Máquina de Spot Welding - 15}{4}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Polimento das Amostras - 16}{5}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Detalhes do projeto - 17}{5}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Microscópio - 20}{5}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Ataque químico - 21}{5}{section.2.12}%
