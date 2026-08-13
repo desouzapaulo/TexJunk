@@ -1,0 +1,91 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{anderson2005fracture}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cc259d24048f4a96fbd04403e0011813}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Ted\bibnamedelima L},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc259d24048f4a96fbd04403e0011813}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Ted\bibnamedelima L},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CRC press}%
+      }
+      \strng{namehash}{e87d73211948ccc1914a3bd4fdd4b978}
+      \strng{fullhash}{e87d73211948ccc1914a3bd4fdd4b978}
+      \strng{fullhashraw}{e87d73211948ccc1914a3bd4fdd4b978}
+      \strng{bibnamehash}{e87d73211948ccc1914a3bd4fdd4b978}
+      \strng{authorbibnamehash}{e87d73211948ccc1914a3bd4fdd4b978}
+      \strng{authornamehash}{e87d73211948ccc1914a3bd4fdd4b978}
+      \strng{authorfullhash}{e87d73211948ccc1914a3bd4fdd4b978}
+      \strng{authorfullhashraw}{e87d73211948ccc1914a3bd4fdd4b978}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fracture mechanics: fundamentals and applications}
+      \field{year}{2005}
+    \endentry
+    \entry{GeminiPro2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhashraw}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhashraw}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Large Language Model}
+      \field{note}{Acessado em: 17 dez. 2025}
+      \field{title}{Gemini Pro}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://gemini.google.com/share/945fa326e266
+      \endverb
+      \verb{url}
+      \verb https://gemini.google.com/share/945fa326e266
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
