@@ -12,7 +12,7 @@
 
 % Bibliografia
 \usepackage[style=abnt, backend=biber]{biblatex} % Estilo ABNT é comum no Brasil
-\addbibresource{Paginas/Referencias/Bibliografia.bib}
+\addbibresource{Referencias/Bibliografia.bib}
 
 % Caminhos de arquivos
 \graphicspath{{Imagens/}{./}} % caminho das figuras
@@ -26,12 +26,12 @@
     % Remover numeração de páginas (não mostra nem conta números)
     \pagenumbering{roman} % Reinicia a numeração com números romanos
     \pagestyle{empty}
-    \include{Paginas/Preambulo/Capa}
+    \include{Preambulo/Capa}
     \newpage
     \pagestyle{plain} % Retorna à numeração padrão
-    \include{Paginas/Preambulo/Resumo}
+    \include{Preambulo/Resumo}
     \newpage
-    \include{Paginas/Preambulo/Nomenclatura}
+    \include{Preambulo/Nomenclatura}
     \newpage
     \tableofcontents
     \newpage
