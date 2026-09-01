@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.27)  1 SEP 2026 12:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.27)  1 SEP 2026 12:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -780,90 +780,68 @@ Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
 Package biblatex Info: Reference section=0 on input line 21.
 Package biblatex Info: Reference segment=0 on input line 21.
-\openout2 = `Preambulo/Capa.aux'.
+\openout2 = `Paginas/Introducao.aux'.
 
- (Preambulo/Capa.tex
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-[]\OT1/ptm/m/n/12 Monografia apre-sen-tada []a dis-ci-plina
- []
-
-
-Underfull \hbox (badness 2359) in paragraph at lines 34--34
-\OT1/ptm/m/n/12 Mec[]anica da Uni-ver-si-dade Fe-de-ral do Rio
- []
-
+ (Paginas/Introducao.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 34.
+(Font)              <12> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 34.
+(Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 34.
+(Font)              <6> on input line 11.
 ) [1
 
 
 {C:/Users/Souzap/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Sou
-zap/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-\openout2 = `Preambulo/Resumo.aux'.
+zap/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] [2
 
 
-(Preambulo/Resumo.tex) [2
-
-
-
-]
-\openout2 = `Preambulo/Nomenclatura.aux'.
-
- (Preambulo/Nomenclatura.tex) [3
-
-
-
-] (main.toc)
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
- [4
-
-
-]
-\openout2 = `Paginas/Introducao.aux'.
-
-
-(Paginas/Introducao.tex) [1
-
-] [2
-
-
-] (main.aux (Preambulo/Capa.aux)
-(Preambulo/Resumo.aux) (Preambulo/Nomenclatura.aux) (Paginas/Introducao.aux))
+] (main.aux (Paginas/Introducao.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F846A49A3ACB9CF5C5A943DD2B41F8DE;544.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: F846A49A3ACB9CF5C5A943DD2B41F8DE;544
+(rerunfilecheck)             After:  1559B39E19E457CBD08C864E219BB845;282.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20013 strings out of 467871
- 365772 string characters out of 5417892
- 1320488 words of memory out of 5000000
- 48613 multiletter control sequences out of 15000+600000
+ 19934 strings out of 467871
+ 363428 string characters out of 5417892
+ 1323488 words of memory out of 5000000
+ 48554 multiletter control sequences out of 15000+600000
  637485 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,9n,112p,953b,4094s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Souzap/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmmi12.pfb><C:/Users/Souzap/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb><C:/Users/Souzap/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmr12.pfb><C:/Users/Souzap/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Souzap/AppData/Local/Programs
-/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Souzap/AppData/Local/Program
-s/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Souzap/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 95572 bytes).
+ 110i,5n,112p,957b,4094s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{section*.5} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.3} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.2} has been referenced but does not exist,
+ replaced by a fixed one
+
+<C:/Users/Souzap/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb><C:/Users/Souzap/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
+utmb8a.pfb><C:/Users/Souzap/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
+/utmr8a.pfb><C:/Users/Souzap/AppData/Local/Programs/MiKTeX/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on main.pdf (2 pages, 59202 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
