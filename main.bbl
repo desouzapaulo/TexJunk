@@ -1,0 +1,184 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{findlay2002aircraft}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7d74f8086de2603ff929345a696adf46}{%
+           family={Findlay},
+           familyi={F\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=5052688170956343ecf8371c9921c6be}{%
+           family={Harrison},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{091cbd3e9c1bb3984605c35579acd261}
+      \strng{fullhash}{091cbd3e9c1bb3984605c35579acd261}
+      \strng{fullhashraw}{091cbd3e9c1bb3984605c35579acd261}
+      \strng{bibnamehash}{091cbd3e9c1bb3984605c35579acd261}
+      \strng{authorbibnamehash}{091cbd3e9c1bb3984605c35579acd261}
+      \strng{authornamehash}{091cbd3e9c1bb3984605c35579acd261}
+      \strng{authorfullhash}{091cbd3e9c1bb3984605c35579acd261}
+      \strng{authorfullhashraw}{091cbd3e9c1bb3984605c35579acd261}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materials today}
+      \field{title}{Why aircraft fail}
+      \field{year}{2002}
+    \endentry
+    \entry{anderson2005fracture}{book}{}{}
+      \list{publisher}{1}{%
+        {CRC press}%
+      }
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Fracture mechanics: fundamentals and applications}
+      \field{year}{2005}
+    \endentry
+    \entry{KELLER2021107415}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3fc0c77c25ab4d6ff8c5eec57d645e9e}{%
+           family={Keller},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad1e8acc549e0fd24dae3ff2aa93b1d8}{%
+           family={Klusemann},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2d6302c09ed7fbd0b3d4a009184e30cd}
+      \strng{fullhash}{2d6302c09ed7fbd0b3d4a009184e30cd}
+      \strng{fullhashraw}{2d6302c09ed7fbd0b3d4a009184e30cd}
+      \strng{bibnamehash}{2d6302c09ed7fbd0b3d4a009184e30cd}
+      \strng{authorbibnamehash}{2d6302c09ed7fbd0b3d4a009184e30cd}
+      \strng{authornamehash}{2d6302c09ed7fbd0b3d4a009184e30cd}
+      \strng{authorfullhash}{2d6302c09ed7fbd0b3d4a009184e30cd}
+      \strng{authorfullhashraw}{2d6302c09ed7fbd0b3d4a009184e30cd}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Engineering Fracture Mechanics}
+      \field{title}{Application of stress intensity factor superposition in residual stress fields considering crack closure}
+      \field{year}{2021}
+    \endentry
+    \entry{SUN2021106081}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=1b78091fde36054bf4f1e2f9c935c7ec}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Rujian},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88c4031d88e40e85050b9f74dc044fb9}{%
+           family={Keller},
+           familyi={K\bibinitperiod},
+           given={Sören},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88fe418ad39fc6ffe33568d31a6cc573}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=654d043ec8320dd11ba3579ee3a54e11}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab0af16d2aa3cb1e01d61ffe1f0a747f}{%
+           family={Kashaev},
+           familyi={K\bibinitperiod},
+           given={Nikolai},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b4b22ce56d414dc25baaa14ce4fddf2}{%
+           family={Klusemann},
+           familyi={K\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6bbcf9448cceb5431f3e8e20f6a5f3c1}
+      \strng{fullhash}{3905b4d8fbcb94f275effc6d4ba46622}
+      \strng{fullhashraw}{3905b4d8fbcb94f275effc6d4ba46622}
+      \strng{bibnamehash}{6bbcf9448cceb5431f3e8e20f6a5f3c1}
+      \strng{authorbibnamehash}{6bbcf9448cceb5431f3e8e20f6a5f3c1}
+      \strng{authornamehash}{6bbcf9448cceb5431f3e8e20f6a5f3c1}
+      \strng{authorfullhash}{3905b4d8fbcb94f275effc6d4ba46622}
+      \strng{authorfullhashraw}{3905b4d8fbcb94f275effc6d4ba46622}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{journal}
+      \field{title}{Experimental-numerical study of laser-shock-peening-induced retardation of fatigue crack propagation in Ti-17 titanium alloy}
+      \field{year}{2021}
+    \endentry
+    \entry{tavares2017overview}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=45bb439ffe1a54f6da822209861d65b0}{%
+           family={Tavares},
+           familyi={T\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=719b99974b78b42f1a12d190fe339b9a}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={De},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36764626f108a8577985f722ffe995f7}
+      \strng{fullhash}{36764626f108a8577985f722ffe995f7}
+      \strng{fullhashraw}{36764626f108a8577985f722ffe995f7}
+      \strng{bibnamehash}{36764626f108a8577985f722ffe995f7}
+      \strng{authorbibnamehash}{36764626f108a8577985f722ffe995f7}
+      \strng{authornamehash}{36764626f108a8577985f722ffe995f7}
+      \strng{authorfullhash}{36764626f108a8577985f722ffe995f7}
+      \strng{authorfullhashraw}{36764626f108a8577985f722ffe995f7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fatigue and Fracture of Engineering Materials and Structures}
+      \field{title}{An overview of fatigue in aircraft structures}
+      \field{year}{2017}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
