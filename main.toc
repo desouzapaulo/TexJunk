@@ -1,6 +1,0 @@
-\babel@toc {brazilian}{}\relax 
-\contentsline {section}{\MakeUppercase []{Resumo}}{ii}{section*.1}%
-\contentsline {section}{\MakeUppercase []{Abstract}}{ii}{section*.2}%
-\contentsline {section}{\MakeUppercase []{Nomenclatura}}{iii}{section*.3}%
-\contentsline {section}{\numberline {1}\MakeUppercase []{Introdução}}{1}{section.1}%
-\contentsline {section}{\MakeUppercase []{Referências Bibliográficas}}{2}{section*.5}%
