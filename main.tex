@@ -7,12 +7,12 @@
 \usepackage{times} % Fonte da escrita
 \usepackage[a4paper,top=3cm,left=3cm,bottom=2cm,right=2cm]{geometry} % formatação de margens
 \usepackage{ragged2e}
-\usepackage[brazilian]{babel} % Muda o idioma do documento para português
+% \usepackage[brazilian]{babel} % Muda o idioma do documento para português
 \usepackage{csquotes} % Recommended for biblatex with babel
 
 % Bibliografia
 \usepackage[style=abnt, backend=biber]{biblatex} % Estilo ABNT é comum no Brasil
-\addbibresource{Referencias/Bibliografia.bib}
+\addbibresource{References/Bibliography.bib}
 
 % Caminhos de arquivos
 \graphicspath{{Imagens/}{./}} % caminho das figuras
@@ -28,7 +28,7 @@
 %    \pagestyle{empty}
 %    \include{Preambulo/Capa}
 %    \newpage
-%    \pagestyle{plain} % Retorna à numeração padrão
+%    \pagestyle{plain} % Retorna à numeração padrão  
 %    \include{Preambulo/Resumo}
 %    \newpage
 %    \include{Preambulo/Nomenclatura}
@@ -38,7 +38,7 @@
 %    \pagenumbering{arabic} % Reinicia a numeração com números arábicos (1, 2, 3...)
 
     %% ==================== Páginas ============================
-    \include{Paginas/Introducao.tex}
+    \include{Pages/Introduction.tex}
 %    \include{Paginas/Fundameta}
 %    \include{Paginas/Metodologia}
 %    \include{Paginas/Cronograma}
@@ -46,6 +46,6 @@
 
     %% ==================== Referências ============================
     \printbibliography 
-    \addcontentsline{toc}{section}{\MakeUppercase{Referências Bibliográficas}} % Adiciona ao Sumário
+%    \addcontentsline{toc}{section}{\MakeUppercase{Referências Bibliográficas}} % Adiciona ao Sumário
 
 \end{document}
